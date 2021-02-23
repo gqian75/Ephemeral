@@ -7,8 +7,13 @@
     <meta name="description" content="cs331e Project">
     <meta name="author" content="Jake Goins">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href=" https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css " rel = "stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src=" https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js "></script>
+    <script src=" https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap5.min.js "></script>
+    <script src=" https://code.jquery.com/jquery-3.5.1.js "></script>
     <link href="../static/css/style.css" rel="stylesheet">
+    <script src = "../static/js/tables.js"></script>
 </head>
 
 <body>
@@ -58,6 +63,56 @@
         </div>
     </div>
 </nav>
+
+
+
+<div class="container">
+    <h2>Albums</h2>
+    <p>A list of top albums and singles!</p>            
+    <table id="table" class="table table-striped table-bordered table-sm table-hover" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th class = "th-sm">Album Name</th>
+          <th class = "th-sm">Album Release Date</th>
+          <th class = "th-sm">Album Artist</th>
+          <th class = "th-sm">Type</th>
+          <th class = "th-sm">Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>driver's license</td>
+          <td>01/08/2021</td>
+          <td>Olivia Rodrigo</td>
+          <td>Single</td>
+          <td>Pop</td>
+        </tr>
+        <tr>
+          <td>After Hours</td>
+          <td>03/20/2020</td>
+          <td>The Weeknd</td>
+          <td>LP</td>
+          <td>R&b/Soul</td>
+        </tr>
+        <tr>
+          <td>Love Scars: The 5 Stages of Emotions</td>
+          <td>10/02/2020</td>
+          <td>Yung Bleu</td>
+          <td>EP</td>
+          <td>R&b</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script>
+        $(document).ready(function() {
+            $('#table').DataTable();
+        } );
+  </script>
+
+
+
 </body>
 
 </html>
