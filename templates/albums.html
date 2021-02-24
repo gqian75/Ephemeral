@@ -27,19 +27,19 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="{{url_for('index')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Artists</a>
+                    <a class="nav-link" href="{{url_for('artists')}}">Artists</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Songs</a>
+                    <a class="nav-link" href="{{url_for('songs')}}">Songs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Albums</a>
+                    <a class="nav-link active" aria-current="page" href="{{url_for('albums')}}">Albums</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="{{url_for('about')}}">About Us</a>
                 </li>
                 <!--li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
