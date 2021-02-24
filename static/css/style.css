@@ -5,14 +5,18 @@ h1{
     padding: 50px;
     text-align: center;
     margin: auto;
-    text-shadow:
+    /*text-shadow:
             3px 3px 0 #000,
             -1px -1px 0 #000,
             1px -1px 0 #000,
             -1px 1px 0 #000,
-            1px 1px 0 #000;
+            1px 1px 0 #000;*/
     color:white;
-    font-size: 36pt;
+    font-size: 48pt;
+    font-weight: bold;
+    font-style:italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 
 table.dataTable thead .sorting:after,

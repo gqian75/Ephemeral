@@ -1,10 +1,35 @@
 {% extends "base.html" %}
 {% block head %} 
 <title>Artists</title>
+<meta name="description" content="Ephemeral's artists page">
+<meta name="author" content="Max Zhou">
+<script type="text/javascript" src="../static/js/tables.js"></script>
+{% endblock %}
 
+{% block nav_title %}
+<a class="navbar-brand" href="#">Popular Artists</a>
+{% endblock %}
+
+{% block nav_bar %}
+<li class="nav-item">
+  <a class="nav-link" href="{{url_for('index')}}">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="{{url_for('artists')}}">Artists</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{{url_for('songs')}}">Songs</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{{url_for('albums')}}">Albums</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{{url_for('about')}}">About Us</a>
+</li>
 {% endblock %}
 
 {% block content %}
+
 <div class="container">
     <br>
     <h2>Artists</h2>
@@ -45,5 +70,4 @@
     </table>
   </div>
 
-
-  {% endblock %}
+{% endblock %}
