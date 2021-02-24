@@ -31,3 +31,16 @@ table.dataTable thead .sorting_desc_disabled:after,
 table.dataTable thead .sorting_desc_disabled:before {
 bottom: .5em;
 }
+
+#foot{
+    width:100%;
+    clear: both;
+    text-align:center;
+    background-color:rgb(40, 40, 40);
+    color:white;
+    font-size:10pt;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
