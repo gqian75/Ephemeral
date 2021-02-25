@@ -1,18 +1,22 @@
-h1{
+#title{
     background-image:url("../images/bg2.PNG");
     background-repeat:no-repeat;
     background-size:cover;
     padding: 50px;
     text-align: center;
     margin: auto;
-    text-shadow:
+    /*text-shadow:
             3px 3px 0 #000,
             -1px -1px 0 #000,
             1px -1px 0 #000,
             -1px 1px 0 #000,
-            1px 1px 0 #000;
+            1px 1px 0 #000;*/
     color:white;
-    font-size: 36pt;
+    font-size: 48pt;
+    font-weight: bold;
+    font-style:italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 
 table.dataTable thead .sorting:after,
@@ -26,4 +30,45 @@ table.dataTable thead .sorting_desc:before,
 table.dataTable thead .sorting_desc_disabled:after,
 table.dataTable thead .sorting_desc_disabled:before {
 bottom: .5em;
+}
+
+#foot{
+    width:100%;
+    clear: both;
+    text-align:center;
+    background-color:rgb(36, 38, 39);
+    color:white;
+    font-size:10pt;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+#about{
+    text-align: center;
+    margin-top:50px;
+}
+
+.about_title{
+    text-align:center;
+    margin-top:25px;
+}
+
+#about_img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+
+.bio{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+.row{
+    margin-bottom: 100px;
 }
