@@ -1,0 +1,117 @@
+commit 0d02fd018a48347bc0cbfa6ccb84759f4ddd0fbe
+Merge: a3376fc 7f33427
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 25 00:48:31 2021 +0000
+
+    Merge branch 'jinja' into 'master'
+    
+    Jinja merge to master
+    
+    See merge request jakegoins/cs331eproject!3
+
+commit 7f33427ba5e49fe75839ed884ad9ecffc5a34742
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 18:46:03 2021 -0600
+
+    Update to about page, messed with css file for it.
+
+commit f9c85dab01bf387526ab8ec15ebd87a233ffc578
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 16:18:45 2021 -0600
+
+    Footer added
+
+commit a13eb8f40aac75d1bc00e5e150e47c706f3165b4
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 15:40:32 2021 -0600
+
+    Jinja incorporated on all existing pages
+
+commit 9eaed695cb0ff0fca90ec9e3ddd8f00150af8522
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Wed Feb 24 14:47:55 2021 -0600
+
+    Jinja experimentation
+
+commit a3376fc4f3420c4834e520b33f38958f85a74993
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Tue Feb 23 21:21:17 2021 -0600
+
+    connected templates
+
+commit 6a1b90130e28a99b0ba1c952cfcdaef7d035950b
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Tue Feb 23 20:55:49 2021 -0600
+
+    flask
+
+commit 298b2390f5a1b819160bb6c35cea419c57948de3
+Merge: b9c7860 e7477a1
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Feb 23 22:06:28 2021 +0000
+
+    Merge branch 'table_bug' into 'master'
+    
+    Table bug
+    
+    See merge request jakegoins/cs331eproject!1
+
+commit e7477a1eb860d8c49be25975e98c9d5b925db946
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Feb 23 22:05:32 2021 +0000
+
+    Add .gitlab-ci.yml
+
+commit aa20d16a2d06ac0af589a4862cd2a218bcffe590
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Tue Feb 23 15:55:01 2021 -0600
+
+    Completed sample tables
+
+commit 9e29a6d2357bca3101751abae5828ed8edf25db2
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Tue Feb 23 15:24:05 2021 -0600
+
+    Table bug
+
+commit b9c78607c22f2c9702b22e8931f05256f1f45afb
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 23 14:50:02 2021 -0600
+
+    Added basic html format for all webpages needed, navbar in place
+
+commit 661d1ec4d13e775532ca33922d272d07b7c77f1d
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Tue Feb 16 21:10:27 2021 -0600
+
+    first commit
+
+commit 46c7b539c33b3ad8851b18b340c78338c0eb4779
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 9 12:14:21 2021 -0600
+
+    removed .idea
+
+commit 38feb566499ac4f139580ece57fc7e3e73251f8d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 9 12:11:33 2021 -0600
+
+    gitignore
+
+commit 24796dd84ecbf3728a7e8b8376a82e2247795a43
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Feb 4 12:22:28 2021 -0600
+
+    basic flask app included
+
+commit 4585a261d822a9df5804f4da021c0384bdf9cef8
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Feb 4 11:46:28 2021 -0600
+
+    barebones main.py, created empty directories for other things
+
+commit 27efe6b72f185dfea084b92737e65477eebc6953
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 4 05:29:21 2021 +0000
+
+    Initial commit

@@ -42,7 +42,7 @@ bottom: .5em;
     margin-top: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #about{
@@ -61,14 +61,56 @@ bottom: .5em;
     border-radius: 50%;
 }
 
-.bio{
-    text-align: left;
+.boxed{
+    background-color: #f2f2f2;
+    border: 10px solid white;
+    border-radius: 5%;
+    padding:15px;
 }
 
-ul{
+.greyed{
+    background-color: #f2f2f2;
+    border-radius: 10%;
+    padding:15px;
+}
+
+.about_list{
+    width:70%;
+    margin:auto;
     text-align: left;
 }
 
 .row{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.center-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sources{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    padding-left:100px;
+}
+
+#itunes{
+    padding-top: 15px;
+}
+
+#shazam{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+
+.no-line a:link{
+    text-decoration: none;
 }
