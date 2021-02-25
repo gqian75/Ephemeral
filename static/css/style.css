@@ -1,4 +1,4 @@
-h1{
+#title{
     background-image:url("../images/bg2.PNG");
     background-repeat:no-repeat;
     background-size:cover;
@@ -36,11 +36,39 @@ bottom: .5em;
     width:100%;
     clear: both;
     text-align:center;
-    background-color:rgb(40, 40, 40);
+    background-color:rgb(36, 38, 39);
     color:white;
     font-size:10pt;
     margin-top: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;
+}
+
+#about{
+    text-align: center;
+    margin-top:50px;
+}
+
+.about_title{
+    text-align:center;
+    margin-top:25px;
+}
+
+#about_img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+
+.bio{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+.row{
+    margin-bottom: 100px;
 }
