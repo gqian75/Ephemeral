@@ -31,66 +31,150 @@
 <h1 class="about_title"> Meet the Creators </h1>
 <div id="about" class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 boxed">
             <img id="about_img" src="../static/images/jake.jpg" alt="Jake">
             <h3>Jake Goins</h3>
-            <div class="bio">
+            <div>
                 <h6>About</h6>
                 <p>Hello! My name is Jake, and I am currently studying General Geology as a senior at the University of Texas, Austin.
                 My interests include computational seismology, web development, and software engineering.</p>
                 <h6>Responsibilities</h6>
-                <ul>
+                <ul class="about_list">
                     <li>Project lead</li>
                     <li>Frontend developer</li>
                     <li>GitLap repo manager</li>
                 </ul>
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 boxed">
             <img id="about_img" src="../static/images/kanishak.jpg" alt="Kanishak">
             <h3>Kanishak Joshi</h3>
-            <div class="bio">
+            <div>
                 <h6>About</h6>
                 <p>I am a senior mechanical engineering major.
                     I like history, science and like to watch documentaries.</p>
                 <h6>Responsibilities</h6>
-                <ul>
+                <ul class="about_list">
                     <li>Backend developer</li>
-                    <li>Google Cloud deployment manager</li>
+                    <li>Google Cloud Platform deployment manager</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-6">
-            <img id="about_img" src="../static/images/kanishak.jpg" alt="Kanishak">
+        <div class="col-6 boxed">
+            <img id="about_img" src="../static/images/khue.png" alt="Khue">
             <h3>Khue Tran</h3>
-            <div class="bio">
+            <div>
                 <h6>About</h6>
-                <p>.</p>
+                <p>I’m a senior math and neuroscience major.
+                    My research interests are in computational neuroscience, specifically looking at neural computations that give rise to our sensory perception.
+                    I like warm noodle soups and cats.</p>
                 <h6>Responsibilities</h6>
-                <ul>
+                <ul class="about_list">
                     <li>Backend developer</li>
-                    <li></li>
+                    <li>Lead Flask developer</li>
                 </ul>
             </div>
         </div>
-        <div class="col-6">
-            <img id="about_img" src="../static/images/kanishak.jpg" alt="Kanishak">
+        <div class="col-6 boxed">
+            <img id="about_img" src="../static/images/max.jpg" alt="Max">
             <h3>Max Zhou</h3>
-            <div class="bio">
+            <div>
                 <h6>About</h6>
-                <p></p>
+                <p>I'm a junior in Electrical and Computer Engineering. I've grown up all around Texas, from Dallas to Houston to college in Austin. My hobbies include reading and playing video games.</p>
                 <h6>Responsibilities</h6>
-                <ul>
-                    <li>Frontend developer</li>
-                    <li></li>
+                <ul class="about_list">
+                    <li>Lead frontend developer</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 
-<h1 class="about_title"></h1>
+<h1 class="about_title">GitLab Stats</h1><br>
+<div class="container">
+    <div class="row" style="margin-bottom: 20px">
+        <div class="col center-text boxed">
+            <p>No. of Commits:</p>
+            <h4>18</h4>
+        </div>
+        <div class="col center-text boxed">
+            <p>No. of Issues:</p>
+            <h4>17</h4>
+        </div>
+        <div class="col center-text boxed">
+            <p>No. of Unit Tests</p>
+            <h4>0</h4>
+        </div>
+    </div>
+    <table class="center-text center-table">
+        <tr>
+            <td>Issue Tracker:</td>
+            <td><a href="https://gitlab.com/jakegoins/cs331eproject/-/issues" target="_blank" rel="noopener noreferrer">https://gitlab.com/jakegoins/cs331eproject/-/issues</a></td>
+        </tr>
+        <tr>
+            <td>Repo:</td>
+            <td><a href="https://gitlab.com/jakegoins/cs331eproject/-/tree/master" target="_blank" rel="noopener noreferrer">https://gitlab.com/jakegoins/cs331eproject/-/tree/master</a></td>
+        </tr>
+        <tr>
+            <td>Wiki:</td>
+            <td><a href="https://gitlab.com/jakegoins/cs331eproject/-/wikis/home" target="_blank" rel="noopener noreferrer">https://gitlab.com/jakegoins/cs331eproject/-/wikis/home</a></td>
+        </tr>
+    </table>
+</div>
+
+<br><h1 class="about_title">Data Sources</h1><br>
+<table id="sources" class="center-text center-table">
+    <tr>
+        <td id="itunes">US iTunes Top Songs</td>
+    </tr>
+    <tr>
+        <td><a href="https://kworb.net/charts/itunes/us.html" target="_blank" rel="noopener noreferrer">https://kworb.net/charts/itunes/us.html</a></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+        <td>Spotify Charts</td>
+    </tr>
+    <tr>
+        <td><a href="https://spotifycharts.com/regional" target="_blank" rel="noopener noreferrer">https://spotifycharts.com/regional</a></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+        <td>Shazam TOP 200 UNITED STATES Popular Songs</td>
+    </tr>
+    <tr>
+        <td id="shazam"><a href="https://www.shazam.com/charts/top-200/united-states" target="_blank" rel="noopener noreferrer">https://www.shazam.com/charts/top-200/united-states</a></td>
+    </tr>
+</table>
+
+<br><h1 class="about_title">Tools Used</h1><br>
+<div class="container">
+    <div class="row greyed">
+        <div class="col center-text no-line">
+            <ul class="about_list">
+                <li><a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a> </li>
+                <li><a href="https://discord.com/" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                <li><a href="http://flask.pocoo.org/" target="_blank" rel="noopener noreferrer">Flask</a></li>
+            </ul>
+        </div>
+        <div class="col center-text no-line">
+            <ul class="about_list">
+                <li><a href="http://www.git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a></li>
+                <li><a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">GitLab</a></li>
+                <li><a href="https://docs.gitlab.com/ee/ci/" target="_blank" rel="noopener noreferrer">GitLab CI</a></li>
+            </ul>
+        </div>
+        <div class="col center-text no-line">
+            <ul class="about_list">
+                <li><a href="http://jinja.pocoo.org/" target="_blank" rel="noopener noreferrer">Jinja</a> </li>
+                <li><a href="http://cloud.google.com/?" target="_blank" rel="noopener noreferrer">Google Cloud Platform</a></li>
+                <li><a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
 {% endblock %}}
