@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
-app = Flask(__name__, static_folder="./frontend/build/static", template_folder="./frontend/build")
+app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
 
 
