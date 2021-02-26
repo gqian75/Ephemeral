@@ -130,6 +130,37 @@ def songs():
 def song1():
     return render_template('./static_pages/song1.html', songs = song_list)
 
+@app.route('/songs/song2/')
+def song2():
+    return render_template('./static_pages/song2.html', songs = song_list)
+
+@app.route('/songs/song3/')
+def song3():
+    return render_template('./static_pages/song3.html', songs = song_list)
+
+@app.route('/albums/album1/')
+def album1():
+    return render_template('./static_pages/album1.html', albums = album_list)
+
+@app.route('/albums/album2/')
+def album2():
+    return render_template('./static_pages/album2.html', albums = album_list)
+
+@app.route('/albums/album3/')
+def album3():
+    return render_template('./static_pages/album3.html', albums = album_list)
+
+@app.route('/artists/artist1/')
+def artist1():
+    return render_template('./static_pages/artist1.html', artists = artist_list)
+
+@app.route('/artists/artist2/')
+def artist2():
+    return render_template('./static_pages/artist2.html', artists = artist_list)
+
+@app.route('/artists/artist3/')
+def artist3():
+    return render_template('./static_pages/artist3.html', artists = artist_list)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
