@@ -34,26 +34,30 @@
     <br>
     <div class="row">
         <div class="col-12 center-text">
-            <h2>{{songs["driver's license"].name}}</h2>
-            <table class="center-table boxed">
+            {% set song = songs["driver's license"] %}
+            <h2>{{song.name}}</h2><br>
+            <table class="center-table greyed">
                 <tr>
-                    <td style="padding-top: 15px;" class="static_item">Artist: </td>
-                    <td style="padding-top: 15px;" class="static_item">{{songs["driver's license"].artist.name}}</td>
+                    <td class="static_item">Artist: </td>
+                    <td class="static_item point" onclick="window.location.href='{{url_for('artist1')}}';">{{song.artist.name}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Album: </td>
-                    <td class="static_item">{{songs["driver's license"].album.name}}</td>
+                    <td class="static_item point"  onclick="window.location.href='{{url_for('album1')}}';"">{{song.album.name}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Release Date: </td>
-                    <td class="static_item">{{songs["driver's license"].release}}</td>
+                    <td class="static_item">{{song.release}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Song Length: </td>
-                    <td class="static_item">{{songs["driver's license"].length}}</td>
+                    <td class="static_item">{{song.length}}</td>
                 </tr>
             </table>
         </div>
+    </div>
+    <div class="row">
+        <a class="center-text" href="{{url_for('songs')}}"> Return to songs list </a>
     </div>
 </div>
 
