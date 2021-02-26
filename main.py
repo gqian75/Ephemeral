@@ -125,6 +125,12 @@ def songs():
     return render_template('songs.html')
 
 
+# Static instances of the different pages
+@app.route('/songs/song1/', songs = song_list)
+def song1():
+    return render_template('./static_pages/song1.html')
+
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
     #app.run()
