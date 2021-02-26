@@ -3,7 +3,7 @@
 <title>driver's license</title>
 <meta name="description" content="Ephemeral's songs page">
 <meta name="author" content="Jake Goins">
-<script type="text/javascript" language="javascript" src="../static/js/tables.js"></script>
+<link href="../../static/css/style.css" rel="stylesheet">
 {% endblock %}
 
 {% block nav_title %}
@@ -32,7 +32,29 @@
 
 <div class="container">
     <br>
-    <h2>driver's license</h2>
+    <div class="row">
+        <div class="col-12 center-text">
+            <h2>{{songs["driver's license"].name}}</h2>
+            <table class="center-table boxed">
+                <tr>
+                    <td style="padding-top: 15px;" class="static_item">Artist: </td>
+                    <td style="padding-top: 15px;" class="static_item">{{songs["driver's license"].artist.name}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Album: </td>
+                    <td class="static_item">{{songs["driver's license"].album.name}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Release Date: </td>
+                    <td class="static_item">{{songs["driver's license"].release}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Song Length: </td>
+                    <td class="static_item">{{songs["driver's license"].length}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

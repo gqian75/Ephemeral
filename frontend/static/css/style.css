@@ -119,6 +119,12 @@ bottom: .5em;
     padding-bottom:30px;
 }
 
+.static_item{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+
 .no-line a:link{
     text-decoration: none;
 }

@@ -39,24 +39,24 @@ song_list = { "driver's license" : {
     "name" : "driver's license",
     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
     "album" : {"name" : "driver's license", "link" : "drivers-license"},
-    "release date" : "2021/01/08",
-    "song length" : "4:02"
+    "release" : "2021/01/08",
+    "length" : "4:02"
     },
 
     "Save Your Tears" : {
     "name" : "Save Your Tears",
     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
     "album" : {"name" : "After Hours", "link" : "after-hours"},
-    "release date" : "2020/08/09",
-    "song length" : "6:01"
+    "release" : "2020/08/09",
+    "length" : "6:01"
     },
 
     "You're Mines Still" : {
     "name" : "You're Mines Still",
     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
     "album" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"},
-    "release date" : "2020/10/02",
-    "song length" : "3:46"
+    "release" : "2020/10/02",
+    "length" : "3:46"
     },
 
 }
@@ -126,9 +126,9 @@ def songs():
 
 
 # Static instances of the different pages
-@app.route('/songs/song1/', songs = song_list)
+@app.route('/songs/song1/')
 def song1():
-    return render_template('./static_pages/song1.html')
+    return render_template('./static_pages/song1.html', songs = song_list)
 
 
 if __name__ == "__main__":
