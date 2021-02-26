@@ -68,6 +68,10 @@ bottom: .5em;
     padding:15px;
 }
 
+.tiny-box{
+    border-radius: 15%;
+}
+
 .greyed{
     background-color: #f2f2f2;
     border-radius: 10%;
