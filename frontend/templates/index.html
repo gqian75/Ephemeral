@@ -3,6 +3,20 @@
 <title>Ephemeral</title>
 <meta name="description" content="Ephemeral: hottest tracks from around the top music charts">
 <meta name="author" content="Jake Goins, Kanishak Joshi, Khue Tran, Max Zhou">
+<script>
+	$(document).ready(() => {
+	  $('.carousel').carousel({
+		interval: 3000
+	  })
+	});
+</script>
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+	width: 100%;
+	height: 100%;
+  }
+</style>
 {% endblock %}
 
 {% block nav_title %}
@@ -28,5 +42,60 @@
 {% endblock %}
 
 {% block content %}
+
+<div class="container-lg my-3 p-3 bg-white rounded shadow" >
+	<div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+	  <!-- <ol class="carousel-indicators">
+		<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselIndicators" data-slide-to="2"></li>
+		<li data-target="#carouselIndicators" data-slide-to="3"></li>
+	  </ol> -->
+	  <div class="carousel-inner" >
+		<div class="carousel-item active" style="height: 75vh;">
+		  <img class="d-block w-100" src="{{ url_for('static', filename='images/carousel/c1.jpg')}}" alt="First slide" width="100%" height="100%">
+		  <div class="carousel-caption">
+			  <h1 class="mb-5">Welcome to Ephemeral!</h1>
+			  <p>A website with all your favorite songs, artists, and albums!</p>
+		  </div>
+		</div>
+		<div class="carousel-item" style="height: 75vh;">
+		  <img class="d-block w-100" src="{{ url_for('static', filename='images/carousel/c2.jpg')}}" alt="Second slide" width="100%" height="100%">
+		  <div class="carousel-caption">
+			  <h1 class="mb-3">Artists</h1>
+			  <p>Check out some of our artists!</p>
+			  <a class="btn btn-primary mb-3" href="/artists">Go to Artists</a>
+		  </div>
+		</div>
+		<div class="carousel-item" style="height: 75vh;">
+		  <img class="d-block w-100" src="{{ url_for('static', filename='images/carousel/c3.jpg')}}" alt="Third slide" width="100%" height="100%">
+		  <div class="carousel-caption">
+			  <h1 class="mb-3">Songs</h1>
+			  <p>Wanna know about some of the top trending songs on the charts? Click here!</p>
+			  <a class="btn btn-primary mb-3" href="/songs">Go to Songs</a> 
+		  </div>
+		</div>
+		<div class="carousel-item" style="height: 75vh;">
+		  <img class="d-block w-100" src="{{ url_for('static', filename='images/carousel/c4.jpg')}}" alt="Fourth slide" width="100%" height="100%">
+		  <div class="carousel-caption">
+			  <h1 class="mb-3">Albums</h1>
+			  <p >What albums are on the rise? Check them out here!</p>
+			  <a class="btn btn-primary mb-3" href="/albums">Go to Albums</a>
+		  </div>
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselIndicators" type="button" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselIndicators" type="button" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	  </a>
+	</div>
+  </div>
+  
+  <p class="text-muted text-center"><small>Images sourced from <a href="https://wall.alphacoders.com/"></a>https://wall.alphacoders.com/</a> and  <a href="https://pixabay.com/"></a>https://pixabay.com/</a></small></p>
+
 
 {% endblock %}}
