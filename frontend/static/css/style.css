@@ -32,6 +32,10 @@ table.dataTable thead .sorting_desc_disabled:before {
 bottom: .5em;
 }
 
+.point{
+    cursor: pointer;
+}
+
 #foot{
     width:100%;
     clear: both;
