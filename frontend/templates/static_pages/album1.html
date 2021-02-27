@@ -3,7 +3,7 @@
 <title>driver's license</title>
 <meta name="description" content="Ephemeral's albums page">
 <meta name="author" content="Max Zhou">
-<script type="text/javascript" src="../static/js/tables.js"></script>
+<link href="../../static/css/style.css" rel="stylesheet">
 {% endblock %}
 
 {% block nav_title %}
@@ -32,8 +32,37 @@
 
 <div class="container">
     <br>
-    <h2>driver's license</h2>
-
+    <div class="row">
+        <div class="col-12 center-text">
+            {% set album = albums["driver's license"] %}
+            <h2>{{album.name}}</h2><br>
+            <table class="center-table greyed">
+                <tr>
+                    <td class="static_item">Artist: </td>
+                    <td class="static_item point" onclick="window.location.href='{{url_for('artist1')}}';">{{album.artist.name}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Release Date: </td>
+                    <td class="static_item">{{album.release}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Type: </td>
+                    <td class="static_item">{{album.type}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Genre(s): </td>
+                    <td class="static_item">{{album.genre}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Top Song: </td>
+                    <td class="static_item point" onclick="window.location.href='{{url_for('song1')}}';">{{album.song.name}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <a class="center-text" href="{{url_for('albums')}}"> Return to albums list </a>
+    </div>
 </div>
 
 {% endblock %}

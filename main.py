@@ -12,8 +12,8 @@ artist_list = { "Olivia Rodrigo" : {
     "Genre" : "Pop",
     "Age" : 18,
     "Label" : "Interscope",
-    "Top Song" : {"name" : "driver's license", "link" : "drivers-license"},
-    "Albums" : [{"name" : "driver's license", "link" : "drivers-license"}]
+    "Song" : {"name" : "driver's license", "link" : "drivers-license"},
+    "Albums" : {"name" : "driver's license", "link" : "drivers-license"}
     },
 
     "The Weeknd" : {
@@ -21,8 +21,8 @@ artist_list = { "Olivia Rodrigo" : {
     "Genre" : "R&b/Soul",
     "Age" : 31,
     "Label" : "XO",
-    "Top Song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
-    "Albums" : [{"name" : "After Hours", "link" : "after-hours"}]
+    "Song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
+    "Albums" : {"name" : "After Hours", "link" : "after-hours"}
     },
 
     "Yung Bleu" : {
@@ -30,8 +30,8 @@ artist_list = { "Olivia Rodrigo" : {
     "Genre" : "Rap",
     "Age" : 26,
     "Label" : "Various",
-    "Top Song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
-    "Albums" : [{"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}]
+    "Song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
+    "Albums" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}
     }
 }
 
@@ -39,52 +39,52 @@ song_list = { "driver's license" : {
     "name" : "driver's license",
     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
     "album" : {"name" : "driver's license", "link" : "drivers-license"},
-    "release date" : "2021/01/08",
-    "song length" : "4:02"
+    "release" : "2021/01/08",
+    "length" : "4:02"
     },
 
     "Save Your Tears" : {
     "name" : "Save Your Tears",
     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
     "album" : {"name" : "After Hours", "link" : "after-hours"},
-    "release date" : "2020/08/09",
-    "song length" : "6:01"
+    "release" : "2020/08/09",
+    "length" : "6:01"
     },
 
     "You're Mines Still" : {
     "name" : "You're Mines Still",
     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
     "album" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"},
-    "release date" : "2020/10/02",
-    "song length" : "3:46"
+    "release" : "2020/10/02",
+    "length" : "3:46"
     },
 
 }
-album_list = { "drivers license": {
-    "name" : "drivers license",
-    "release date" : "2021/01/08",
+album_list = { "driver's license": {
+    "name" : "driver's license",
+    "release" : "2021/01/08",
     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
     "type" : "Single",
     "genre" : "Pop",
-    "songs" : [{"name" : "driver's license", "link" : "drivers-license"}]
+    "song" : {"name" : "driver's license", "link" : "drivers-license"}
     },
 
     "After Hours": {
     "name" : "After Hours",
-    "release date" : "2020/03/20",
+    "release" : "2020/03/20",
     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
     "type" : "LP",
     "genre" : "R&b/Soul",
-    "songs" : [{"name" : "Save Your Tears", "link" : "save-your-tears"}]
+    "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"}
     },
 
     "Love Scars: The 5 Stages of Emotions": {
     "name" : "Love Scars: The 5 Stages of Emotions",
-    "release date" : "2020/10/02",
+    "release" : "2020/10/02",
     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
     "type" : "EP",
     "genre" : "R&b",
-    "songs" : [{"name" : "You're Mines Still", "link" : "youre-mines-still"}]
+    "song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"}
     }
 }
 

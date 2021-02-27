@@ -1,3 +1,138 @@
+commit 168d7adf1034149d45950c13b3f73eceb1bb2255
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 17:58:24 2021 -0600
+
+    All pages done and linked
+
+commit 24bb7456fd2b2fc6ca96dc2314e1c31b3ebce846
+Merge: f8ce801 6ecf2c7
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Feb 26 23:10:57 2021 +0000
+
+    Merge branch 'master' into 'staticpages'
+    
+    static song/artist/album individual pages
+    
+    See merge request jakegoins/cs331eproject!6
+
+commit f8ce801789a7c9cd682df9243c64fe030862fb15
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 17:09:17 2021 -0600
+
+    song1 wip
+
+commit 6ecf2c7467581be73dd5eacf6f3fe939bb4773d7
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Fri Feb 26 17:07:31 2021 -0600
+
+    static song/artist/album individual pages
+
+commit b8008cb31e6384f0042a45270085f20d395d723a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 16:35:32 2021 -0600
+
+    First example of backend link for static pages
+
+commit f2fd5db88cacb71058b347ba37a1ed702f7b1e4a
+Merge: 5adf3d1 57d19ef
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Feb 26 21:58:26 2021 +0000
+
+    Merge branch 'maxdev' into 'master'
+    
+    Added start of databases and home page
+    
+    See merge request jakegoins/cs331eproject!5
+
+commit 57d19effe1630d1423a85ae7449fa8dc988cbcd3
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Feb 26 15:55:41 2021 -0600
+
+    Added start of databases and home page
+
+commit 5adf3d1dea48a69456488eb4088135d5791c2f9e
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:40:48 2021 -0600
+
+    Footer color matches nav bar
+
+commit 5a209418d32d9934f6969a4b5e24bb7d505bca31
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:21:22 2021 -0600
+
+    Grant in footer, about page alphabetized
+
+commit 424a44e658625e86a51d7c606f6415d9533a45bb
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:08:47 2021 -0600
+
+    Grant added
+
+commit 67e6e24c079d8024bcb66677bdf2aa615e1a4e2c
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:08:05 2021 -0600
+
+    Grant added
+
+commit 37dbfff8b98549124dfb580e9aae6c17cad1112d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 14:11:26 2021 -0600
+
+    Typo
+
+commit ed795fd8ed9bb06a20989004236208a1bdcc4b4a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 10:36:23 2021 -0600
+
+    All pages now in, still needs backend support
+
+commit da876ceb9d329c7b60c07d4e8b5d0a1fe2d5373a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 10:09:31 2021 -0600
+
+    Minor about update
+
+commit 84ebbc35c96aa8de3439f31cd5682f1641082770
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 22:16:41 2021 -0600
+
+    PNG changed to png for background
+
+commit 0ccd5236a7a6da30901e132a69f59afa1bee683e
+Merge: a1cbd76 a18ae38
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 25 04:01:07 2021 +0000
+
+    Merge branch 'about' into 'master'
+    
+    About Page
+    
+    See merge request jakegoins/cs331eproject!4
+
+commit a18ae387b0005b442629d601680b92e3074721ed
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 21:59:10 2021 -0600
+
+    added frontend folder
+
+commit 2d5d19c388c3bbf6a7ccb0864076b20308234b4f
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 21:50:13 2021 -0600
+
+    About page final update, includes images and css additions, plus first git log.
+
+commit a1cbd764234d892cbae73c7db9aff7735aeb456b
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Wed Feb 24 21:32:54 2021 -0600
+
+    updated main.py
+
+commit 334ccfc3da74091a196b7877182d33f67ac23daf
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Wed Feb 24 20:58:23 2021 -0600
+
+    changed main.py to GCP specifications
+
 commit 0d02fd018a48347bc0cbfa6ccb84759f4ddd0fbe
 Merge: a3376fc 7f33427
 Author: Jake Goins <jakegoins@utexas.edu>

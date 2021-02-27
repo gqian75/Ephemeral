@@ -3,7 +3,7 @@
 <title>Olivia Rodrigo</title>
 <meta name="description" content="Ephemeral's artists page">
 <meta name="author" content="Jake Goins">
-<script type="text/javascript" src="../static/js/tables.js"></script>
+<link href="../../static/css/style.css" rel="stylesheet">
 {% endblock %}
 
 {% block nav_title %}
@@ -32,8 +32,37 @@
 
 <div class="container">
     <br>
-    <h2>Olivia Rodrigo</h2>
-
+    <div class="row">
+        <div class="col-12 center-text">
+            {% set artist = artists["Olivia Rodrigo"] %}
+            <h2>{{artist.name}}</h2><br>
+            <table class="center-table greyed">
+                <tr>
+                    <td class="static_item">Genre(s): </td>
+                    <td class="static_item">{{artist.Genre}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Age: </td>
+                    <td class="static_item">{{artist.Age}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Label: </td>
+                    <td class="static_item">{{artist.Label}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Top Song: </td>
+                    <td class="static_item point" onclick="window.location.href='{{url_for('song1')}}';">{{artist.Song.name}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Album: </td>
+                    <td class="static_item point" onclick="window.location.href='{{url_for('album1')}}';">{{artist.Albums.name}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <a class="center-text" href="{{url_for('artists')}}"> Return to artists list </a>
+    </div>
 </div>
 
 {% endblock %}
