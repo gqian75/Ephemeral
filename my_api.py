@@ -7,7 +7,7 @@ headers = {
     'x-rapidapi-host': "billboard2.p.rapidapi.com"
     }
 headers_audioDB = {
-    'x-rapidapi-key': "e0ce79f895msh1b9afd3a9d55c1dp1b6355jsn312a3daff134",
+    'x-rapidapi-key': "9fecb91ce1mshb6c4094e7a3d2a6p1d58cejsn3f7fdfb7846e",
     'x-rapidapi-host': "theaudiodb.p.rapidapi.com"
     }
 
@@ -75,7 +75,28 @@ def artistAPI():
         # json.dump(artistJSON, fp, indent=4)
 
 def albumAPI():
-    pass
+    url_albums = "https://billboard2.p.rapidapi.com/billboard_200"
+    al = requests.request("GET", url_albums, headers=headers, params=querystring)
+    al = al.json()
+    
+    albums = []
+    for album in al[:100]:
+        name = album["title"]
+        if "&#039;" in name:
+            temp = name.split("&#039;")
+            name = temp[0] + "'" + temp[1]
+        rank = album["rank"]
+        release = album["history"]["debut_date"]
+        artist = album["artist_name"]
+        if "&#039;" in artist:
+            temp = artist.split("&#039;")
+            artist = temp[0] + "'" + temp[1]
+        # genre = 
+        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist})
+    
+    albumJSON = {'Albums': albums}
+    with open('albums.json', 'w') as fp:
+        json.dump(albumJSON, fp, indent=4)
 
 if __name__ == "__main__":
     # songAPI()
