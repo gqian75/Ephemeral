@@ -7,9 +7,6 @@
 import json
 from models import app, db, Song, Artist, Album
 
-# ------------
-# load_json
-# ------------
 def load_json(filename):
     """
     return a python dict jsn
@@ -21,10 +18,6 @@ def load_json(filename):
 
     return jsn
 
-
-# ------------
-# create_songs
-# ------------
 def create_songs():
     song = load_json('songs.json')
 
@@ -39,9 +32,6 @@ def create_songs():
         db.session.add(newSong)
         db.session.commit()
 
-# ------------
-# create_artists
-# ------------
 def create_artists():
     artist = load_json('artists.json')
 
@@ -56,27 +46,20 @@ def create_artists():
         db.session.add(newArtist)
         db.session.commit()
 
+def create_albums():
+    album = load_json("albums.json")
 
-# ------------
-# create_books
-# ------------
-def create_books():
-    """
-    populate book table
-    """
-    book = load_json('books.json')
+    for oneAlbum in album["Albums"]:
+        album_name = oneAlbum["album_name"]
+        album_release_date = oneAlbum["album_release_date"]
+        album_rank = oneAlbum["album_rank"]
+        artist = oneAlbum["artist"]
 
-    for oneBook in book['Books']:
-        title = oneBook['title']
-        id = oneBook['id']
-		
-        newBook = Book(title = title, id = id)
+        newAlbum = Album(album_name=album_name, album_rank=album_rank, album_release_date=album_release_date, artist=artist)
         
-        # After I create the book, I can then add it to my session. 
-        db.session.add(newBook)
-        # commit the session to my DB.
+        db.session.add(newAlbum)
         db.session.commit()
-	
-create_songs()
+
+# create_songs()
 # create_artists()
 # create_albums()

@@ -38,7 +38,16 @@ class Artist(db.Model):
     followers = db.Column(db.Integer)
 
 class Album(db.Model):
-    pass
+    """
+    Album class has 4 attrbiutes 
+    album_name, album_rank, album_release_date, artist
+    """
+    __tablename__ = 'album'
+
+    album_name = db.Column(db.String(80), nullable=False)
+    album_rank = db.Column(db.Integer, primary_key=True)
+    album_release_date = db.Column(db.String(80), nullable=False)
+    artist = db.Column(db.String(80), nullable=False)
 
 db.drop_all()
 db.create_all()
