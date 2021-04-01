@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
 # ---------------------------
-# projects/IDB3/create_db.py
-# Fares Fraij
+# create_db.py
 # ---------------------------
 
 import json
-from models import app, db, Song
+from models import app, db, Song, Artist, Album
 
 # ------------
 # load_json
@@ -35,11 +34,28 @@ def create_songs():
         artist = oneSong["artist"]
         release_date = oneSong["release_date"]
 		
-        newSong = Song(song_name = song_name, rank=rank, release_date=release_date, artist=artist)
+        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist)
         
         db.session.add(newSong)
-        # commit the session to my DB.
         db.session.commit()
+
+# ------------
+# create_artists
+# ------------
+def create_artists():
+    artist = load_json('artists.json')
+
+    for oneArtist in artist['Artists']:
+        artist_name = oneArtist["artist_name"]
+        artist_rank = oneArtist["artist_rank"]
+        artist_genre = oneArtist["artist_genre"]
+        followers = oneArtist["followers"]
+		
+        newArtist = Artist(artist_name=artist_name, artist_rank=artist_rank, artist_genre=artist_genre, followers=followers)
+        
+        db.session.add(newArtist)
+        db.session.commit()
+
 
 # ------------
 # create_books
@@ -62,3 +78,5 @@ def create_books():
         db.session.commit()
 	
 create_songs()
+# create_artists()
+# create_albums()

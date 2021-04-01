@@ -1,64 +1,28 @@
-#!/usr/bin/env python3
+from flask import render_template
+from create_db import app, db, Song, create_songs
 
-# ---------------------------
-# projects/IDB3/create_db.py
-# Fares Fraij
-# ---------------------------
 
-import json
-from models import app, db, Song
+@app.route('/')
+def index():
+	return render_template('hello.html')
 
 # ------------
-# load_json
-# ------------
-def load_json(filename):
-    """
-    return a python dict jsn
-    filename a json file
-    """
-    with open(filename) as file:
-        jsn = json.load(file)
-        file.close()
-
-    return jsn
-
+# song
+# ------------	
+@app.route('/songs/')
+def song():
+	book_list = db.session.query(Song).all()
+	return render_template('books.html', book_list = book_list)
 
 # ------------
-# create_songs
-# ------------
-def create_songs():
-    song = load_json('songs.json')
+# book
+# ------------	
+@app.route('/books/')
+def book():
+	book_list = db.session.query(Book).all()
+	return render_template('books.html', book_list = book_list)
 
-    for oneSong in song['Songs']:
-        song_name = oneSong["song_name"]
-        rank = oneSong["rank"]
-        artist = oneSong["artist"]
-        release_date = oneSong["release_date"]
-		
-        newSong = Song(song_name = song_name, rank=rank, release_date=release_date, artist=artist)
-        
-        db.session.add(newSong)
-        # commit the session to my DB.
-        db.session.commit()
-
-# ------------
-# create_books
-# ------------
-def create_books():
-    """
-    populate book table
-    """
-    book = load_json('books.json')
-
-    for oneBook in book['Books']:
-        title = oneBook['title']
-        id = oneBook['id']
-		
-        newBook = Book(title = title, id = id)
-        
-        # After I create the book, I can then add it to my session. 
-        db.session.add(newBook)
-        # commit the session to my DB.
-        db.session.commit()
-	
-create_songs()
+# debug=True activates the automatic reloader. Therefore, if you use it, make sure to add "db.drop_all()"
+# right before "db.create_all()" in "models.py".
+if __name__ == "__main__":
+	app.run(debug=True, host='0.0.0.0')

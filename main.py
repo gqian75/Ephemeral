@@ -88,8 +88,6 @@ album_list = { "driver's license": {
     }
 }
 
-
-
 # Part of the lecture video but we are not using it currently.
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')

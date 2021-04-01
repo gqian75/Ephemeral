@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 # ---------------------------
-# projects/IDB3/models.py
-# Fares Fraij
+# models.py
 # ---------------------------
 
 from flask import Flask
@@ -14,12 +13,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql:/
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
 db = SQLAlchemy(app)
 
-
 class Song(db.Model):
     """
-    Song class has two attrbiutes 
-    title
-    id
+    Song class has 4 attrbiutes 
+    song_name, rank, artist, release_date
     """
     __tablename__ = 'song'
 	
@@ -28,20 +25,20 @@ class Song(db.Model):
     artist = db.Column(db.String(80), nullable=False)
     release_date = db.Column(db.String(80), nullable=False)
 
+class Artist(db.Model):
+    """
+    Artist class has 4 attrbiutes 
+    artist_name, artist_rank, artist_genre, followers
+    """
+    __tablename__ = 'artist'
 
-# ------------
-# Book
-# ------------
-class Book(db.Model):
-    """
-    Book class has two attrbiutes 
-    title
-    id
-    """
-    __tablename__ = 'book'
-	
-    title = db.Column(db.String(80), nullable = False)
-    id = db.Column(db.Integer, primary_key = True)
+    artist_name = db.Column(db.String(80), nullable=False)
+    artist_rank = db.Column(db.Integer, primary_key=True)
+    artist_genre = db.Column(db.String(80), nullable=False)
+    followers = db.Column(db.Integer)
+
+class Album(db.Model):
+    pass
 
 db.drop_all()
 db.create_all()
