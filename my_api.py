@@ -1,5 +1,4 @@
-import requests, json, base64
-from urllib.parse import urlencode
+import requests, json
 from datetime import date
 
 querystring = {"date":date.today().strftime("%Y-%m-%d")}
@@ -8,11 +7,19 @@ headers = {
     'x-rapidapi-host': "billboard2.p.rapidapi.com"
     }
 headers_audioDB = {
-    'x-rapidapi-key': "9fecb91ce1mshb6c4094e7a3d2a6p1d58cejsn3f7fdfb7846e",
+    'x-rapidapi-key': "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
     'x-rapidapi-host': "theaudiodb.p.rapidapi.com"
     }
 
-
+CLIENT_ID = "852c80dddc2242c690fd514762d73d86"
+CLIENT_SECRET = "dcd5f80d6deb4215a996e1a0719c64a2"
+AUTH_URL = 'https://accounts.spotify.com/api/token'
+SEARCH_URL = "https://api.spotify.com/v1/search"
+ART_URL = "https://api.spotify.com/v1/artists"
+auth_response = requests.post(AUTH_URL, {'grant_type': 'client_credentials', 'client_id': CLIENT_ID, 'client_secret': CLIENT_SECRET,})
+auth_response_data = auth_response.json()
+access_token = auth_response_data['access_token']
+headers_spotify = {'Authorization': 'Bearer {token}'.format(token=access_token)}
 
 class SpotifyAPI(object):
     access_token = None
@@ -57,12 +64,10 @@ class SpotifyAPI(object):
 
 def songAPI():
     url = "https://billboard2.p.rapidapi.com/hot_100"
-    url_audioDB = "https://theaudiodb.p.rapidapi.com/searchtrack.php"
     res = requests.request("GET", url, headers=headers, params=querystring)
     res = res.json()
 
     songs = []
-    song_list = []
 
     for song in res:
         if "&#039;" in song["title"]:
@@ -73,39 +78,24 @@ def songAPI():
             temp = name.split("&#039;")
             name = temp[0] + "'" + temp[1]
         try:
-            querystring_audioDB = {"s":name.lower() ,"t":song["title"].lower()}
-            track = requests.request("GET", url_audioDB, headers=headers_audioDB, params=querystring_audioDB)
-            track = track.json()
-            songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": song["history"]["debut_date"], "duration": int(track["track"][0]["intDuration"]), "artist": song["artist_name"]})
-        except:
-            #print(song["title"])
-            song_list.append(song["title"])
-
-    client_id = "123d71c67be54fbeb90cc8dda4a451a6"
-    client_secret = "a8f77509182b4dae9ce0a9caa3ec674e"
-
-    for i in song_list:
-        spotify = SpotifyAPI(client_id,client_secret)
-        spotify.get_token_data()
-        access_token = spotify.access_token
-        print(i)
-        print(spotify.search(i,"track","1")) # returns album
-
+            get_id = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': song["title"], 'type': "track", 'market': 'US'})
+            get_id = get_id.json()
+            trackID = get_id["tracks"]["items"][0]["id"]
+            get_spotify = requests.get("https://api.spotify.com/v1/tracks/"+ trackID, headers=headers_spotify, params={'market': 'US'})
+            get_spotify = get_spotify.json()
+            release = song["history"]["debut_date"]
+            duration = get_spotify["duration_ms"]
+            album = get_spotify["album"]["name"]
+            songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": release, "duration": int(duration), "artist": name, "album": album})
+        except Exception:
+            print(name)
+            print(song["title"])
 
     songJSON = {'Songs': songs}
 
-    with open('songs2.json', 'w') as fp:
+    with open('songs.json', 'w') as fp:
         json.dump(songJSON, fp, indent=4)
 
-CLIENT_ID = "852c80dddc2242c690fd514762d73d86"
-CLIENT_SECRET = "dcd5f80d6deb4215a996e1a0719c64a2"
-AUTH_URL = 'https://accounts.spotify.com/api/token'
-SEARCH_URL = "https://api.spotify.com/v1/search"
-ART_URL = "https://api.spotify.com/v1/artists"
-auth_response = requests.post(AUTH_URL, {'grant_type': 'client_credentials', 'client_id': CLIENT_ID, 'client_secret': CLIENT_SECRET,})
-auth_response_data = auth_response.json()
-access_token = auth_response_data['access_token']
-headers_spotify = {'Authorization': 'Bearer {token}'.format(token=access_token)}
 
 def artistAPI():
     url_artist = "https://billboard2.p.rapidapi.com/artist_100"

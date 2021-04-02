@@ -15,8 +15,8 @@ db = SQLAlchemy(app)
 
 class Song(db.Model):
     """
-    Song class has 4 attrbiutes 
-    song_name, rank, artist, release_date
+    Song class has 6 attrbiutes 
+    song_name, rank, release_date, duration, artist, album
     """
     __tablename__ = 'song'
 	
@@ -24,6 +24,8 @@ class Song(db.Model):
     rank = db.Column(db.Integer, primary_key=True)
     artist = db.Column(db.String(80), nullable=False)
     release_date = db.Column(db.String(80), nullable=False)
+    album = db.Column(db.String(80), nullable=False)
+    duration = db.Column(db.Integer)
 
 class Artist(db.Model):
     """

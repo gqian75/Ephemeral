@@ -26,8 +26,10 @@ def create_songs():
         rank = oneSong["rank"]
         artist = oneSong["artist"]
         release_date = oneSong["release_date"]
+        album = oneSong["album"]
+        duration = oneSong["duration"]
 		
-        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist)
+        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist, album=album, duration=duration)
         
         db.session.add(newSong)
         db.session.commit()
