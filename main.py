@@ -5,6 +5,9 @@ from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
 
+create_songs()
+create_albums()
+create_artists()
 song_list = db.session.query(Song).all()
 artist_list = db.session.query(Artist).all()
 album_list = db.session.query(Album).all()
@@ -186,4 +189,4 @@ def artist3():
 if __name__ == "__main__":
     #app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
     #app.run()
-    print(song_list)
+    print(artist_list[0].artist_rank)
