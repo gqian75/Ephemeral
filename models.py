@@ -9,7 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:9898845691Kj@@localhost:5432/songdb')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:zxcvb@localhost:5432/songdb')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
 db = SQLAlchemy(app)
 
@@ -35,6 +35,7 @@ class Song(db.Model):
     duration = db.Column(db.Integer,nullable=True)
 
     album_rank = db.Column(db.Integer, db.ForeignKey('album.album_rank'))
+    # artists = db.relationship('Artist', backref = 'song', uselist = False)
 
 class Artist(db.Model):
     """
@@ -48,11 +49,10 @@ class Artist(db.Model):
     artist_name = db.Column(db.String(80), nullable=False)
     artist_genre = db.Column(db.String(120), nullable=False)
     followers = db.Column(db.Integer,nullable=False)
-
+    
     songs = db.relationship('Song',secondary = 'link', backref = 'compose')
-
-    albums = db.relationship('Album', backref = 'releases')
-
+    albums = db.relationship('Album', backref = 'release')
+    # song_rank = db.Column(db.Integer, db.ForeignKey('song.rank'))   
 
 class Album(db.Model):
     """

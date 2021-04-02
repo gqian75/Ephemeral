@@ -115,10 +115,12 @@ def artistAPI():
             artID = get_artist["artists"]["items"][0]["id"]
             get_spotify = requests.get(ART_URL, headers=headers_spotify, params={'ids': artID})
             get_spotify = get_spotify.json()
+            print(get_spotify)
             followers = get_spotify["artists"][0]["followers"]["total"]
+            popularity = get_spotify["artists"][0]["popularity"]
             genre = get_spotify["artists"][0]["genres"]
-            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers)})
-        except:
+            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity)})
+        except Exception:
             print(name)
             print(get_artist)
 
@@ -143,16 +145,21 @@ def albumAPI():
         if "&#039;" in artist:
             temp = artist.split("&#039;")
             artist = temp[0] + "'" + temp[1]
-        # genre =
-        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist})
+        try:
+            url_album = "https://theaudiodb.p.rapidapi.com/searchalbum.php"
+            res = requests.request("GET", url_album, headers=headers_audioDB, params={"s":artist, "a":name})
+            res = res.json()
+            genre = res["album"][0]["strGenre"]
+        except Exception:
+            genre = []
+            print(name, artist)
+        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "album_genre": genre})
 
     albumJSON = {'Albums': albums}
-    with open('albums.json', 'w') as fp:
+    with open('albums2.json', 'w') as fp:
         json.dump(albumJSON, fp, indent=4)
 
-songAPI()
-
-#if __name__ == "__main__":
+if __name__ == "__main__":
     # songAPI()
     # artistAPI()
     # albumAPI()
