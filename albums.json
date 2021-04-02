@@ -4,601 +4,701 @@
             "album_name": "Justice",
             "album_rank": 1,
             "album_release_date": "2021-04-03",
-            "artist": "Justin Bieber"
+            "artist": "Justin Bieber",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Chemtrails Over The Country Club",
             "album_rank": 2,
             "album_release_date": "2021-04-03",
-            "artist": "Lana Del Rey"
+            "artist": "Lana Del Rey",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Dangerous: The Double Album",
             "album_rank": 3,
             "album_release_date": "2021-01-23",
-            "artist": "Morgan Wallen"
+            "artist": "Morgan Wallen",
+            "album_genre": "Country"
         },
         {
             "album_name": "Shoot For The Stars Aim For The Moon",
             "album_rank": 4,
             "album_release_date": "2020-07-18",
-            "artist": "Pop Smoke"
+            "artist": "Pop Smoke",
+            "album_genre": ""
         },
         {
             "album_name": "Future Nostalgia",
             "album_rank": 5,
             "album_release_date": "2020-04-11",
-            "artist": "Dua Lipa"
+            "artist": "Dua Lipa",
+            "album_genre": "Indie Pop"
         },
         {
             "album_name": "Shiesty Season",
             "album_rank": 6,
             "album_release_date": "2021-02-20",
-            "artist": "Pooh Shiesty"
+            "artist": "Pooh Shiesty",
+            "album_genre": ""
         },
         {
             "album_name": "After Hours",
             "album_rank": 7,
             "album_release_date": "2020-04-04",
-            "artist": "The Weeknd"
+            "artist": "The Weeknd",
+            "album_genre": "R&B"
         },
         {
             "album_name": "My Turn",
             "album_rank": 8,
             "album_release_date": "2020-03-14",
-            "artist": "Lil Baby"
+            "artist": "Lil Baby",
+            "album_genre": ""
         },
         {
             "album_name": "The Voice",
             "album_rank": 9,
             "album_release_date": "2021-01-02",
-            "artist": "Lil Durk"
+            "artist": "Lil Durk",
+            "album_genre": ""
         },
         {
             "album_name": "What You See Is What You Get",
             "album_rank": 10,
             "album_release_date": "2019-11-23",
-            "artist": "Luke Combs"
+            "artist": "Luke Combs",
+            "album_genre": "Country"
         },
         {
             "album_name": "When It's All Said And Done... Take Time",
             "album_rank": 11,
             "album_release_date": "2021-03-27",
-            "artist": "Giveon"
+            "artist": "Giveon",
+            "album_genre": ""
         },
         {
             "album_name": "Legends Never Die",
             "album_rank": 12,
             "album_release_date": "2020-07-25",
-            "artist": "Juice WRLD"
+            "artist": "Juice WRLD",
+            "album_genre": ""
         },
         {
             "album_name": "Hollywood's Bleeding",
             "album_rank": 13,
             "album_release_date": "2019-09-21",
-            "artist": "Post Malone"
+            "artist": "Post Malone",
+            "album_genre": "Rap"
         },
         {
             "album_name": "Folklore",
             "album_rank": 14,
             "album_release_date": "2020-08-08",
-            "artist": "Taylor Swift"
+            "artist": "Taylor Swift",
+            "album_genre": "Pop"
         },
         {
             "album_name": "The Highlights",
             "album_rank": 15,
             "album_release_date": "2021-02-20",
-            "artist": "The Weeknd"
+            "artist": "The Weeknd",
+            "album_genre": "R&B"
         },
         {
             "album_name": "Positions",
             "album_rank": 16,
             "album_release_date": "2020-11-14",
-            "artist": "Ariana Grande"
+            "artist": "Ariana Grande",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Good News",
             "album_rank": 17,
             "album_release_date": "2020-12-05",
-            "artist": "Megan Thee Stallion"
+            "artist": "Megan Thee Stallion",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Fine Line",
             "album_rank": 18,
             "album_release_date": "2019-12-28",
-            "artist": "Harry Styles"
+            "artist": "Harry Styles",
+            "album_genre": "Pop"
         },
         {
             "album_name": "When We All Fall Asleep, Where Do We Go?",
             "album_rank": 19,
             "album_release_date": "2019-04-13",
-            "artist": "Billie Eilish"
+            "artist": "Billie Eilish",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Evermore",
             "album_rank": 20,
             "album_release_date": "2020-12-26",
-            "artist": "Taylor Swift"
+            "artist": "Taylor Swift",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Hot Pink",
             "album_rank": 21,
             "album_release_date": "2019-11-16",
-            "artist": "Doja Cat"
+            "artist": "Doja Cat",
+            "album_genre": "R&B"
         },
         {
             "album_name": "El Ultimo Tour del Mundo",
             "album_rank": 22,
             "album_release_date": "2020-12-12",
-            "artist": "Bad Bunny"
+            "artist": "Bad Bunny",
+            "album_genre": "Latin"
         },
         {
             "album_name": "F*ck Love",
             "album_rank": 23,
             "album_release_date": "2020-08-08",
-            "artist": "The Kid LAROI"
+            "artist": "The Kid LAROI",
+            "album_genre": ""
         },
         {
             "album_name": "Tickets To My Downfall",
             "album_rank": 24,
             "album_release_date": "2020-10-10",
-            "artist": "Machine Gun Kelly"
+            "artist": "Machine Gun Kelly",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Greatest Hits",
             "album_rank": 25,
             "album_release_date": "1981-11-14",
-            "artist": "Queen"
+            "artist": "Queen",
+            "album_genre": "Rock"
         },
         {
             "album_name": "The GOAT",
             "album_rank": 26,
             "album_release_date": "2020-05-30",
-            "artist": "Polo G"
+            "artist": "Polo G",
+            "album_genre": ""
         },
         {
             "album_name": "Goodbye & Good Riddance",
             "album_rank": 27,
             "album_release_date": "2018-06-02",
-            "artist": "Juice WRLD"
+            "artist": "Juice WRLD",
+            "album_genre": "Rap"
         },
         {
             "album_name": "Shore",
             "album_rank": 28,
             "album_release_date": "2020-10-03",
-            "artist": "Fleet Foxes"
+            "artist": "Fleet Foxes",
+            "album_genre": "Folk"
         },
         {
             "album_name": "Pray 4 Love",
             "album_rank": 29,
             "album_release_date": "2020-04-18",
-            "artist": "Rod Wave"
+            "artist": "Rod Wave",
+            "album_genre": ""
         },
         {
             "album_name": "This One's For You",
             "album_rank": 30,
             "album_release_date": "2017-06-24",
-            "artist": "Luke Combs"
+            "artist": "Luke Combs",
+            "album_genre": "Country"
         },
         {
             "album_name": "Hamilton: An American Musical",
             "album_rank": 31,
             "album_release_date": "2015-10-17",
-            "artist": "Original Broadway Cast"
+            "artist": "Original Broadway Cast",
+            "album_genre": ""
         },
         {
             "album_name": "YHLQMDLG",
             "album_rank": 32,
             "album_release_date": "2020-03-14",
-            "artist": "Bad Bunny"
+            "artist": "Bad Bunny",
+            "album_genre": "Latin"
         },
         {
             "album_name": "The Plugs I Met 2",
             "album_rank": 33,
             "album_release_date": "2021-04-03",
-            "artist": "Benny The Butcher & Harry Fraud"
+            "artist": "Benny The Butcher & Harry Fraud",
+            "album_genre": ""
         },
         {
             "album_name": "Rumours",
             "album_rank": 34,
             "album_release_date": "1977-02-26",
-            "artist": "Fleetwood Mac"
+            "artist": "Fleetwood Mac",
+            "album_genre": "Rock"
         },
         {
             "album_name": "Thats What They All Say",
             "album_rank": 35,
             "album_release_date": "2020-12-26",
-            "artist": "Jack Harlow"
+            "artist": "Jack Harlow",
+            "album_genre": ""
         },
         {
             "album_name": "BE",
             "album_rank": 36,
             "album_release_date": "2020-12-05",
-            "artist": "BTS"
+            "artist": "BTS",
+            "album_genre": ""
         },
         {
             "album_name": "Death Race For Love",
             "album_rank": 37,
             "album_release_date": "2019-03-23",
-            "artist": "Juice WRLD"
+            "artist": "Juice WRLD",
+            "album_genre": "Rap"
         },
         {
             "album_name": "BLAME IT ON BABY",
             "album_rank": 38,
             "album_release_date": "2020-05-02",
-            "artist": "DaBaby"
+            "artist": "DaBaby",
+            "album_genre": ""
         },
         {
             "album_name": "If I Know Me",
             "album_rank": 39,
             "album_release_date": "2018-05-12",
-            "artist": "Morgan Wallen"
+            "artist": "Morgan Wallen",
+            "album_genre": "Country"
         },
         {
             "album_name": "Curtain Call: The Hits=",
             "album_rank": 40,
             "album_release_date": "2005-12-24",
-            "artist": "Eminem"
+            "artist": "Eminem",
+            "album_genre": ""
         },
         {
             "album_name": "ASTROWORLD",
             "album_rank": 41,
             "album_release_date": "2018-08-18",
-            "artist": "Travis Scott"
+            "artist": "Travis Scott",
+            "album_genre": "Trap"
         },
         {
             "album_name": "beerbongs & bentleys",
             "album_rank": 42,
             "album_release_date": "2018-05-12",
-            "artist": "Post Malone"
+            "artist": "Post Malone",
+            "album_genre": "Rap"
         },
         {
             "album_name": "Eternal Atake",
             "album_rank": 43,
             "album_release_date": "2020-03-21",
-            "artist": "Lil Uzi Vert"
+            "artist": "Lil Uzi Vert",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Starting Over",
             "album_rank": 44,
             "album_release_date": "2020-11-28",
-            "artist": "Chris Stapleton"
+            "artist": "Chris Stapleton",
+            "album_genre": "BlueGrass"
         },
         {
             "album_name": "Scorpion",
             "album_rank": 45,
             "album_release_date": "2018-07-14",
-            "artist": "Drake"
+            "artist": "Drake",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Chronicle The 20 Greatest Hits",
             "album_rank": 46,
             "album_release_date": "2010-01-09",
-            "artist": "Creedence Clearwater Revival"
+            "artist": "Creedence Clearwater Revival",
+            "album_genre": ""
         },
         {
             "album_name": "Diamonds",
             "album_rank": 47,
             "album_release_date": "2017-12-02",
-            "artist": "Elton John"
+            "artist": "Elton John",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Dont Smile At Me",
             "album_rank": 48,
             "album_release_date": "2017-11-04",
-            "artist": "Billie Eilish"
+            "artist": "Billie Eilish",
+            "album_genre": "Pop"
         },
         {
             "album_name": "good kid, m.A.A.d city",
             "album_rank": 49,
             "album_release_date": "2012-11-10",
-            "artist": "Kendrick Lamar"
+            "artist": "Kendrick Lamar",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Ctrl",
             "album_rank": 50,
             "album_release_date": "2017-07-01",
-            "artist": "SZA"
+            "artist": "SZA",
+            "album_genre": "Soul"
         },
         {
             "album_name": "Music To Be Murdered By",
             "album_rank": 51,
             "album_release_date": "2020-02-01",
-            "artist": "Eminem"
+            "artist": "Eminem",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Legend: The Best Of...",
             "album_rank": 52,
             "album_release_date": "1984-08-18",
-            "artist": "Bob Marley And The Wailers"
+            "artist": "Bob Marley And The Wailers",
+            "album_genre": ""
         },
         {
             "album_name": "Traveller",
             "album_rank": 53,
             "album_release_date": "2015-05-23",
-            "artist": "Chris Stapleton"
+            "artist": "Chris Stapleton",
+            "album_genre": "BlueGrass"
         },
         {
             "album_name": "Stoney",
             "album_rank": 54,
             "album_release_date": "2016-12-31",
-            "artist": "Post Malone"
+            "artist": "Post Malone",
+            "album_genre": "Rap"
         },
         {
             "album_name": "Only The Family Presents: Loyal Bros Compilation",
             "album_rank": 55,
             "album_release_date": "2021-03-20",
-            "artist": "Various Artists"
+            "artist": "Various Artists",
+            "album_genre": ""
         },
         {
             "album_name": "Divinely Uninspired To A Hellish Extent",
             "album_rank": 56,
             "album_release_date": "2019-06-01",
-            "artist": "Lewis Capaldi"
+            "artist": "Lewis Capaldi",
+            "album_genre": "Singer Songwriter"
         },
         {
             "album_name": "Please Excuse Me For Being Antisocial",
             "album_rank": 57,
             "album_release_date": "2019-12-21",
-            "artist": "Roddy Ricch"
+            "artist": "Roddy Ricch",
+            "album_genre": ""
         },
         {
             "album_name": "Over It",
             "album_rank": 58,
             "album_release_date": "2019-10-19",
-            "artist": "Summer Walker"
+            "artist": "Summer Walker",
+            "album_genre": "R&B"
         },
         {
             "album_name": "Top",
             "album_rank": 59,
             "album_release_date": "2020-09-26",
-            "artist": "YoungBoy Never Broke Again"
+            "artist": "YoungBoy Never Broke Again",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Lover",
             "album_rank": 60,
             "album_release_date": "2019-09-07",
-            "artist": "Taylor Swift"
+            "artist": "Taylor Swift",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Die 4 Respect",
             "album_rank": 61,
             "album_release_date": "2021-04-03",
-            "artist": "DDG X OG Parker"
+            "artist": "DDG X OG Parker",
+            "album_genre": ""
         },
         {
             "album_name": "Sin Miedo (Del Amor y Otros Demonios)",
             "album_rank": 62,
             "album_release_date": "2021-03-06",
-            "artist": "Kali Uchis"
+            "artist": "Kali Uchis",
+            "album_genre": "R&B"
         },
         {
             "album_name": "2014 Forest Hills Drive",
             "album_rank": 63,
             "album_release_date": "2014-12-27",
-            "artist": "J. Cole"
+            "artist": "J. Cole",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Pluto x Baby Pluto",
             "album_rank": 64,
             "album_release_date": "2020-11-28",
-            "artist": "Future & Lil Uzi Vert"
+            "artist": "Future & Lil Uzi Vert",
+            "album_genre": ""
         },
         {
             "album_name": "Journey's Greatest Hits",
             "album_rank": 65,
             "album_release_date": "1988-12-03",
-            "artist": "Journey"
+            "artist": "Journey",
+            "album_genre": ""
         },
         {
             "album_name": "Greatest Hits",
             "album_rank": 66,
             "album_release_date": "1998-12-12",
-            "artist": "2Pac"
+            "artist": "2Pac",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Life Rolls On",
             "album_rank": 67,
             "album_release_date": "2021-02-27",
-            "artist": "Florida Georgia Line"
+            "artist": "Florida Georgia Line",
+            "album_genre": "Country Pop"
         },
         {
             "album_name": "Just Cause Y'all Waited 2",
             "album_rank": 68,
             "album_release_date": "2020-05-23",
-            "artist": "Lil Durk"
+            "artist": "Lil Durk",
+            "album_genre": ""
         },
         {
             "album_name": "Chilombo",
             "album_rank": 69,
             "album_release_date": "2020-03-21",
-            "artist": "Jhene Aiko"
+            "artist": "Jhene Aiko",
+            "album_genre": ""
         },
         {
             "album_name": "Back In Black",
             "album_rank": 70,
             "album_release_date": "1980-08-23",
-            "artist": "AC/DC"
+            "artist": "AC/DC",
+            "album_genre": "Hard Rock"
         },
         {
             "album_name": "\u00f7 (Divide)",
             "album_rank": 71,
             "album_release_date": "2017-03-25",
-            "artist": "Ed Sheeran"
+            "artist": "Ed Sheeran",
+            "album_genre": ""
         },
         {
             "album_name": "High Off Life",
             "album_rank": 72,
             "album_release_date": "2020-05-30",
-            "artist": "Future"
+            "artist": "Future",
+            "album_genre": ""
         },
         {
             "album_name": "Take Care",
             "album_rank": 73,
             "album_release_date": "2011-12-03",
-            "artist": "Drake"
+            "artist": "Drake",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Greatest Hits",
             "album_rank": 74,
             "album_release_date": "2007-03-24",
-            "artist": "The Notorious B.I.G."
+            "artist": "The Notorious B.I.G.",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Greatest Hits",
             "album_rank": 75,
             "album_release_date": "2004-04-10",
-            "artist": "Guns N' Roses"
+            "artist": "Guns N' Roses",
+            "album_genre": "Hard Rock"
         },
         {
             "album_name": "DAMN.",
             "album_rank": 76,
             "album_release_date": "2017-05-06",
-            "artist": "Kendrick Lamar"
+            "artist": "Kendrick Lamar",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "American Teen",
             "album_rank": 77,
             "album_release_date": "2017-03-25",
-            "artist": "Khalid"
+            "artist": "Khalid",
+            "album_genre": "R&B"
         },
         {
             "album_name": "No One Sings Like You Anymore, Volume One",
             "album_rank": 78,
             "album_release_date": "2021-04-03",
-            "artist": "Chris Cornell"
+            "artist": "Chris Cornell",
+            "album_genre": ""
         },
         {
             "album_name": "Doo-Wops & Hooligans",
             "album_rank": 79,
             "album_release_date": "2010-10-23",
-            "artist": "Bruno Mars"
+            "artist": "Bruno Mars",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Goldmine",
             "album_rank": 80,
             "album_release_date": "2020-07-04",
-            "artist": "Gabby Barrett"
+            "artist": "Gabby Barrett",
+            "album_genre": ""
         },
         {
             "album_name": "1",
             "album_rank": 81,
             "album_release_date": "2000-12-02",
-            "artist": "The Beatles"
+            "artist": "The Beatles",
+            "album_genre": "Rock & Roll"
         },
         {
             "album_name": "Savage Mode II",
             "album_rank": 82,
             "album_release_date": "2020-10-17",
-            "artist": "21 Savage & Metro Boomin"
+            "artist": "21 Savage & Metro Boomin",
+            "album_genre": ""
         },
         {
             "album_name": "Still Woman Enough",
             "album_rank": 83,
             "album_release_date": "2021-04-03",
-            "artist": "Loretta Lynn"
+            "artist": "Loretta Lynn",
+            "album_genre": "Country"
         },
         {
             "album_name": "Greatest Hits",
             "album_rank": 84,
             "album_release_date": "1993-12-04",
-            "artist": "Tom Petty And The Heartbreakers"
+            "artist": "Tom Petty And The Heartbreakers",
+            "album_genre": "Rock"
         },
         {
             "album_name": "?",
             "album_rank": 85,
             "album_release_date": "2018-03-31",
-            "artist": "XXXTENTACION"
+            "artist": "XXXTENTACION",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "We Are",
             "album_rank": 86,
             "album_release_date": "2021-04-03",
-            "artist": "Jon Batiste"
+            "artist": "Jon Batiste",
+            "album_genre": ""
         },
         {
             "album_name": "Wunna",
             "album_rank": 87,
             "album_release_date": "2020-06-06",
-            "artist": "Gunna"
+            "artist": "Gunna",
+            "album_genre": ""
         },
         {
             "album_name": "Luv Is Rage 2",
             "album_rank": 88,
             "album_release_date": "2017-09-16",
-            "artist": "Lil Uzi Vert"
+            "artist": "Lil Uzi Vert",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Final Destination",
             "album_rank": 89,
             "album_release_date": "2021-02-06",
-            "artist": "SpotemGottem"
+            "artist": "SpotemGottem",
+            "album_genre": ""
         },
         {
             "album_name": "Dark Lane Demo Tapes",
             "album_rank": 90,
             "album_release_date": "2020-05-16",
-            "artist": "Drake"
+            "artist": "Drake",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Heaven & Hell",
             "album_rank": 91,
             "album_release_date": "2020-10-03",
-            "artist": "Ava Max"
+            "artist": "Ava Max",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Moana",
             "album_rank": 92,
             "album_release_date": "2016-12-10",
-            "artist": "Soundtrack"
+            "artist": "Soundtrack",
+            "album_genre": ""
         },
         {
             "album_name": "Meet The Woo, V.2",
             "album_rank": 93,
             "album_release_date": "2020-02-22",
-            "artist": "Pop Smoke"
+            "artist": "Pop Smoke",
+            "album_genre": ""
         },
         {
             "album_name": "Invasion Of Privacy",
             "album_rank": 94,
             "album_release_date": "2018-04-21",
-            "artist": "Cardi B"
+            "artist": "Cardi B",
+            "album_genre": "Hip-Hop"
         },
         {
             "album_name": "Manic",
             "album_rank": 95,
             "album_release_date": "2020-02-01",
-            "artist": "Halsey"
+            "artist": "Halsey",
+            "album_genre": "Indie Pop"
         },
         {
             "album_name": "1989",
             "album_rank": 96,
             "album_release_date": "2014-11-15",
-            "artist": "Taylor Swift"
+            "artist": "Taylor Swift",
+            "album_genre": "Country"
         },
         {
             "album_name": "50 Number Ones",
             "album_rank": 97,
             "album_release_date": "2004-10-23",
-            "artist": "George Strait"
+            "artist": "George Strait",
+            "album_genre": "Country"
         },
         {
             "album_name": "Thank U, Next",
             "album_rank": 98,
             "album_release_date": "2019-02-23",
-            "artist": "Ariana Grande"
+            "artist": "Ariana Grande",
+            "album_genre": "Pop"
         },
         {
             "album_name": "Ghetto Gospel",
             "album_rank": 99,
             "album_release_date": "2019-11-16",
-            "artist": "Rod Wave"
+            "artist": "Rod Wave",
+            "album_genre": ""
         },
         {
             "album_name": "Time Served",
             "album_rank": 100,
             "album_release_date": "2020-01-25",
-            "artist": "Moneybagg Yo"
+            "artist": "Moneybagg Yo",
+            "album_genre": ""
         }
     ]
 }

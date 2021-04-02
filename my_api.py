@@ -115,7 +115,6 @@ def artistAPI():
             artID = get_artist["artists"]["items"][0]["id"]
             get_spotify = requests.get(ART_URL, headers=headers_spotify, params={'ids': artID})
             get_spotify = get_spotify.json()
-            print(get_spotify)
             followers = get_spotify["artists"][0]["followers"]["total"]
             popularity = get_spotify["artists"][0]["popularity"]
             genre = get_spotify["artists"][0]["genres"]
@@ -125,7 +124,7 @@ def artistAPI():
             print(get_artist)
 
     artistJSON = {'Artists': artists}
-    with open('artists2.json', 'w') as fp:
+    with open('artists3.json', 'w') as fp:
         json.dump(artistJSON, fp, indent=4)
 
 def albumAPI():
@@ -151,7 +150,7 @@ def albumAPI():
             res = res.json()
             genre = res["album"][0]["strGenre"]
         except Exception:
-            genre = []
+            genre = ""
             print(name, artist)
         albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "album_genre": genre})
 
@@ -161,5 +160,5 @@ def albumAPI():
 
 if __name__ == "__main__":
     # songAPI()
-    # artistAPI()
+    artistAPI()
     # albumAPI()

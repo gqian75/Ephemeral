@@ -49,6 +49,7 @@ class Artist(db.Model):
     artist_name = db.Column(db.String(80), nullable=False)
     artist_genre = db.Column(db.String(120), nullable=False)
     followers = db.Column(db.Integer,nullable=False)
+    popularity = db.Column(db.Integer)
     
     songs = db.relationship('Song',secondary = 'link', backref = 'compose')
     albums = db.relationship('Album', backref = 'release')
@@ -66,6 +67,7 @@ class Album(db.Model):
     album_name = db.Column(db.String(80), nullable=False)
     album_release_date = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
+    album_genre = db.Column(db.String(80))
 
     songs = db.relationship('Song', backref = 'album')
 
