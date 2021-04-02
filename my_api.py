@@ -1,4 +1,5 @@
-import requests, json
+import requests, json, base64
+from urllib.parse import urlencode
 from datetime import date
 
 querystring = {"date":date.today().strftime("%Y-%m-%d")}
@@ -11,6 +12,49 @@ headers_audioDB = {
     'x-rapidapi-host': "theaudiodb.p.rapidapi.com"
     }
 
+
+
+class SpotifyAPI(object):
+    access_token = None
+    client_id = None
+    client_secret = None
+
+    def __init__(self, client_id, client_secret):
+        self.client_id = client_id
+        self.client_secret = client_secret
+
+    def get_token_data(self):
+        client_id = self.client_id
+        client_secret = self.client_secret
+        client_creds = f"{client_id}:{client_secret}"
+        client_creds_b64 = base64.b64encode(client_creds.encode())
+
+        token_url = "https://accounts.spotify.com/api/token"
+        method = "POST"
+        token_data = {
+            "grant_type": "client_credentials"
+        }
+        token_headers = {
+            "Authorization" : f"Basic {client_creds_b64.decode()}"
+        }
+        r = requests.post(token_url, data=token_data, headers=token_headers)
+        token_response_data = r.json()
+        self.access_token = token_response_data['access_token']
+        expires = token_response_data['expires_in'] #seconds
+        type = token_response_data["token_type"]
+    def search(self, q, search_type, search_limit): # valid search types: "album", "artist", "playlist", "show", "episode"
+        access_token = self.access_token
+        headers = {
+            "Authorization" : f"Bearer {access_token}"
+        }
+        endpoint = "https://api.spotify.com/v1/search"
+        data = urlencode({"q": q, "type": search_type, "limit": search_limit})
+        lookup_url = f"{endpoint}?{data}"
+        r = requests.get(lookup_url, headers=headers)
+        json = r.json()
+        albums=json["tracks"]["items"][0]["album"]["name"]
+        return albums
+
 def songAPI():
     url = "https://billboard2.p.rapidapi.com/hot_100"
     url_audioDB = "https://theaudiodb.p.rapidapi.com/searchtrack.php"
@@ -18,24 +62,36 @@ def songAPI():
     res = res.json()
 
     songs = []
+    song_list = []
 
     for song in res:
         if "&#039;" in song["title"]:
             temp = song["title"].split("&#039;")
             song["title"] = temp[0] + "'" + temp[1]
-
-        if "&#039;" in song["artist_name"]:
-            temp = song["artist_name"].split("&#039;")
-            song["artist_name"] = temp[0] + "'" + temp[1]
+        name = song["credited_artists"][0]["artist_name"]
+        if "&#039;" in name:
+            temp = name.split("&#039;")
+            name = temp[0] + "'" + temp[1]
         try:
-            querystring_audioDB = {"s":song["artist_name"],"t":song["title"]}
+            querystring_audioDB = {"s":name.lower() ,"t":song["title"].lower()}
             track = requests.request("GET", url_audioDB, headers=headers_audioDB, params=querystring_audioDB)
             track = track.json()
-        # songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": song["history"]["debut_date"], "artist": song["artist_name"]})
             songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": song["history"]["debut_date"], "duration": int(track["track"][0]["intDuration"]), "artist": song["artist_name"]})
         except:
-            print(song["title"])
-    # print(songs)
+            #print(song["title"])
+            song_list.append(song["title"])
+
+    client_id = "123d71c67be54fbeb90cc8dda4a451a6"
+    client_secret = "a8f77509182b4dae9ce0a9caa3ec674e"
+
+    for i in song_list:
+        spotify = SpotifyAPI(client_id,client_secret)
+        spotify.get_token_data()
+        access_token = spotify.access_token
+        print(i)
+        print(spotify.search(i,"track","1")) # returns album
+
+
     songJSON = {'Songs': songs}
 
     with open('songs2.json', 'w') as fp:
@@ -84,7 +140,7 @@ def albumAPI():
     url_albums = "https://billboard2.p.rapidapi.com/billboard_200"
     al = requests.request("GET", url_albums, headers=headers, params=querystring)
     al = al.json()
-    
+
     albums = []
     for album in al[:100]:
         name = album["title"]
@@ -97,14 +153,16 @@ def albumAPI():
         if "&#039;" in artist:
             temp = artist.split("&#039;")
             artist = temp[0] + "'" + temp[1]
-        # genre = 
+        # genre =
         albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist})
-    
+
     albumJSON = {'Albums': albums}
     with open('albums.json', 'w') as fp:
         json.dump(albumJSON, fp, indent=4)
 
-if __name__ == "__main__":
+songAPI()
+
+#if __name__ == "__main__":
     # songAPI()
     # artistAPI()
     # albumAPI()
