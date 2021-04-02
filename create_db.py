@@ -46,6 +46,26 @@ def create_artists():
         db.session.add(newArtist)
         db.session.commit()
 
+        #artists to songs
+        try:
+            someSong = Song.query.filter_by(artist=artist_name).first()
+            if someSong:
+                newArtist.songs.append(someSong)
+        except Exception:
+            continue
+
+        #artists to albums
+        try:
+            someAlbum = Album.query.filter_by(artist=artist_name).first()
+            if someAlbum:
+                newArtist.albums.append(someAlbum)
+        except Exception:
+            print(artist_name,"python")
+            continue
+        
+
+    #for every artist or for every song 
+
 def create_albums():
     album = load_json("albums.json")
 
@@ -61,7 +81,7 @@ def create_albums():
         db.session.commit()
 
         try:
-            someSong = Song.query.filter_by(album_name=album_name.lower()).first()
+            someSong = Song.query.filter_by(album_name_lower=album_name.lower()).first()
             if someSong:
                 newAlbum.songs.append(someSong)
         except Exception:
