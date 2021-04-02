@@ -114,15 +114,37 @@ def about():
 
 @app.route('/albums/')
 def albums():
-    return render_template('albums.html')
+    return render_template('albums.html',albums=album_list)
 
 @app.route('/artists/')
 def artists():
-    return render_template('artists.html')
+    return render_template('artists.html',artists=artist_list)
 
 @app.route('/songs/')
 def songs():
-    return render_template('songs.html')
+    return render_template('songs.html',songs=song_list)
+
+#Dynamic instances of different types
+def id(string):
+    string = string.replace(" ","-").lower()
+    string = string.replace("'","")
+    return string
+
+
+@app.route('/albums/<string:_album>')
+def album(_album):
+    #_album = id(_album)
+    return render_template('album.html', album=album_list.get(_album,None))
+
+@app.route('/artists/<string:_artist>')
+def artist(_artist):
+    _artist = id(_artist)
+    return render_template('artist.html', artist=artist_list.get(_artist,None))
+
+@app.route('/songs/<string:_song>')
+def song(_song):
+    _song = id(_song)
+    return render_template('song.html', song=song_list.get(_song,None))
 
 # Static instances of the different pages
 @app.route('/songs/song1/')
@@ -162,5 +184,5 @@ def artist3():
     return render_template('./static_pages/artist3.html', artists = artist_list)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80, threaded=True, debug=False)
-    # app.run()
+    #app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
+    app.run(debug=True)
