@@ -8,7 +8,7 @@ headers = {
     'x-rapidapi-host': "billboard2.p.rapidapi.com"
     }
 headers_audioDB = {
-    'x-rapidapi-key': "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
+    'x-rapidapi-key': "9fecb91ce1mshb6c4094e7a3d2a6p1d58cejsn3f7fdfb7846e",
     'x-rapidapi-host': "theaudiodb.p.rapidapi.com"
     }
 
@@ -41,14 +41,11 @@ def songAPI():
             temp = song["title"].split("&#039;")
             song["title"] = temp[0] + "'" + temp[1]
         name = song["credited_artists"][0]["artist_name"]
+        
         if "&#039;" in name:
             temp = name.split("&#039;")
             name = temp[0] + "'" + temp[1]
         try:
-            #querystring_audioDB = {"s":name.lower() ,"t":song["title"].lower()}
-            #track = requests.request("GET", url_audioDB, headers=headers_audioDB, params=querystring_audioDB)
-            #track = track.json()
-
             r = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': song['title'], 'type': 'track','market':'US'})
             r = r.json()
 
@@ -61,6 +58,7 @@ def songAPI():
             "artist": name, "album":album, "duration":duration})
 
         except:
+
             print(song["title"])
 
 
@@ -83,6 +81,7 @@ def artistAPI():
         if "&#039;" in name:
             temp = name.split("&#039;")
             name = temp[0] + "'" + temp[1]
+        
         try:
             get_artist = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': name, 'type': "artist", 'market': 'US'})
             get_artist = get_artist.json()
@@ -93,6 +92,8 @@ def artistAPI():
             popularity = get_spotify["artists"][0]["popularity"]
             genre = get_spotify["artists"][0]["genres"]
             artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity)})
+            if(genre==[]):
+                genre=["N/A"]
         except:
             print(name)
             print(get_artist)
@@ -118,15 +119,21 @@ def albumAPI():
         if "&#039;" in artist:
             temp = artist.split("&#039;")
             artist = temp[0] + "'" + temp[1]
+
         try:
-            url_album = "https://theaudiodb.p.rapidapi.com/searchalbum.php"
-            res = requests.request("GET", url_album, headers=headers_audioDB, params={"s":artist, "a":name})
-            res = res.json()
-            genre = res["album"][0]["strGenre"]
-        except Exception:
-            genre = ""
-            #print(name, artist)
-        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "album_genre": genre})
+            get_artist = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': artist, 'type': "artist", 'market': 'US'})
+            get_artist = get_artist.json()
+            artID = get_artist["artists"]["items"][0]["id"]
+            get_spotify = requests.get(ART_URL, headers=headers_spotify, params={'ids': artID})
+            get_spotify = get_spotify.json()
+            genre = get_spotify["artists"][0]["genres"]
+            if genre==[]:
+                genre = ['N/A']
+        except:
+            genre = ['N/A']
+
+
+        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "genre": genre})
 
     albumJSON = {'Albums': albums}
     with open('albums.json', 'w') as fp:
@@ -135,6 +142,7 @@ def albumAPI():
 def imagesAPI():
     with open('songs.json') as f:
         j = json.load(f)
+
     imagesA = [] # artists
     imagesB = [] # songs
     for i in j["Songs"]:

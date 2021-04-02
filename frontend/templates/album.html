@@ -34,27 +34,27 @@
     <br>
     <div class="row">
         <div class="col-12 center-text">
-            <h2>{{album['name']}}</h2><br>
+            <h2>{{album.album_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
                     <td class="static_item">Artist: </td>
-                    <td class="point" onclick="window.location.href='/artists/{{ album['artist']['link'] }}'">{{ album['artist']['name'] }}</td>
+                    <td class="point">{{album.artist}}</td>         
                 </tr>
                 <tr>
                     <td class="static_item">Release Date: </td>
-                    <td class="static_item">{{album['release']}}</td>
+                    <td class="static_item">{{album.album_release_date}}</td>
                 </tr>
                 <tr>
-                    <td class="static_item">Type: </td>
-                    <td class="static_item">{{album['type']}}</td>
+                    <td class="static_item">Album Rank: </td>
+                    <td class="static_item">{{album.album_rank}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Genre(s): </td>
-                    <td class="static_item">{{album['genre']}}</td>
+                    <td class="static_item">{{album.genre}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Top Song: </td>
-                    <td class="point" onclick="window.location.href='/songs/{{ album['song']['link'] }}'">{{ album['song']['name'] }}</td>
+              
                 </tr>
             </table>
         </div>
@@ -65,3 +65,5 @@
 </div>
 
 {% endblock %}
+      <!-- <td class="point" onclick="window.location.href='/songs/{{ album['song']['link'] }}'">{{ album['song']['name'] }}</td> -->
+      <!-- <td class="point" onclick="window.location.href='/artists/{{ album['artist']['link'] }}'">{{ album['artist']['name'] }}</td> -->

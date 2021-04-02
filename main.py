@@ -133,11 +133,25 @@ def id(string):
     string = string.replace("'","")
     return string
 
+def find(name, data, list_type):
+    
+    for list_item in data:
+        if(list_type == "album"):
+            if(list_item.album_name == name):
+                return list_item
+        elif(list_type == "artist"):
+            if(list_item.artist_name == name):
+                return list_item
+        elif(list_type == "song"):
+            if(list_item.song_name == name):
+                return list_item
+    return None
 
 @app.route('/albums/<string:_album>')
 def album(_album):
     #_album = id(_album)
-    return render_template('album.html', album=album_list.get(_album,None))
+    #album_list.get(_album,None)
+    return render_template('album.html', album=find(_album,album_list,'album'))
 
 @app.route('/artists/<string:_artist>')
 def artist(_artist):
@@ -149,44 +163,9 @@ def song(_song):
     _song = id(_song)
     return render_template('song.html', song=song_list.get(_song,None))
 
-# Static instances of the different pages
-@app.route('/songs/song1/')
-def song1():
-    return render_template('./static_pages/song1.html', songs = song_list)
-
-@app.route('/songs/song2/')
-def song2():
-    return render_template('./static_pages/song2.html', songs = song_list)
-
-@app.route('/songs/song3/')
-def song3():
-    return render_template('./static_pages/song3.html', songs = song_list)
-
-@app.route('/albums/album1/')
-def album1():
-    return render_template('./static_pages/album1.html', albums = album_list)
-
-@app.route('/albums/album2/')
-def album2():
-    return render_template('./static_pages/album2.html', albums = album_list)
-
-@app.route('/albums/album3/')
-def album3():
-    return render_template('./static_pages/album3.html', albums = album_list)
-
-@app.route('/artists/artist1/')
-def artist1():
-    return render_template('./static_pages/artist1.html', artists = artist_list)
-
-@app.route('/artists/artist2/')
-def artist2():
-    return render_template('./static_pages/artist2.html', artists = artist_list)
-
-@app.route('/artists/artist3/')
-def artist3():
-    return render_template('./static_pages/artist3.html', artists = artist_list)
 
 if __name__ == "__main__":
-    #app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
-    #app.run()
-    print(artist_list[0].artist_rank)
+    #app.run(host='0.0.0.0', port=80, threaded=True)
+    app.run()
+    #print(album_list[14].album_name)
+   

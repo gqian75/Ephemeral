@@ -9,8 +9,8 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 
 app = Flask(__name__)
-#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:zxcvb@localhost:5432/songdb')
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:jake@localhost:5432/songdb')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:zxcvb@localhost:5432/songdb')
+#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://postgres:jake@localhost:5432/songdb')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
 db = SQLAlchemy(app)
 
@@ -68,7 +68,7 @@ class Album(db.Model):
     album_name = db.Column(db.String(80), nullable=False)
     album_release_date = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
-    album_genre = db.Column(db.String(80))
+    album_genre = db.Column(db.String([]))
 
     songs = db.relationship('Song', backref = 'album')
 

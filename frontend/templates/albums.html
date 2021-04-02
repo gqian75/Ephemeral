@@ -48,12 +48,10 @@
       <tbody>
         {%for album in albums%}
         <tr>
-          <td class="point" onclick="window.location.href='/albums/{{ album }}'">{{albums[album]['name']}}  </td>
-          <td>{{albums[album]['release']}}</td>
-          <td class="point" onclick="window.location.href='/artists/{{ albums[album]['artist']['link'] }}'">{{ albums[album]['artist']['name'] }}</td>
-          <td>{{albums[album]['type']}}</td>
-          <td>{{albums[album]['genre']}}</td>
+          <td class="point" onclick="window.location.href='/albums/{{ album.album_name }}'">{{album.album_name}}  </td>     
           
+          <td>{{album.album_name}}</td>
+
         </tr>
         {% endfor %}
         
@@ -62,3 +60,9 @@
   </div>
 
 {% endblock %}
+
+<!-- <td class="point" onclick="window.location.href='/albums/{{ album }}'">{{albums[album]['name']}}  </td>
+          <td>{{albums[album]['release']}}</td>
+          <td class="point" onclick="window.location.href='/artists/{{ albums[album]['artist']['link'] }}'">{{ albums[album]['artist']['name'] }}</td>
+          <td>{{albums[album]['type']}}</td>
+          <td>{{albums[album]['genre']}}</td> -->

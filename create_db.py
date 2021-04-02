@@ -63,7 +63,7 @@ def create_albums():
         album_release_date = oneAlbum["album_release_date"]
         album_rank = oneAlbum["album_rank"]
         artist = oneAlbum["artist"]
-        album_genre = oneAlbum["album_genre"]
+        album_genre = oneAlbum["genre"]
 
         newAlbum = Album(album_name=album_name, album_rank=album_rank, album_release_date=album_release_date, artist=artist, album_genre=album_genre)
         
