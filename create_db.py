@@ -26,11 +26,9 @@ def create_songs():
         rank = oneSong["rank"]
         artist = oneSong["artist"]
         release_date = oneSong["release_date"]
-        album = oneSong["album"]
+        album_name = oneSong["album"]
         duration = oneSong["duration"]
-		
-        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist, album=album, duration=duration)
-        
+        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist, album_name=album_name, album_name_lower = album_name.lower(), duration=duration)
         db.session.add(newSong)
         db.session.commit()
 
@@ -61,6 +59,13 @@ def create_albums():
         
         db.session.add(newAlbum)
         db.session.commit()
+
+        try:
+            someSong = Song.query.filter_by(album_name=album_name.lower()).first()
+            if someSong:
+                newAlbum.songs.append(someSong)
+        except Exception:
+            continue
 
 create_songs()
 create_artists()
