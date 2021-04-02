@@ -7,52 +7,58 @@ CORS(app)
 
 
 
-artist_list = { "Olivia Rodrigo" : {
+artist_list = { "olivia-rodrigo" : {
     "name" : "Olivia Rodrigo",
-    "Genre" : "Pop",
-    "Age" : 18,
-    "Label" : "Interscope",
-    "Song" : {"name" : "driver's license", "link" : "drivers-license"},
-    "Albums" : {"name" : "driver's license", "link" : "drivers-license"}
+    "id" : "olivia-rodrigo",
+    "genre" : "Pop",
+    "age" : 18,
+    "label" : "Interscope",
+    "song" : {"name" : "driver's license", "link" : "drivers-license"},
+    "albums" : {"name" : "driver's license", "link" : "drivers-license"}
     },
 
-    "The Weeknd" : {
+    "the-weeknd" : {
     "name" : "The Weeknd",
-    "Genre" : "R&b/Soul",
-    "Age" : 31,
-    "Label" : "XO",
-    "Song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
-    "Albums" : {"name" : "After Hours", "link" : "after-hours"}
+    "id": "the-weeknd",
+    "genre" : "R&b/Soul",
+    "age" : 31,
+    "label" : "XO",
+    "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
+    "albums" : {"name" : "After Hours", "link" : "after-hours"}
     },
 
-    "Yung Bleu" : {
+    "yung-bleu" : {
     "name" : "Yung Bleu",
-    "Genre" : "Rap",
-    "Age" : 26,
-    "Label" : "Various",
-    "Song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
-    "Albums" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}
+    "id": "yung-bleu",
+    "genre" : "Rap",
+    "age" : 26,
+    "label" : "Various",
+    "song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
+    "albums" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}
     }
 }
 
-song_list = { "driver's license" : {
+song_list = { "drivers-license" : {
     "name" : "driver's license",
+    "id": "drivers-license",
     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
     "album" : {"name" : "driver's license", "link" : "drivers-license"},
     "release" : "2021/01/08",
     "length" : "4:02"
     },
 
-    "Save Your Tears" : {
+    "save-your-tears" : {
     "name" : "Save Your Tears",
+    "id" : "save-your-tears",
     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
     "album" : {"name" : "After Hours", "link" : "after-hours"},
     "release" : "2020/08/09",
     "length" : "6:01"
     },
 
-    "You're Mines Still" : {
+    "youre-mines-still" : {
     "name" : "You're Mines Still",
+    "id" : "youre-mines-still",
     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
     "album" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"},
     "release" : "2020/10/02",
@@ -60,8 +66,9 @@ song_list = { "driver's license" : {
     },
 
 }
-album_list = { "driver's license": {
-    "name" : "driver's license",
+album_list = { "drivers-license": {
+    "name" : "Driver's License",
+    "id" : "drivers-license",
     "release" : "2021/01/08",
     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
     "type" : "Single",
@@ -69,8 +76,9 @@ album_list = { "driver's license": {
     "song" : {"name" : "driver's license", "link" : "drivers-license"}
     },
 
-    "After Hours": {
+    "after-hours": {
     "name" : "After Hours",
+    "id": "after-hours",
     "release" : "2020/03/20",
     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
     "type" : "LP",
@@ -78,8 +86,9 @@ album_list = { "driver's license": {
     "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"}
     },
 
-    "Love Scars: The 5 Stages of Emotions": {
+    "love-scars-the-5-stages-of-emotions": {
     "name" : "Love Scars: The 5 Stages of Emotions",
+    "id" : "love-scars-the-5-stages-of-emotions",
     "release" : "2020/10/02",
     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
     "type" : "EP",
@@ -114,15 +123,37 @@ def about():
 
 @app.route('/albums/')
 def albums():
-    return render_template('albums.html')
+    return render_template('albums.html',albums=album_list)
 
 @app.route('/artists/')
 def artists():
-    return render_template('artists.html')
+    return render_template('artists.html',artists=artist_list)
 
 @app.route('/songs/')
 def songs():
-    return render_template('songs.html')
+    return render_template('songs.html',songs=song_list)
+
+#Dynamic instances of different types
+def id(string):
+    string = string.replace(" ","-").lower()
+    string = string.replace("'","")
+    return string
+
+
+@app.route('/albums/<string:_album>')
+def album(_album):
+    #_album = id(_album)
+    return render_template('album.html', album=album_list.get(_album,None))
+
+@app.route('/artists/<string:_artist>')
+def artist(_artist):
+    _artist = id(_artist)
+    return render_template('artist.html', artist=artist_list.get(_artist,None))
+
+@app.route('/songs/<string:_song>')
+def song(_song):
+    _song = id(_song)
+    return render_template('song.html', song=song_list.get(_song,None))
 
 
 # Static instances of the different pages
@@ -164,4 +195,4 @@ def artist3():
 
 if __name__ == "__main__":
     #app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
-    app.run()
+    app.run(debug=True)

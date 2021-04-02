@@ -45,27 +45,16 @@
         </tr>
       </thead>
       <tbody>
+        {%for artist in artists%}
         <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist1')}}';">Olivia Rodrigo</td>
-          <td>Pop</td>
-          <td>18</td>
-          <td>Interscope</td>
-          <td class="point" onclick="window.location.href='{{url_for('song1')}}';">driver's license</td>
+          <td class="point" onclick="window.location.href='/artists/{{ artist }}'">{{artists[artist]['name']}}  </td>
+          <td>{{artists[artist]['genre']}}</td>
+          <td>{{artists[artist]['age']}}</td>
+          <td>{{artists[artist]['label']}}</td>
+          <td class="point" onclick="window.location.href='/songs/{{ artists[artist]['song']['link'] }}'">{{ artists[artist]['song']['name'] }}</td>
         </tr>
-        <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist2')}}';">The Weeknd</td>
-          <td>R&b/Soul</td>
-          <td>31</td>
-          <td>XO</td>
-          <td class="point" onclick="window.location.href='{{url_for('song2')}}';">Save Your Tears</td>
-        </tr>
-        <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist3')}}';">Yung Bleu</td>
-          <td>Rap</td>
-          <td>26</td>
-          <td>Various</td>
-          <td class="point" onclick="window.location.href='{{url_for('song3')}}';">You're Mines Still</td>
-        </tr>
+        {% endfor %}
+        
       </tbody>
     </table>
   </div>
