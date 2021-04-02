@@ -1,0 +1,851 @@
+{
+    "Artists": [
+        {
+            "artist_name": "Justin Bieber",
+            "artist_rank": 1,
+            "artist_genre": [
+                "canadian pop",
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 44074825,
+            "popularity": 100
+        },
+        {
+            "artist_name": "Lana Del Rey",
+            "artist_rank": 2,
+            "artist_genre": [
+                "art pop",
+                "pop"
+            ],
+            "followers": 12632302,
+            "popularity": 90
+        },
+        {
+            "artist_name": "The Weeknd",
+            "artist_rank": 3,
+            "artist_genre": [
+                "canadian contemporary r&b",
+                "canadian pop",
+                "pop"
+            ],
+            "followers": 30682021,
+            "popularity": 97
+        },
+        {
+            "artist_name": "BTS",
+            "artist_rank": 4,
+            "artist_genre": [
+                "k-pop",
+                "k-pop boy group"
+            ],
+            "followers": 30939055,
+            "popularity": 96
+        },
+        {
+            "artist_name": "Drake",
+            "artist_rank": 5,
+            "artist_genre": [
+                "canadian hip hop",
+                "canadian pop",
+                "hip hop",
+                "pop rap",
+                "rap",
+                "toronto rap"
+            ],
+            "followers": 53965947,
+            "popularity": 99
+        },
+        {
+            "artist_name": "Billie Eilish",
+            "artist_rank": 6,
+            "artist_genre": [
+                "electropop",
+                "pop"
+            ],
+            "followers": 41240216,
+            "popularity": 93
+        },
+        {
+            "artist_name": "Dua Lipa",
+            "artist_rank": 7,
+            "artist_genre": [
+                "dance pop",
+                "pop",
+                "uk pop"
+            ],
+            "followers": 23776754,
+            "popularity": 95
+        },
+        {
+            "artist_name": "Morgan Wallen",
+            "artist_rank": 8,
+            "artist_genre": [
+                "contemporary country",
+                "deep talent show"
+            ],
+            "followers": 1620146,
+            "popularity": 89
+        },
+        {
+            "artist_name": "Luke Combs",
+            "artist_rank": 9,
+            "artist_genre": [
+                "contemporary country"
+            ],
+            "followers": 4669991,
+            "popularity": 85
+        },
+        {
+            "artist_name": "Lil Baby",
+            "artist_rank": 10,
+            "artist_genre": [
+                "atl hip hop",
+                "atl trap",
+                "rap",
+                "trap"
+            ],
+            "followers": 6657053,
+            "popularity": 93
+        },
+        {
+            "artist_name": "Pop Smoke",
+            "artist_rank": 11,
+            "artist_genre": [
+                "brooklyn drill"
+            ],
+            "followers": 4855400,
+            "popularity": 93
+        },
+        {
+            "artist_name": "Taylor Swift",
+            "artist_rank": 12,
+            "artist_genre": [
+                "pop"
+            ],
+            "followers": 38254237,
+            "popularity": 97
+        },
+        {
+            "artist_name": "Ariana Grande",
+            "artist_rank": 13,
+            "artist_genre": [
+                "dance pop",
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 60434634,
+            "popularity": 96
+        },
+        {
+            "artist_name": "Harry Styles",
+            "artist_rank": 14,
+            "artist_genre": [
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 13756094,
+            "popularity": 91
+        },
+        {
+            "artist_name": "Post Malone",
+            "artist_rank": 15,
+            "artist_genre": [
+                "dfw rap",
+                "melodic rap",
+                "rap"
+            ],
+            "followers": 31944850,
+            "popularity": 94
+        },
+        {
+            "artist_name": "Cardi B",
+            "artist_rank": 16,
+            "artist_genre": [
+                "dance pop",
+                "pop",
+                "pop rap",
+                "rap"
+            ],
+            "followers": 15489177,
+            "popularity": 90
+        },
+        {
+            "artist_name": "DaBaby",
+            "artist_rank": 17,
+            "artist_genre": [
+                "north carolina hip hop",
+                "rap"
+            ],
+            "followers": 6326826,
+            "popularity": 94
+        },
+        {
+            "artist_name": "Bruno Mars",
+            "artist_rank": 18,
+            "artist_genre": [
+                "pop"
+            ],
+            "followers": 29571216,
+            "popularity": 93
+        },
+        {
+            "artist_name": "Juice WRLD",
+            "artist_rank": 19,
+            "artist_genre": [
+                "chicago rap",
+                "melodic rap"
+            ],
+            "followers": 16677885,
+            "popularity": 97
+        },
+        {
+            "artist_name": "Chris Stapleton",
+            "artist_rank": 20,
+            "artist_genre": [
+                "contemporary country",
+                "outlaw country"
+            ],
+            "followers": 3093649,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Megan Thee Stallion",
+            "artist_rank": 21,
+            "artist_genre": [
+                "houston rap",
+                "pop",
+                "pop rap",
+                "trap queen"
+            ],
+            "followers": 3812217,
+            "popularity": 89
+        },
+        {
+            "artist_name": "Fleet Foxes",
+            "artist_rank": 22,
+            "artist_genre": [
+                "chamber pop",
+                "indie folk",
+                "indie pop",
+                "indie rock",
+                "seattle indie",
+                "stomp and holler"
+            ],
+            "followers": 1095951,
+            "popularity": 70
+        },
+        {
+            "artist_name": "Gabby Barrett",
+            "artist_rank": 23,
+            "artist_genre": [
+                "contemporary country"
+            ],
+            "followers": 141011,
+            "popularity": 72
+        },
+        {
+            "artist_name": "Olivia Rodrigo",
+            "artist_rank": 24,
+            "artist_genre": [
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 1248073,
+            "popularity": 87
+        },
+        {
+            "artist_name": "Giveon",
+            "artist_rank": 25,
+            "artist_genre": [
+                "pop"
+            ],
+            "followers": 864390,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Maroon 5",
+            "artist_rank": 26,
+            "artist_genre": [
+                "pop",
+                "pop rock"
+            ],
+            "followers": 30077723,
+            "popularity": 91
+        },
+        {
+            "artist_name": "Lil Durk",
+            "artist_rank": 27,
+            "artist_genre": [
+                "chicago drill",
+                "chicago rap",
+                "drill",
+                "hip hop",
+                "rap",
+                "southern hip hop",
+                "trap"
+            ],
+            "followers": 2382864,
+            "popularity": 88
+        },
+        {
+            "artist_name": "Doja Cat",
+            "artist_rank": 28,
+            "artist_genre": [
+                "dance pop",
+                "pop"
+            ],
+            "followers": 5974303,
+            "popularity": 92
+        },
+        {
+            "artist_name": "Queen",
+            "artist_rank": 29,
+            "artist_genre": [
+                "classic rock",
+                "glam rock",
+                "rock"
+            ],
+            "followers": 33130173,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Ava Max",
+            "artist_rank": 30,
+            "artist_genre": [
+                "dance pop",
+                "pop"
+            ],
+            "followers": 3199338,
+            "popularity": 87
+        },
+        {
+            "artist_name": "Khalid",
+            "artist_rank": 31,
+            "artist_genre": [
+                "alternative r&b",
+                "pop"
+            ],
+            "followers": 13657161,
+            "popularity": 92
+        },
+        {
+            "artist_name": "Rod Wave",
+            "artist_rank": 32,
+            "artist_genre": [
+                "florida rap"
+            ],
+            "followers": 1810906,
+            "popularity": 84
+        },
+        {
+            "artist_name": "AC/DC",
+            "artist_rank": 33,
+            "artist_genre": [
+                "australian rock",
+                "hard rock",
+                "rock"
+            ],
+            "followers": 18479520,
+            "popularity": 86
+        },
+        {
+            "artist_name": "Travis Scott",
+            "artist_rank": 34,
+            "artist_genre": [
+                "rap",
+                "slap house"
+            ],
+            "followers": 15897770,
+            "popularity": 95
+        },
+        {
+            "artist_name": "Fleetwood Mac",
+            "artist_rank": 35,
+            "artist_genre": [
+                "album rock",
+                "classic rock",
+                "mellow gold",
+                "rock",
+                "soft rock",
+                "yacht rock"
+            ],
+            "followers": 6262411,
+            "popularity": 85
+        },
+        {
+            "artist_name": "Ed Sheeran",
+            "artist_rank": 36,
+            "artist_genre": [
+                "pop",
+                "uk pop"
+            ],
+            "followers": 78264434,
+            "popularity": 93
+        },
+        {
+            "artist_name": "SZA",
+            "artist_rank": 37,
+            "artist_genre": [
+                "pop",
+                "pop rap"
+            ],
+            "followers": 4963930,
+            "popularity": 88
+        },
+        {
+            "artist_name": "The Beatles",
+            "artist_rank": 38,
+            "artist_genre": [
+                "beatlesque",
+                "british invasion",
+                "classic rock",
+                "merseybeat",
+                "psychedelic rock",
+                "rock"
+            ],
+            "followers": 19074835,
+            "popularity": 89
+        },
+        {
+            "artist_name": "The Kid LAROI",
+            "artist_rank": 39,
+            "artist_genre": [
+                "australian hip hop"
+            ],
+            "followers": 1559515,
+            "popularity": 91
+        },
+        {
+            "artist_name": "Florida Georgia Line",
+            "artist_rank": 40,
+            "artist_genre": [
+                "contemporary country",
+                "country",
+                "country pop",
+                "country road",
+                "modern country rock"
+            ],
+            "followers": 4251933,
+            "popularity": 83
+        },
+        {
+            "artist_name": "Imagine Dragons",
+            "artist_rank": 41,
+            "artist_genre": [
+                "modern rock",
+                "rock"
+            ],
+            "followers": 33415589,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Lewis Capaldi",
+            "artist_rank": 42,
+            "artist_genre": [
+                "pop",
+                "uk pop"
+            ],
+            "followers": 7407755,
+            "popularity": 87
+        },
+        {
+            "artist_name": "Bad Bunny",
+            "artist_rank": 43,
+            "artist_genre": [
+                "latin",
+                "reggaeton",
+                "trap latino"
+            ],
+            "followers": 31660107,
+            "popularity": 99
+        },
+        {
+            "artist_name": "Lil Tjay",
+            "artist_rank": 44,
+            "artist_genre": [
+                "brooklyn drill",
+                "melodic rap",
+                "nyc rap"
+            ],
+            "followers": 2774773,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Masked Wolf",
+            "artist_rank": 45,
+            "artist_genre": [
+                "australian hip hop"
+            ],
+            "followers": 145883,
+            "popularity": 84
+        },
+        {
+            "artist_name": "Dan + Shay",
+            "artist_rank": 46,
+            "artist_genre": [
+                "contemporary country",
+                "pop"
+            ],
+            "followers": 2167376,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Machine Gun Kelly",
+            "artist_rank": 47,
+            "artist_genre": [
+                "ohio hip hop",
+                "pop rap"
+            ],
+            "followers": 3310627,
+            "popularity": 89
+        },
+        {
+            "artist_name": "Pooh Shiesty",
+            "artist_rank": 48,
+            "artist_genre": [
+                "memphis hip hop",
+                "rap",
+                "southern hip hop",
+                "tennessee hip hop",
+                "trap"
+            ],
+            "followers": 220842,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Lee Brice",
+            "artist_rank": 49,
+            "artist_genre": [
+                "contemporary country",
+                "country",
+                "country road",
+                "modern country rock"
+            ],
+            "followers": 1482961,
+            "popularity": 76
+        },
+        {
+            "artist_name": "Moneybagg Yo",
+            "artist_rank": 50,
+            "artist_genre": [
+                "hip hop",
+                "rap",
+                "southern hip hop",
+                "tennessee hip hop",
+                "trap"
+            ],
+            "followers": 1956274,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Thomas Rhett",
+            "artist_rank": 51,
+            "artist_genre": [
+                "contemporary country",
+                "country",
+                "country road",
+                "modern country rock"
+            ],
+            "followers": 3766255,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Eminem",
+            "artist_rank": 52,
+            "artist_genre": [
+                "detroit hip hop",
+                "hip hop",
+                "rap"
+            ],
+            "followers": 43085167,
+            "popularity": 94
+        },
+        {
+            "artist_name": "Chris Cornell",
+            "artist_rank": 53,
+            "artist_genre": [
+                "alternative metal",
+                "alternative rock",
+                "rock"
+            ],
+            "followers": 1508202,
+            "popularity": 67
+        },
+        {
+            "artist_name": "Metallica",
+            "artist_rank": 54,
+            "artist_genre": [
+                "hard rock",
+                "metal",
+                "old school thrash",
+                "rock",
+                "thrash metal"
+            ],
+            "followers": 17296482,
+            "popularity": 85
+        },
+        {
+            "artist_name": "Kendrick Lamar",
+            "artist_rank": 55,
+            "artist_genre": [
+                "conscious hip hop",
+                "hip hop",
+                "rap",
+                "west coast rap"
+            ],
+            "followers": 16931432,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Polo G",
+            "artist_rank": 56,
+            "artist_genre": [
+                "chicago rap"
+            ],
+            "followers": 3497591,
+            "popularity": 90
+        },
+        {
+            "artist_name": "Tate McRae",
+            "artist_rank": 57,
+            "artist_genre": [
+                "alt z",
+                "dance pop",
+                "electropop",
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 1337473,
+            "popularity": 84
+        },
+        {
+            "artist_name": "H.E.R.",
+            "artist_rank": 58,
+            "artist_genre": [
+                "alternative r&b",
+                "pop",
+                "r&b"
+            ],
+            "followers": 3634767,
+            "popularity": 82
+        },
+        {
+            "artist_name": "Kane Brown",
+            "artist_rank": 59,
+            "artist_genre": [
+                "contemporary country",
+                "country road"
+            ],
+            "followers": 3248386,
+            "popularity": 81
+        },
+        {
+            "artist_name": "Loretta Lynn",
+            "artist_rank": 60,
+            "artist_genre": [
+                "country",
+                "country rock",
+                "nashville sound"
+            ],
+            "followers": 471126,
+            "popularity": 59
+        },
+        {
+            "artist_name": "Anderson .Paak",
+            "artist_rank": 61,
+            "artist_genre": [
+                "escape room"
+            ],
+            "followers": 1797234,
+            "popularity": 86
+        },
+        {
+            "artist_name": "Blake Shelton",
+            "artist_rank": 62,
+            "artist_genre": [
+                "contemporary country",
+                "country",
+                "country road",
+                "oklahoma country"
+            ],
+            "followers": 5690918,
+            "popularity": 77
+        },
+        {
+            "artist_name": "Jon Batiste",
+            "artist_rank": 63,
+            "artist_genre": [
+                "new orleans jazz"
+            ],
+            "followers": 106906,
+            "popularity": 65
+        },
+        {
+            "artist_name": "Luke Bryan",
+            "artist_rank": 64,
+            "artist_genre": [
+                "contemporary country",
+                "country",
+                "country road"
+            ],
+            "followers": 6286595,
+            "popularity": 80
+        },
+        {
+            "artist_name": "J. Cole",
+            "artist_rank": 65,
+            "artist_genre": [
+                "conscious hip hop",
+                "hip hop",
+                "north carolina hip hop",
+                "rap"
+            ],
+            "followers": 12965865,
+            "popularity": 88
+        },
+        {
+            "artist_name": "Roddy Ricch",
+            "artist_rank": 66,
+            "artist_genre": [
+                "melodic rap",
+                "rap",
+                "trap"
+            ],
+            "followers": 5876085,
+            "popularity": 88
+        },
+        {
+            "artist_name": "Brett Young",
+            "artist_rank": 67,
+            "artist_genre": [
+                "contemporary country"
+            ],
+            "followers": 698987,
+            "popularity": 74
+        },
+        {
+            "artist_name": "Chris Brown",
+            "artist_rank": 68,
+            "artist_genre": [
+                "dance pop",
+                "pop",
+                "pop rap",
+                "r&b",
+                "rap"
+            ],
+            "followers": 13409679,
+            "popularity": 91
+        },
+        {
+            "artist_name": "Michael Jackson",
+            "artist_rank": 69,
+            "artist_genre": [
+                "pop",
+                "r&b",
+                "soul"
+            ],
+            "followers": 17958518,
+            "popularity": 86
+        },
+        {
+            "artist_name": "Sam Hunt",
+            "artist_rank": 70,
+            "artist_genre": [
+                "contemporary country",
+                "country pop"
+            ],
+            "followers": 2062843,
+            "popularity": 76
+        },
+        {
+            "artist_name": "Jack Harlow",
+            "artist_rank": 93,
+            "artist_genre": [
+                "deep underground hip hop",
+                "kentucky hip hop",
+                "pop rap",
+                "rap"
+            ],
+            "followers": 803506,
+            "popularity": 85
+        },
+        {
+            "artist_name": "Yung Bleu",
+            "artist_rank": 94,
+            "artist_genre": [
+                "alabama rap",
+                "pop r&b",
+                "trap"
+            ],
+            "followers": 738098,
+            "popularity": 73
+        },
+        {
+            "artist_name": "Mac Miller",
+            "artist_rank": 95,
+            "artist_genre": [
+                "hip hop",
+                "pittsburgh rap",
+                "rap"
+            ],
+            "followers": 5683065,
+            "popularity": 87
+        },
+        {
+            "artist_name": "Halsey",
+            "artist_rank": 96,
+            "artist_genre": [
+                "dance pop",
+                "electropop",
+                "etherpop",
+                "indie poptimism",
+                "pop",
+                "post-teen pop"
+            ],
+            "followers": 14459049,
+            "popularity": 89
+        },
+        {
+            "artist_name": "Rob Zombie",
+            "artist_rank": 97,
+            "artist_genre": [
+                "alternative metal",
+                "industrial rock",
+                "nu metal"
+            ],
+            "followers": 1797800,
+            "popularity": 71
+        },
+        {
+            "artist_name": "Mooski",
+            "artist_rank": 98,
+            "artist_genre": [],
+            "followers": 12952,
+            "popularity": 66
+        },
+        {
+            "artist_name": "SpotemGottem",
+            "artist_rank": 99,
+            "artist_genre": [
+                "florida rap",
+                "viral rap"
+            ],
+            "followers": 57613,
+            "popularity": 73
+        },
+        {
+            "artist_name": "The Notorious B.I.G.",
+            "artist_rank": 100,
+            "artist_genre": [
+                "east coast hip hop",
+                "gangster rap",
+                "hardcore hip hop",
+                "hip hop",
+                "rap"
+            ],
+            "followers": 6169898,
+            "popularity": 83
+        }
+    ]
+}

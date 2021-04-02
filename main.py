@@ -1,103 +1,94 @@
 import os
+from create_db import app, db, Song, Artist, Album, create_songs, create_artists, create_albums
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
 
+song_list = db.session.query(Song).all()
+artist_list = db.session.query(Artist).all()
+album_list = db.session.query(Album).all()
 
+# artist_list = { "Olivia Rodrigo" : {
+#     "name" : "Olivia Rodrigo",
+#     "Genre" : "Pop",
+#     "Age" : 18,
+#     "Label" : "Interscope",
+#     "Song" : {"name" : "driver's license", "link" : "drivers-license"},
+#     "Albums" : {"name" : "driver's license", "link" : "drivers-license"}
+#     },
 
+#     "The Weeknd" : {
+#     "name" : "The Weeknd",
+#     "Genre" : "R&b/Soul",
+#     "Age" : 31,
+#     "Label" : "XO",
+#     "Song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
+#     "Albums" : {"name" : "After Hours", "link" : "after-hours"}
+#     },
 
-artist_list = { "olivia-rodrigo" : {
-    "name" : "Olivia Rodrigo",
-    "id" : "olivia-rodrigo",
-    "genre" : "Pop",
-    "age" : 18,
-    "label" : "Interscope",
-    "song" : {"name" : "driver's license", "link" : "drivers-license"},
-    "albums" : {"name" : "driver's license", "link" : "drivers-license"}
-    },
+#     "Yung Bleu" : {
+#     "name" : "Yung Bleu",
+#     "Genre" : "Rap",
+#     "Age" : 26,
+#     "Label" : "Various",
+#     "Song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
+#     "Albums" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}
+#     }
+# }
 
-    "the-weeknd" : {
-    "name" : "The Weeknd",
-    "id": "the-weeknd",
-    "genre" : "R&b/Soul",
-    "age" : 31,
-    "label" : "XO",
-    "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"},
-    "albums" : {"name" : "After Hours", "link" : "after-hours"}
-    },
+# song_list = { "driver's license" : {
+#     "name" : "driver's license",
+#     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
+#     "album" : {"name" : "driver's license", "link" : "drivers-license"},
+#     "release" : "2021/01/08",
+#     "length" : "4:02"
+#     },
 
-    "yung-bleu" : {
-    "name" : "Yung Bleu",
-    "id": "yung-bleu",
-    "genre" : "Rap",
-    "age" : 26,
-    "label" : "Various",
-    "song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"},
-    "albums" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"}
-    }
-}
+#     "Save Your Tears" : {
+#     "name" : "Save Your Tears",
+#     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
+#     "album" : {"name" : "After Hours", "link" : "after-hours"},
+#     "release" : "2020/08/09",
+#     "length" : "6:01"
+#     },
 
-song_list = { "drivers-license" : {
-    "name" : "driver's license",
-    "id": "drivers-license",
-    "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
-    "album" : {"name" : "driver's license", "link" : "drivers-license"},
-    "release" : "2021/01/08",
-    "length" : "4:02"
-    },
+#     "You're Mines Still" : {
+#     "name" : "You're Mines Still",
+#     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
+#     "album" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"},
+#     "release" : "2020/10/02",
+#     "length" : "3:46"
+#     },
 
-    "save-your-tears" : {
-    "name" : "Save Your Tears",
-    "id" : "save-your-tears",
-    "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
-    "album" : {"name" : "After Hours", "link" : "after-hours"},
-    "release" : "2020/08/09",
-    "length" : "6:01"
-    },
+# }
+# album_list = { "driver's license": {
+#     "name" : "driver's license",
+#     "release" : "2021/01/08",
+#     "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
+#     "type" : "Single",
+#     "genre" : "Pop",
+#     "song" : {"name" : "driver's license", "link" : "drivers-license"}
+#     },
 
-    "youre-mines-still" : {
-    "name" : "You're Mines Still",
-    "id" : "youre-mines-still",
-    "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
-    "album" : {"name" : "Love Scars: The 5 Stages of Emotions", "link" : "love-scars-the-5-stages-of-emotions"},
-    "release" : "2020/10/02",
-    "length" : "3:46"
-    },
+#     "After Hours": {
+#     "name" : "After Hours",
+#     "release" : "2020/03/20",
+#     "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
+#     "type" : "LP",
+#     "genre" : "R&b/Soul",
+#     "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"}
+#     },
 
-}
-album_list = { "drivers-license": {
-    "name" : "Driver's License",
-    "id" : "drivers-license",
-    "release" : "2021/01/08",
-    "artist" : {"name" : "Olivia Rodrigo", "link" : "olivia-rodrigo"},
-    "type" : "Single",
-    "genre" : "Pop",
-    "song" : {"name" : "driver's license", "link" : "drivers-license"}
-    },
-
-    "after-hours": {
-    "name" : "After Hours",
-    "id": "after-hours",
-    "release" : "2020/03/20",
-    "artist" : {"name" : "The Weeknd", "link" : "the-weeknd"},
-    "type" : "LP",
-    "genre" : "R&b/Soul",
-    "song" : {"name" : "Save Your Tears", "link" : "save-your-tears"}
-    },
-
-    "love-scars-the-5-stages-of-emotions": {
-    "name" : "Love Scars: The 5 Stages of Emotions",
-    "id" : "love-scars-the-5-stages-of-emotions",
-    "release" : "2020/10/02",
-    "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
-    "type" : "EP",
-    "genre" : "R&b",
-    "song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"}
-    }
-}
-
-
+#     "Love Scars: The 5 Stages of Emotions": {
+#     "name" : "Love Scars: The 5 Stages of Emotions",
+#     "release" : "2020/10/02",
+#     "artist" : {"name" : "Yung Bleu", "link" : "yung-bleu"},
+#     "type" : "EP",
+#     "genre" : "R&b",
+#     "song" : {"name" : "You're Mines Still", "link" : "youre-mines-still"}
+#     }
+# }
 
 # Part of the lecture video but we are not using it currently.
 @app.route('/', defaults={'path': ''})
@@ -154,7 +145,6 @@ def artist(_artist):
 def song(_song):
     _song = id(_song)
     return render_template('song.html', song=song_list.get(_song,None))
-
 
 # Static instances of the different pages
 @app.route('/songs/song1/')
