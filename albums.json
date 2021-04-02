@@ -54,14 +54,14 @@
             "album_rank": 8,
             "album_release_date": "2020-03-14",
             "artist": "Lil Baby",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "The Voice",
             "album_rank": 9,
             "album_release_date": "2021-01-02",
             "artist": "Lil Durk",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "What You See Is What You Get",
@@ -82,7 +82,7 @@
             "album_rank": 12,
             "album_release_date": "2020-07-25",
             "artist": "Juice WRLD",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Hollywood's Bleeding",
@@ -180,7 +180,7 @@
             "album_rank": 26,
             "album_release_date": "2020-05-30",
             "artist": "Polo G",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Goodbye & Good Riddance",
@@ -201,7 +201,7 @@
             "album_rank": 29,
             "album_release_date": "2020-04-18",
             "artist": "Rod Wave",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "This One's For You",
@@ -264,7 +264,7 @@
             "album_rank": 38,
             "album_release_date": "2020-05-02",
             "artist": "DaBaby",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "If I Know Me",
@@ -397,7 +397,7 @@
             "album_rank": 57,
             "album_release_date": "2019-12-21",
             "artist": "Roddy Ricch",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Over It",
@@ -481,7 +481,7 @@
             "album_rank": 69,
             "album_release_date": "2020-03-21",
             "artist": "Jhene Aiko",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Back In Black",
@@ -502,7 +502,7 @@
             "album_rank": 72,
             "album_release_date": "2020-05-30",
             "artist": "Future",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Take Care",
@@ -558,7 +558,7 @@
             "album_rank": 80,
             "album_release_date": "2020-07-04",
             "artist": "Gabby Barrett",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "1",
@@ -600,14 +600,14 @@
             "album_rank": 86,
             "album_release_date": "2021-04-03",
             "artist": "Jon Batiste",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Wunna",
             "album_rank": 87,
             "album_release_date": "2020-06-06",
             "artist": "Gunna",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Luv Is Rage 2",
@@ -691,14 +691,14 @@
             "album_rank": 99,
             "album_release_date": "2019-11-16",
             "artist": "Rod Wave",
-            "album_genre": ""
+            "album_genre": null
         },
         {
             "album_name": "Time Served",
             "album_rank": 100,
             "album_release_date": "2020-01-25",
             "artist": "Moneybagg Yo",
-            "album_genre": ""
+            "album_genre": null
         }
     ]
 }

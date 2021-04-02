@@ -184,5 +184,6 @@ def artist3():
     return render_template('./static_pages/artist3.html', artists = artist_list)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
+    #app.run(host='0.0.0.0', port=80, threaded=True, debug=True)
     #app.run()
+    print(song_list)
