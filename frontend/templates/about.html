@@ -64,7 +64,7 @@
                 </ul>
                 <br>
                 <p>Site URL: <a href="https://www.cs.utexas.edu/users/kanjos99/" target="_blank" rel="noopener noreferrer">cs.utexas.edu/users/kanjos99/</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jake-goins-706285206/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jake-goins</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/kanishak-joshi-3b8364151/" target="_blank" rel="noopener noreferrer">linkedin.com/in/kanishak-joshi/</a></p>
             </div>
         </div>
     </div>
@@ -83,8 +83,7 @@
                     <li>API manager</li>
                 </ul>
                 <br>
-                <p>Site URL: <a href="https://www.cs.utexas.edu/users/jakeg/" target="_blank" rel="noopener noreferrer">cs.utexas.edu/users/jakeg</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jake-goins-706285206/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jake-goins</a></p>
+                <p>Site URL: <a href="https://www.cs.utexas.edu/~gqian/" target="_blank" rel="noopener noreferrer">cs.utexas.edu/~gqian/</a></p>
             </div>
         </div>
         <div class="col-6 boxed">
@@ -121,8 +120,8 @@
                     <li>Discord administrator</li>
                 </ul>
                 <br>
-                <p>Site URL: <a href="https://www.cs.utexas.edu/users/jakeg/" target="_blank" rel="noopener noreferrer">cs.utexas.edu/users/jakeg</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jake-goins-706285206/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jake-goins</a></p>
+                <p>Site URL: <a href="https://www.cs.utexas.edu/users/maxz/" target="_blank" rel="noopener noreferrer">cs.utexas.edu/users/maxz/</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/maxzhouece/" target="_blank" rel="noopener noreferrer">linkedin.com/in/maxzhouece/</a></p>
             </div>
         </div>
     </div>
@@ -157,7 +156,20 @@
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="../static/images/test.jpg" alt="test" style="height:1000px; width:100%;">
+                    <p>
+                        .........<br>
+                        ----------------------------------------------------------------------<br>
+                        Ran 9 tests in 0.209s<br>
+                        <br>
+                        OK<br>
+                        Name                                                                    Stmts   Miss  Cover   Missing<br>
+                        -----------------------------------------------------------------------------------------------------<br>
+                        models.py                                                                  38      0   100%<br>
+                        test.py                                                                    88      0   100%<br>
+                        -----------------------------------------------------------------------------------------------------<br>
+                        TOTAL                                                                     126      0   100%<br>
+                        <br>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -183,25 +195,28 @@
 
 <br><h1 class="about_title">Data Sources</h1><br>
 <table id="sources" class="center-text center-table">
+    <th id="itunes">Billboard</th>
     <tr>
-        <td id="itunes">US iTunes Top Songs</td>
+        <td>https://billboard2.p.rapidapi.com/hot_100</td>
     </tr>
     <tr>
-        <td><a href="https://kworb.net/charts/itunes/us.html" target="_blank" rel="noopener noreferrer">https://kworb.net/charts/itunes/us.html</a></td>
-    </tr>
-    <tr><td><br></td></tr>
-    <tr>
-        <td>Spotify Charts</td>
+        <td>https://billboard2.p.rapidapi.com/artist_100</td>
     </tr>
     <tr>
-        <td><a href="https://spotifycharts.com/regional" target="_blank" rel="noopener noreferrer">https://spotifycharts.com/regional</a></td>
+        <td>https://billboard2.p.rapidapi.com/billboard_200</td>
     </tr>
     <tr><td><br></td></tr>
+    <th>Spotify Charts</th>
     <tr>
-        <td>Shazam TOP 200 UNITED STATES Popular Songs</td>
+        <td>https://api.spotify.com/v1/search</td>
     </tr>
     <tr>
-        <td id="shazam"><a href="https://www.shazam.com/charts/top-200/united-states" target="_blank" rel="noopener noreferrer">https://www.shazam.com/charts/top-200/united-states</a></td>
+        <td>https://api.spotify.com/v1/artists</td>
+    </tr>
+    <tr><td><br></td></tr>
+    <th>The AudioDB</th>
+    <tr>
+        <td id="shazam">https://theaudiodb.p.rapidapi.com/searchtrack.php</td>
     </tr>
 </table>
 

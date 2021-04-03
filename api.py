@@ -115,6 +115,6 @@ spotify = SpotifyAPI(client_id,client_secret)
 spotify.get_token_data()
 access_token = spotify.access_token
 
-#print(spotify.search("drivers license","track","1"))
+print(spotify.search("peaches","track","1"))
 #print(spotify.search("olivia rodrigo","artist","1"))
 #print(spotify.search("bleeding","album","1"))

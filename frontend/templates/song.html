@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block head %}
+<title>{{song['name']}}</title>
+<meta name="description" content="Ephemeral's songs page">
+<meta name="author" content="Jake Goins">
+<link href="../../static/css/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block nav_title %}
+<a class="navbar-brand" href="#">Top Songs</a>
+{% endblock %}
+
+{% block nav_bar %}
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('index')}}">Home</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link " href="{{url_for('artists')}}">Artists</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="{{url_for('songs')}}">Songs</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('albums')}}">Albums</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('about')}}">About Us</a>
+</li>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-12 center-text">
+            
+            <h2>{{song.song_name}}</h2><br>
+            <table class="center-table greyed">
+                <tr>
+                    <td colspan="2" class="static_item"><img src="{{song.image_url}}" alt="song.png" class="center-table"></td>
+                </tr>
+                <tr>
+                    <td class="static_item">Artist: </td>
+                    <td class="static_item point" onclick="window.location.href='/artists/{{ id(song.artist) }}';">{{song.artist}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Album: </td>
+                    {% if song.album_name == "single" %}
+                        <td>single</td>
+                    {% else %}
+                        <td class="static_item point" onclick="window.location.href='/albums/{{ id(song.album_name) }}'">{{song.album_name}}</td>
+                    {% endif %}
+                    
+                </tr>
+                <tr>
+                    <td class="static_item">Release Date: </td>
+                    <td class="static_item">{{song.release_date}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Song Length: </td>
+                    <td class="static_item">{{song.duration}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <a class="center-text" href="{{url_for('songs')}}"> Return to songs list </a>
+    </div>
+</div>
+
+{% endblock %}

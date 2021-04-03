@@ -1,0 +1,1200 @@
+{
+    "Albums": [
+        {
+            "album_name": "Justice",
+            "album_rank": 1,
+            "album_release_date": "2021-04-03",
+            "artist": "Justin Bieber",
+            "genre": [
+                "canadian pop",
+                "pop",
+                "post-teen pop"
+            ],
+            "album_id": "justice"
+        },
+        {
+            "album_name": "Chemtrails Over The Country Club",
+            "album_rank": 2,
+            "album_release_date": "2021-04-03",
+            "artist": "Lana Del Rey",
+            "genre": [
+                "art pop",
+                "pop"
+            ],
+            "album_id": "chemtrails-over-the-country-club"
+        },
+        {
+            "album_name": "Dangerous: The Double Album",
+            "album_rank": 3,
+            "album_release_date": "2021-01-23",
+            "artist": "Morgan Wallen",
+            "genre": [
+                "contemporary country",
+                "deep talent show"
+            ],
+            "album_id": "dangerous:-the-double-album"
+        },
+        {
+            "album_name": "Shoot For The Stars Aim For The Moon",
+            "album_rank": 4,
+            "album_release_date": "2020-07-18",
+            "artist": "Pop Smoke",
+            "genre": [
+                "brooklyn drill"
+            ],
+            "album_id": "shoot-for-the-stars-aim-for-the-moon"
+        },
+        {
+            "album_name": "Future Nostalgia",
+            "album_rank": 5,
+            "album_release_date": "2020-04-11",
+            "artist": "Dua Lipa",
+            "genre": [
+                "dance pop",
+                "pop",
+                "uk pop"
+            ],
+            "album_id": "future-nostalgia"
+        },
+        {
+            "album_name": "Shiesty Season",
+            "album_rank": 6,
+            "album_release_date": "2021-02-20",
+            "artist": "Pooh Shiesty",
+            "genre": [
+                "memphis hip hop",
+                "rap",
+                "southern hip hop",
+                "tennessee hip hop",
+                "trap"
+            ],
+            "album_id": "shiesty-season"
+        },
+        {
+            "album_name": "After Hours",
+            "album_rank": 7,
+            "album_release_date": "2020-04-04",
+            "artist": "The Weeknd",
+            "genre": [
+                "canadian contemporary r&b",
+                "canadian pop",
+                "pop"
+            ],
+            "album_id": "after-hours"
+        },
+        {
+            "album_name": "My Turn",
+            "album_rank": 8,
+            "album_release_date": "2020-03-14",
+            "artist": "Lil Baby",
+            "genre": [
+                "atl hip hop",
+                "atl trap",
+                "rap",
+                "trap"
+            ],
+            "album_id": "my-turn"
+        },
+        {
+            "album_name": "The Voice",
+            "album_rank": 9,
+            "album_release_date": "2021-01-02",
+            "artist": "Lil Durk",
+            "genre": [
+                "chicago drill",
+                "chicago rap",
+                "drill",
+                "hip hop",
+                "rap",
+                "southern hip hop",
+                "trap"
+            ],
+            "album_id": "the-voice"
+        },
+        {
+            "album_name": "What You See Is What You Get",
+            "album_rank": 10,
+            "album_release_date": "2019-11-23",
+            "artist": "Luke Combs",
+            "genre": [
+                "contemporary country"
+            ],
+            "album_id": "what-you-see-is-what-you-get"
+        },
+        {
+            "album_name": "When It's All Said And Done... Take Time",
+            "album_rank": 11,
+            "album_release_date": "2021-03-27",
+            "artist": "Giveon",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "when-its-all-said-and-done...-take-time"
+        },
+        {
+            "album_name": "Legends Never Die",
+            "album_rank": 12,
+            "album_release_date": "2020-07-25",
+            "artist": "Juice WRLD",
+            "genre": [
+                "chicago rap",
+                "melodic rap"
+            ],
+            "album_id": "legends-never-die"
+        },
+        {
+            "album_name": "Hollywood's Bleeding",
+            "album_rank": 13,
+            "album_release_date": "2019-09-21",
+            "artist": "Post Malone",
+            "genre": [
+                "dfw rap",
+                "melodic rap",
+                "rap"
+            ],
+            "album_id": "hollywoods-bleeding"
+        },
+        {
+            "album_name": "Folklore",
+            "album_rank": 14,
+            "album_release_date": "2020-08-08",
+            "artist": "Taylor Swift",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "folklore"
+        },
+        {
+            "album_name": "The Highlights",
+            "album_rank": 15,
+            "album_release_date": "2021-02-20",
+            "artist": "The Weeknd",
+            "genre": [
+                "canadian contemporary r&b",
+                "canadian pop",
+                "pop"
+            ],
+            "album_id": "the-highlights"
+        },
+        {
+            "album_name": "Positions",
+            "album_rank": 16,
+            "album_release_date": "2020-11-14",
+            "artist": "Ariana Grande",
+            "genre": [
+                "dance pop",
+                "pop",
+                "post-teen pop"
+            ],
+            "album_id": "positions"
+        },
+        {
+            "album_name": "Good News",
+            "album_rank": 17,
+            "album_release_date": "2020-12-05",
+            "artist": "Megan Thee Stallion",
+            "genre": [
+                "houston rap",
+                "pop",
+                "pop rap",
+                "trap queen"
+            ],
+            "album_id": "good-news"
+        },
+        {
+            "album_name": "Fine Line",
+            "album_rank": 18,
+            "album_release_date": "2019-12-28",
+            "artist": "Harry Styles",
+            "genre": [
+                "pop",
+                "post-teen pop"
+            ],
+            "album_id": "fine-line"
+        },
+        {
+            "album_name": "When We All Fall Asleep, Where Do We Go?",
+            "album_rank": 19,
+            "album_release_date": "2019-04-13",
+            "artist": "Billie Eilish",
+            "genre": [
+                "electropop",
+                "pop"
+            ],
+            "album_id": "when-we-all-fall-asleep,-where-do-we-go?"
+        },
+        {
+            "album_name": "Evermore",
+            "album_rank": 20,
+            "album_release_date": "2020-12-26",
+            "artist": "Taylor Swift",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "evermore"
+        },
+        {
+            "album_name": "Hot Pink",
+            "album_rank": 21,
+            "album_release_date": "2019-11-16",
+            "artist": "Doja Cat",
+            "genre": [
+                "dance pop",
+                "pop"
+            ],
+            "album_id": "hot-pink"
+        },
+        {
+            "album_name": "El Ultimo Tour del Mundo",
+            "album_rank": 22,
+            "album_release_date": "2020-12-12",
+            "artist": "Bad Bunny",
+            "genre": [
+                "latin",
+                "reggaeton",
+                "trap latino"
+            ],
+            "album_id": "el-ultimo-tour-del-mundo"
+        },
+        {
+            "album_name": "F*ck Love",
+            "album_rank": 23,
+            "album_release_date": "2020-08-08",
+            "artist": "The Kid LAROI",
+            "genre": [
+                "australian hip hop"
+            ],
+            "album_id": "f*ck-love"
+        },
+        {
+            "album_name": "Tickets To My Downfall",
+            "album_rank": 24,
+            "album_release_date": "2020-10-10",
+            "artist": "Machine Gun Kelly",
+            "genre": [
+                "ohio hip hop",
+                "pop rap"
+            ],
+            "album_id": "tickets-to-my-downfall"
+        },
+        {
+            "album_name": "Greatest Hits",
+            "album_rank": 25,
+            "album_release_date": "1981-11-14",
+            "artist": "Queen",
+            "genre": [
+                "classic rock",
+                "glam rock",
+                "rock"
+            ],
+            "album_id": "greatest-hits"
+        },
+        {
+            "album_name": "The GOAT",
+            "album_rank": 26,
+            "album_release_date": "2020-05-30",
+            "artist": "Polo G",
+            "genre": [
+                "chicago rap"
+            ],
+            "album_id": "the-goat"
+        },
+        {
+            "album_name": "Goodbye & Good Riddance",
+            "album_rank": 27,
+            "album_release_date": "2018-06-02",
+            "artist": "Juice WRLD",
+            "genre": [
+                "chicago rap",
+                "melodic rap"
+            ],
+            "album_id": "goodbye-&-good-riddance"
+        },
+        {
+            "album_name": "Shore",
+            "album_rank": 28,
+            "album_release_date": "2020-10-03",
+            "artist": "Fleet Foxes",
+            "genre": [
+                "chamber pop",
+                "indie folk",
+                "indie pop",
+                "indie rock",
+                "seattle indie",
+                "stomp and holler"
+            ],
+            "album_id": "shore"
+        },
+        {
+            "album_name": "Pray 4 Love",
+            "album_rank": 29,
+            "album_release_date": "2020-04-18",
+            "artist": "Rod Wave",
+            "genre": [
+                "florida rap"
+            ],
+            "album_id": "pray-4-love"
+        },
+        {
+            "album_name": "This One's For You",
+            "album_rank": 30,
+            "album_release_date": "2017-06-24",
+            "artist": "Luke Combs",
+            "genre": [
+                "contemporary country"
+            ],
+            "album_id": "this-ones-for-you"
+        },
+        {
+            "album_name": "Hamilton: An American Musical",
+            "album_rank": 31,
+            "album_release_date": "2015-10-17",
+            "artist": "Original Broadway Cast",
+            "genre": [
+                "broadway",
+                "hollywood"
+            ],
+            "album_id": "hamilton:-an-american-musical"
+        },
+        {
+            "album_name": "YHLQMDLG",
+            "album_rank": 32,
+            "album_release_date": "2020-03-14",
+            "artist": "Bad Bunny",
+            "genre": [
+                "latin",
+                "reggaeton",
+                "trap latino"
+            ],
+            "album_id": "yhlqmdlg"
+        },
+        {
+            "album_name": "The Plugs I Met 2",
+            "album_rank": 33,
+            "album_release_date": "2021-04-03",
+            "artist": "Benny The Butcher & Harry Fraud",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "the-plugs-i-met-2"
+        },
+        {
+            "album_name": "Rumours",
+            "album_rank": 34,
+            "album_release_date": "1977-02-26",
+            "artist": "Fleetwood Mac",
+            "genre": [
+                "album rock",
+                "classic rock",
+                "mellow gold",
+                "rock",
+                "soft rock",
+                "yacht rock"
+            ],
+            "album_id": "rumours"
+        },
+        {
+            "album_name": "Thats What They All Say",
+            "album_rank": 35,
+            "album_release_date": "2020-12-26",
+            "artist": "Jack Harlow",
+            "genre": [
+                "deep underground hip hop",
+                "kentucky hip hop",
+                "pop rap",
+                "rap"
+            ],
+            "album_id": "thats-what-they-all-say"
+        },
+        {
+            "album_name": "BE",
+            "album_rank": 36,
+            "album_release_date": "2020-12-05",
+            "artist": "BTS",
+            "genre": [
+                "k-pop",
+                "k-pop boy group"
+            ],
+            "album_id": "be"
+        },
+        {
+            "album_name": "Death Race For Love",
+            "album_rank": 37,
+            "album_release_date": "2019-03-23",
+            "artist": "Juice WRLD",
+            "genre": [
+                "chicago rap",
+                "melodic rap"
+            ],
+            "album_id": "death-race-for-love"
+        },
+        {
+            "album_name": "BLAME IT ON BABY",
+            "album_rank": 38,
+            "album_release_date": "2020-05-02",
+            "artist": "DaBaby",
+            "genre": [
+                "north carolina hip hop",
+                "rap"
+            ],
+            "album_id": "blame-it-on-baby"
+        },
+        {
+            "album_name": "If I Know Me",
+            "album_rank": 39,
+            "album_release_date": "2018-05-12",
+            "artist": "Morgan Wallen",
+            "genre": [
+                "contemporary country",
+                "deep talent show"
+            ],
+            "album_id": "if-i-know-me"
+        },
+        {
+            "album_name": "Curtain Call: The Hits=",
+            "album_rank": 40,
+            "album_release_date": "2005-12-24",
+            "artist": "Eminem",
+            "genre": [
+                "detroit hip hop",
+                "hip hop",
+                "rap"
+            ],
+            "album_id": "curtain-call:-the-hits="
+        },
+        {
+            "album_name": "ASTROWORLD",
+            "album_rank": 41,
+            "album_release_date": "2018-08-18",
+            "artist": "Travis Scott",
+            "genre": [
+                "rap",
+                "slap house"
+            ],
+            "album_id": "astroworld"
+        },
+        {
+            "album_name": "beerbongs & bentleys",
+            "album_rank": 42,
+            "album_release_date": "2018-05-12",
+            "artist": "Post Malone",
+            "genre": [
+                "dfw rap",
+                "melodic rap",
+                "rap"
+            ],
+            "album_id": "beerbongs-&-bentleys"
+        },
+        {
+            "album_name": "Eternal Atake",
+            "album_rank": 43,
+            "album_release_date": "2020-03-21",
+            "artist": "Lil Uzi Vert",
+            "genre": [
+                "melodic rap",
+                "philly rap",
+                "rap",
+                "trap"
+            ],
+            "album_id": "eternal-atake"
+        },
+        {
+            "album_name": "Starting Over",
+            "album_rank": 44,
+            "album_release_date": "2020-11-28",
+            "artist": "Chris Stapleton",
+            "genre": [
+                "contemporary country",
+                "outlaw country"
+            ],
+            "album_id": "starting-over"
+        },
+        {
+            "album_name": "Scorpion",
+            "album_rank": 45,
+            "album_release_date": "2018-07-14",
+            "artist": "Drake",
+            "genre": [
+                "canadian hip hop",
+                "canadian pop",
+                "hip hop",
+                "pop rap",
+                "rap",
+                "toronto rap"
+            ],
+            "album_id": "scorpion"
+        },
+        {
+            "album_name": "Chronicle The 20 Greatest Hits",
+            "album_rank": 46,
+            "album_release_date": "2010-01-09",
+            "artist": "Creedence Clearwater Revival",
+            "genre": [
+                "classic rock",
+                "country rock",
+                "rock",
+                "roots rock",
+                "southern rock",
+                "swamp rock"
+            ],
+            "album_id": "chronicle-the-20-greatest-hits"
+        },
+        {
+            "album_name": "Diamonds",
+            "album_rank": 47,
+            "album_release_date": "2017-12-02",
+            "artist": "Elton John",
+            "genre": [
+                "glam rock",
+                "mellow gold",
+                "piano rock",
+                "soft rock"
+            ],
+            "album_id": "diamonds"
+        },
+        {
+            "album_name": "Dont Smile At Me",
+            "album_rank": 48,
+            "album_release_date": "2017-11-04",
+            "artist": "Billie Eilish",
+            "genre": [
+                "electropop",
+                "pop"
+            ],
+            "album_id": "dont-smile-at-me"
+        },
+        {
+            "album_name": "good kid, m.A.A.d city",
+            "album_rank": 49,
+            "album_release_date": "2012-11-10",
+            "artist": "Kendrick Lamar",
+            "genre": [
+                "conscious hip hop",
+                "hip hop",
+                "rap",
+                "west coast rap"
+            ],
+            "album_id": "good-kid,-m.a.a.d-city"
+        },
+        {
+            "album_name": "Ctrl",
+            "album_rank": 50,
+            "album_release_date": "2017-07-01",
+            "artist": "SZA",
+            "genre": [
+                "pop",
+                "pop rap"
+            ],
+            "album_id": "ctrl"
+        },
+        {
+            "album_name": "Music To Be Murdered By",
+            "album_rank": 51,
+            "album_release_date": "2020-02-01",
+            "artist": "Eminem",
+            "genre": [
+                "detroit hip hop",
+                "hip hop",
+                "rap"
+            ],
+            "album_id": "music-to-be-murdered-by"
+        },
+        {
+            "album_name": "Legend: The Best Of...",
+            "album_rank": 52,
+            "album_release_date": "1984-08-18",
+            "artist": "Bob Marley And The Wailers",
+            "genre": [
+                "reggae",
+                "roots reggae"
+            ],
+            "album_id": "legend:-the-best-of..."
+        },
+        {
+            "album_name": "Traveller",
+            "album_rank": 53,
+            "album_release_date": "2015-05-23",
+            "artist": "Chris Stapleton",
+            "genre": [
+                "contemporary country",
+                "outlaw country"
+            ],
+            "album_id": "traveller"
+        },
+        {
+            "album_name": "Stoney",
+            "album_rank": 54,
+            "album_release_date": "2016-12-31",
+            "artist": "Post Malone",
+            "genre": [
+                "dfw rap",
+                "melodic rap",
+                "rap"
+            ],
+            "album_id": "stoney"
+        },
+        {
+            "album_name": "Only The Family Presents: Loyal Bros Compilation",
+            "album_rank": 55,
+            "album_release_date": "2021-03-20",
+            "artist": "Various Artists",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "only-the-family-presents:-loyal-bros-compilation"
+        },
+        {
+            "album_name": "Divinely Uninspired To A Hellish Extent",
+            "album_rank": 56,
+            "album_release_date": "2019-06-01",
+            "artist": "Lewis Capaldi",
+            "genre": [
+                "pop",
+                "uk pop"
+            ],
+            "album_id": "divinely-uninspired-to-a-hellish-extent"
+        },
+        {
+            "album_name": "Please Excuse Me For Being Antisocial",
+            "album_rank": 57,
+            "album_release_date": "2019-12-21",
+            "artist": "Roddy Ricch",
+            "genre": [
+                "melodic rap",
+                "rap",
+                "trap"
+            ],
+            "album_id": "please-excuse-me-for-being-antisocial"
+        },
+        {
+            "album_name": "Over It",
+            "album_rank": 58,
+            "album_release_date": "2019-10-19",
+            "artist": "Summer Walker",
+            "genre": [
+                "pop",
+                "r&b"
+            ],
+            "album_id": "over-it"
+        },
+        {
+            "album_name": "Top",
+            "album_rank": 59,
+            "album_release_date": "2020-09-26",
+            "artist": "YoungBoy Never Broke Again",
+            "genre": [
+                "baton rouge rap",
+                "trap"
+            ],
+            "album_id": "top"
+        },
+        {
+            "album_name": "Lover",
+            "album_rank": 60,
+            "album_release_date": "2019-09-07",
+            "artist": "Taylor Swift",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "lover"
+        },
+        {
+            "album_name": "Die 4 Respect",
+            "album_rank": 61,
+            "album_release_date": "2021-04-03",
+            "artist": "DDG X OG Parker",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "die-4-respect"
+        },
+        {
+            "album_name": "Sin Miedo (Del Amor y Otros Demonios)",
+            "album_rank": 62,
+            "album_release_date": "2021-03-06",
+            "artist": "Kali Uchis",
+            "genre": [
+                "colombian pop",
+                "pop"
+            ],
+            "album_id": "sin-miedo-(del-amor-y-otros-demonios)"
+        },
+        {
+            "album_name": "2014 Forest Hills Drive",
+            "album_rank": 63,
+            "album_release_date": "2014-12-27",
+            "artist": "J. Cole",
+            "genre": [
+                "conscious hip hop",
+                "hip hop",
+                "north carolina hip hop",
+                "rap"
+            ],
+            "album_id": "2014-forest-hills-drive"
+        },
+        {
+            "album_name": "Pluto x Baby Pluto",
+            "album_rank": 64,
+            "album_release_date": "2020-11-28",
+            "artist": "Future & Lil Uzi Vert",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "pluto-x-baby-pluto"
+        },
+        {
+            "album_name": "Journey's Greatest Hits",
+            "album_rank": 65,
+            "album_release_date": "1988-12-03",
+            "artist": "Journey",
+            "genre": [
+                "album rock",
+                "classic rock",
+                "hard rock",
+                "mellow gold",
+                "rock",
+                "soft rock"
+            ],
+            "album_id": "journeys-greatest-hits"
+        },
+        {
+            "album_name": "Greatest Hits",
+            "album_rank": 66,
+            "album_release_date": "1998-12-12",
+            "artist": "2Pac",
+            "genre": [
+                "g funk",
+                "gangster rap",
+                "hip hop",
+                "rap",
+                "west coast rap"
+            ],
+            "album_id": "greatest-hits"
+        },
+        {
+            "album_name": "Life Rolls On",
+            "album_rank": 67,
+            "album_release_date": "2021-02-27",
+            "artist": "Florida Georgia Line",
+            "genre": [
+                "contemporary country",
+                "country",
+                "country pop",
+                "country road",
+                "modern country rock"
+            ],
+            "album_id": "life-rolls-on"
+        },
+        {
+            "album_name": "Just Cause Y'all Waited 2",
+            "album_rank": 68,
+            "album_release_date": "2020-05-23",
+            "artist": "Lil Durk",
+            "genre": [
+                "chicago drill",
+                "chicago rap",
+                "drill",
+                "hip hop",
+                "rap",
+                "southern hip hop",
+                "trap"
+            ],
+            "album_id": "just-cause-yall-waited-2"
+        },
+        {
+            "album_name": "Chilombo",
+            "album_rank": 69,
+            "album_release_date": "2020-03-21",
+            "artist": "Jhene Aiko",
+            "genre": [
+                "alternative r&b",
+                "dance pop",
+                "pop",
+                "r&b",
+                "urban contemporary"
+            ],
+            "album_id": "chilombo"
+        },
+        {
+            "album_name": "Back In Black",
+            "album_rank": 70,
+            "album_release_date": "1980-08-23",
+            "artist": "AC/DC",
+            "genre": [
+                "australian rock",
+                "hard rock",
+                "rock"
+            ],
+            "album_id": "back-in-black"
+        },
+        {
+            "album_name": "\u00f7 (Divide)",
+            "album_rank": 71,
+            "album_release_date": "2017-03-25",
+            "artist": "Ed Sheeran",
+            "genre": [
+                "pop",
+                "uk pop"
+            ],
+            "album_id": "\u00f7-(divide)"
+        },
+        {
+            "album_name": "High Off Life",
+            "album_rank": 72,
+            "album_release_date": "2020-05-30",
+            "artist": "Future",
+            "genre": [
+                "atl hip hop",
+                "pop rap",
+                "rap",
+                "southern hip hop",
+                "trap"
+            ],
+            "album_id": "high-off-life"
+        },
+        {
+            "album_name": "Take Care",
+            "album_rank": 73,
+            "album_release_date": "2011-12-03",
+            "artist": "Drake",
+            "genre": [
+                "canadian hip hop",
+                "canadian pop",
+                "hip hop",
+                "pop rap",
+                "rap",
+                "toronto rap"
+            ],
+            "album_id": "take-care"
+        },
+        {
+            "album_name": "Greatest Hits",
+            "album_rank": 74,
+            "album_release_date": "2007-03-24",
+            "artist": "The Notorious B.I.G.",
+            "genre": [
+                "east coast hip hop",
+                "gangster rap",
+                "hardcore hip hop",
+                "hip hop",
+                "rap"
+            ],
+            "album_id": "greatest-hits"
+        },
+        {
+            "album_name": "Greatest Hits",
+            "album_rank": 75,
+            "album_release_date": "2004-04-10",
+            "artist": "Guns N' Roses",
+            "genre": [
+                "glam metal",
+                "hard rock",
+                "rock"
+            ],
+            "album_id": "greatest-hits"
+        },
+        {
+            "album_name": "DAMN.",
+            "album_rank": 76,
+            "album_release_date": "2017-05-06",
+            "artist": "Kendrick Lamar",
+            "genre": [
+                "conscious hip hop",
+                "hip hop",
+                "rap",
+                "west coast rap"
+            ],
+            "album_id": "damn."
+        },
+        {
+            "album_name": "American Teen",
+            "album_rank": 77,
+            "album_release_date": "2017-03-25",
+            "artist": "Khalid",
+            "genre": [
+                "alternative r&b",
+                "pop"
+            ],
+            "album_id": "american-teen"
+        },
+        {
+            "album_name": "No One Sings Like You Anymore, Volume One",
+            "album_rank": 78,
+            "album_release_date": "2021-04-03",
+            "artist": "Chris Cornell",
+            "genre": [
+                "alternative metal",
+                "alternative rock",
+                "rock"
+            ],
+            "album_id": "no-one-sings-like-you-anymore,-volume-one"
+        },
+        {
+            "album_name": "Doo-Wops & Hooligans",
+            "album_rank": 79,
+            "album_release_date": "2010-10-23",
+            "artist": "Bruno Mars",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "doo-wops-&-hooligans"
+        },
+        {
+            "album_name": "Goldmine",
+            "album_rank": 80,
+            "album_release_date": "2020-07-04",
+            "artist": "Gabby Barrett",
+            "genre": [
+                "contemporary country"
+            ],
+            "album_id": "goldmine"
+        },
+        {
+            "album_name": "1",
+            "album_rank": 81,
+            "album_release_date": "2000-12-02",
+            "artist": "The Beatles",
+            "genre": [
+                "beatlesque",
+                "british invasion",
+                "classic rock",
+                "merseybeat",
+                "psychedelic rock",
+                "rock"
+            ],
+            "album_id": "1"
+        },
+        {
+            "album_name": "Savage Mode II",
+            "album_rank": 82,
+            "album_release_date": "2020-10-17",
+            "artist": "21 Savage & Metro Boomin",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "savage-mode-ii"
+        },
+        {
+            "album_name": "Still Woman Enough",
+            "album_rank": 83,
+            "album_release_date": "2021-04-03",
+            "artist": "Loretta Lynn",
+            "genre": [
+                "country",
+                "country rock",
+                "nashville sound"
+            ],
+            "album_id": "still-woman-enough"
+        },
+        {
+            "album_name": "Greatest Hits",
+            "album_rank": 84,
+            "album_release_date": "1993-12-04",
+            "artist": "Tom Petty And The Heartbreakers",
+            "genre": [
+                "album rock",
+                "classic rock",
+                "country rock",
+                "folk rock",
+                "heartland rock",
+                "mellow gold",
+                "pop rock",
+                "psychedelic rock",
+                "rock",
+                "roots rock",
+                "soft rock"
+            ],
+            "album_id": "greatest-hits"
+        },
+        {
+            "album_name": "?",
+            "album_rank": 85,
+            "album_release_date": "2018-03-31",
+            "artist": "XXXTENTACION",
+            "genre": [
+                "emo rap",
+                "miami hip hop"
+            ],
+            "album_id": "?"
+        },
+        {
+            "album_name": "We Are",
+            "album_rank": 86,
+            "album_release_date": "2021-04-03",
+            "artist": "Jon Batiste",
+            "genre": [
+                "new orleans jazz"
+            ],
+            "album_id": "we-are"
+        },
+        {
+            "album_name": "Wunna",
+            "album_rank": 87,
+            "album_release_date": "2020-06-06",
+            "artist": "Gunna",
+            "genre": [
+                "atl hip hop",
+                "melodic rap",
+                "rap",
+                "trap"
+            ],
+            "album_id": "wunna"
+        },
+        {
+            "album_name": "Luv Is Rage 2",
+            "album_rank": 88,
+            "album_release_date": "2017-09-16",
+            "artist": "Lil Uzi Vert",
+            "genre": [
+                "melodic rap",
+                "philly rap",
+                "rap",
+                "trap"
+            ],
+            "album_id": "luv-is-rage-2"
+        },
+        {
+            "album_name": "Final Destination",
+            "album_rank": 89,
+            "album_release_date": "2021-02-06",
+            "artist": "SpotemGottem",
+            "genre": [
+                "florida rap",
+                "viral rap"
+            ],
+            "album_id": "final-destination"
+        },
+        {
+            "album_name": "Dark Lane Demo Tapes",
+            "album_rank": 90,
+            "album_release_date": "2020-05-16",
+            "artist": "Drake",
+            "genre": [
+                "canadian hip hop",
+                "canadian pop",
+                "hip hop",
+                "pop rap",
+                "rap",
+                "toronto rap"
+            ],
+            "album_id": "dark-lane-demo-tapes"
+        },
+        {
+            "album_name": "Heaven & Hell",
+            "album_rank": 91,
+            "album_release_date": "2020-10-03",
+            "artist": "Ava Max",
+            "genre": [
+                "dance pop",
+                "pop"
+            ],
+            "album_id": "heaven-&-hell"
+        },
+        {
+            "album_name": "Moana",
+            "album_rank": 92,
+            "album_release_date": "2016-12-10",
+            "artist": "Soundtrack",
+            "genre": [
+                "N/A"
+            ],
+            "album_id": "moana"
+        },
+        {
+            "album_name": "Meet The Woo, V.2",
+            "album_rank": 93,
+            "album_release_date": "2020-02-22",
+            "artist": "Pop Smoke",
+            "genre": [
+                "brooklyn drill"
+            ],
+            "album_id": "meet-the-woo,-v.2"
+        },
+        {
+            "album_name": "Invasion Of Privacy",
+            "album_rank": 94,
+            "album_release_date": "2018-04-21",
+            "artist": "Cardi B",
+            "genre": [
+                "dance pop",
+                "pop",
+                "pop rap",
+                "rap"
+            ],
+            "album_id": "invasion-of-privacy"
+        },
+        {
+            "album_name": "Manic",
+            "album_rank": 95,
+            "album_release_date": "2020-02-01",
+            "artist": "Halsey",
+            "genre": [
+                "dance pop",
+                "electropop",
+                "etherpop",
+                "indie poptimism",
+                "pop",
+                "post-teen pop"
+            ],
+            "album_id": "manic"
+        },
+        {
+            "album_name": "1989",
+            "album_rank": 96,
+            "album_release_date": "2014-11-15",
+            "artist": "Taylor Swift",
+            "genre": [
+                "pop"
+            ],
+            "album_id": "1989"
+        },
+        {
+            "album_name": "50 Number Ones",
+            "album_rank": 97,
+            "album_release_date": "2004-10-23",
+            "artist": "George Strait",
+            "genre": [
+                "contemporary country",
+                "country",
+                "country road",
+                "country rock"
+            ],
+            "album_id": "50-number-ones"
+        },
+        {
+            "album_name": "Thank U, Next",
+            "album_rank": 98,
+            "album_release_date": "2019-02-23",
+            "artist": "Ariana Grande",
+            "genre": [
+                "dance pop",
+                "pop",
+                "post-teen pop"
+            ],
+            "album_id": "thank-u,-next"
+        },
+        {
+            "album_name": "Ghetto Gospel",
+            "album_rank": 99,
+            "album_release_date": "2019-11-16",
+            "artist": "Rod Wave",
+            "genre": [
+                "florida rap"
+            ],
+            "album_id": "ghetto-gospel"
+        },
+        {
+            "album_name": "Time Served",
+            "album_rank": 100,
+            "album_release_date": "2020-01-25",
+            "artist": "Moneybagg Yo",
+            "genre": [
+                "rap",
+                "southern hip hop",
+                "tennessee hip hop",
+                "trap"
+            ],
+            "album_id": "time-served"
+        }
+    ]
+}

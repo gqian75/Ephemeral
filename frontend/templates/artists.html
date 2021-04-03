@@ -39,33 +39,30 @@
         <tr>
           <th class = "th-sm">Artist Name</th>
           <th class = "th-sm">Genre</th>
-          <th class = "th-sm">Age</th>
-          <th class = "th-sm">Label</th>
+          <th class = "th-sm">Rank</th>
+          <th class = "th-sm">Followers</th>
           <th class = "th-sm">Top Song</th>
         </tr>
       </thead>
       <tbody>
+        {%for artist in artists%}
         <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist1')}}';">Olivia Rodrigo</td>
-          <td>Pop</td>
-          <td>18</td>
-          <td>Interscope</td>
-          <td class="point" onclick="window.location.href='{{url_for('song1')}}';">driver's license</td>
+          <td class="point" onclick="window.location.href='/artists/{{ id(artist.artist_name) }}'">{{artist.artist_name}}  </td>
+          
+          <td>{{ artist.artist_genre|join("") }}</td>
+
+          <td>{{artist.artist_rank}}</td>
+          <td>{{artist.followers}}</td>
+          {% if artist.songs|length == 0 %}
+            <td>N/A</td>
+          
+          {% else %}
+            <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
+          {% endif %}
+          
         </tr>
-        <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist2')}}';">The Weeknd</td>
-          <td>R&b/Soul</td>
-          <td>31</td>
-          <td>XO</td>
-          <td class="point" onclick="window.location.href='{{url_for('song2')}}';">Save Your Tears</td>
-        </tr>
-        <tr>
-          <td class="point" onclick="window.location.href='{{url_for('artist3')}}';">Yung Bleu</td>
-          <td>Rap</td>
-          <td>26</td>
-          <td>Various</td>
-          <td class="point" onclick="window.location.href='{{url_for('song3')}}';">You're Mines Still</td>
-        </tr>
+        {% endfor %}
+        
       </tbody>
     </table>
   </div>

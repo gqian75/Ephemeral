@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block head %}
+<title>{{artist['name']}}</title>
+<meta name="description" content="Ephemeral's artists page">
+<meta name="author" content="Jake Goins">
+<link href="../../static/css/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block nav_title %}
+<a class="navbar-brand" href="#">Popular Artists</a>
+{% endblock %}
+
+{% block nav_bar %}
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('index')}}">Home</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="{{url_for('artists')}}">Artists</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('songs')}}">Songs</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('albums')}}">Albums</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{url_for('about')}}">About Us</a>
+</li>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-12 center-text">
+            
+            <h2>{{artist.artist_name}}</h2><br>
+            <table class="center-table greyed">
+                <tr>
+                    <td colspan="2" class="static_item" ><img src="{{artist.image_url}}" alt="song.png" class="center-table"></td>
+                </tr>
+                <tr>
+                    <td class="static_item">Genre(s): </td>
+                    <td class="static_item">{{artist.artist_genre}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Rank: </td>
+                    <td class="static_item">{{artist.artist_rank}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Number of Followers: </td>
+                    <td class="static_item">{{artist.followers}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Top Song: </td>
+                    {% if artist.songs|length == 0 %}
+                    <td>N/A</td>
+                    {% else %}
+                    <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
+                    {% endif %}
+                    
+                </tr>
+                <tr>
+                    <td class="static_item">Album: </td>
+                    {% if artist.albums|length == 0 %}
+                    <td>N/A</td>
+                    {% else %}
+                    <td class="static_item point" onclick="window.location.href='/albums/{{ id(artist.albums[0].album_name) }}'">{{artist.albums[0].album_name}}</td>
+                    {% endif %}
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <a class="center-text" href="{{url_for('artists')}}"> Return to artists list </a>
+    </div>
+</div>
+
+{% endblock %}
