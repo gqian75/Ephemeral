@@ -30,22 +30,11 @@ models.html: models.py
 IDB2.log:
 	git log > IDB2.log
 
-#RunDiplomacy.tmp: RunDiplomacy1.in RunDiplomacy2.in RunDiplomacy3.in RunDiplomacy4.in RunDiplomacy5.in RunDiplomacy1.out RunDiplomacy2.out RunDiplomacy3.out RunDiplomacy4.out RunDiplomacy5.out RunDiplomacy.py
-#	$(PYTHON) RunDiplomacy.py < RunDiplomacy1.in > RunDiplomacy1.tmp
-#	$(PYTHON) RunDiplomacy.py < RunDiplomacy2.in > RunDiplomacy2.tmp
-#	$(PYTHON) RunDiplomacy.py < RunDiplomacy3.in > RunDiplomacy3.tmp
-#	$(PYTHON) RunDiplomacy.py < RunDiplomacy4.in > RunDiplomacy4.tmp
-#	$(PYTHON) RunDiplomacy.py < RunDiplomacy5.in > RunDiplomacy5.tmp
-#	diff --strip-trailing-cr RunDiplomacy1.tmp RunDiplomacy1.out
-#	diff --strip-trailing-cr RunDiplomacy2.tmp RunDiplomacy2.out
-#	diff --strip-trailing-cr RunDiplomacy3.tmp RunDiplomacy3.out
-#	diff --strip-trailing-cr RunDiplomacy4.tmp RunDiplomacy4.out
-#	diff --strip-trailing-cr RunDiplomacy5.tmp RunDiplomacy5.out
-
-tests.tmp: tests.py
-	$(COVERAGE) run    --branch tests.py >  tests.tmp 2>&1
-	$(COVERAGE) report -m                      >> tests.tmp
-	cat tests.tmp
+test_results.txt: test.py
+	$(PIP) install -r requirements.txt
+	$(COVERAGE) run    test.py >  test_results.txt 2>&1
+	$(COVERAGE) report -m      >> test_results.txt
+	cat test_results.txt
 
 clean:
 	rm -f  .coverage
@@ -65,6 +54,7 @@ scrub:
 	make clean
 	rm -f  models.html
 	rm -f  IDB2.log
+	rm -f test_results.txt
 
 status:
 	make clean
@@ -95,4 +85,4 @@ versions:
 	which        $(PYTHON)
 	$(PYTHON)    --version
 
-test: models.html IDB2.log tests.tmp
+test: scrub models.html IDB2.log test_results.txt

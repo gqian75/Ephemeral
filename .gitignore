@@ -6,5 +6,6 @@ __pycache__
 .idea
 *.pyc
 *.tmp
+.coverage
 venv
 node_modules/
