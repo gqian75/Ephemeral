@@ -43,14 +43,19 @@
                 </tr>
                 <tr>
                     <td class="static_item">Album: </td>
-                    <td class="static_item point" onclick="window.location.href='/albums/{{ song.album_name }}'">{{song.album_name}}</td>
+                    {% if song.album_name == "single" %}
+                        <td>single</td>
+                    {% else %}
+                        <td class="static_item point" onclick="window.location.href='/albums/{{ song.album_name }}'">{{song.album_name}}</td>
+                    {% endif %}
+                    
                 </tr>
                 <tr>
                     <td class="static_item">Release Date: </td>
                     <td class="static_item">{{song.release_date}}</td>
                 </tr>
                 <tr>
-                    <td class="static_item">Song Length (ms): </td>
+                    <td class="static_item">Song Length: </td>
                     <td class="static_item">{{song.duration}}</td>
                 </tr>
             </table>
