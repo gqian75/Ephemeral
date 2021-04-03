@@ -83,7 +83,7 @@ def create_albums():
         # except Exception:
             # continue
 
-if __name__ == "__main__":
-    create_songs()
-    create_albums()
-    create_artists()
+#
+# create_songs()
+# create_albums()
+# create_artists()

@@ -15,7 +15,7 @@ env_variables:
     # when configuring your Cloud SQL instance.
     # postgresql+psycopg2://postgres:asd123@/postgres?host=/cloudsql/cs331e-idb:us-central1:bookdb
     DB_STRING: >-
-      postgres://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky
+      postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky
 #[END env]
 
 #[START cloudsql_settings]
