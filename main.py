@@ -1,14 +1,12 @@
 import os
 import datetime
-from create_db import app, db, Song, Artist, Album, create_songs, create_artists, create_albums
+#from create_db import app, db, Song, Artist, Album, create_songs, create_artists, create_albums
+from models import db
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
 
-create_songs()
-create_albums()
-create_artists()
 song_list = db.session.query(Song).all()
 artist_list = db.session.query(Artist).all()
 album_list = db.session.query(Album).all()
