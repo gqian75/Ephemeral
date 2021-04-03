@@ -49,7 +49,12 @@
           <tr>
             <td class="point" onclick="window.location.href='/songs/{{ song.song_name }}'">{{song.song_name}}  </td>
             <td class="point" onclick="window.location.href='/artists/{{ song.artist }}'">{{ song.artist }}</td>
+            {% if song.album_name == "single" %}
+            <td>Single</td>
+            {%else%}
             <td class="point" onclick="window.location.href='/albums/{{ song.album_name }}'">{{ song.album_name }}</td>
+            {%endif%}
+            
             <td>{{song.release_date}}</td>
             <td>{{song.duration}}</td>
             

@@ -50,11 +50,15 @@
                 </tr>
                 <tr>
                     <td class="static_item">Genre(s): </td>
-                    <td class="static_item">{{album.genre}}</td>
+                    <td class="static_item">{{album.album_genre}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Top Song: </td>
-                    <td class="point" onclick="window.location.href='/songs/{{ album.songs }}'">{{ album.songs }}</td>
+                    {% if album.songs|length == 0 %}
+                    <td>N/A</td>
+                    {% else %}
+                    <td class="point" onclick="window.location.href='/songs/{{ album.songs[0].song_name }}'">{{ album.songs[0].song_name }}</td>
+                    {% endif %}
                 </tr>
             </table>
         </div>

@@ -1,4 +1,5 @@
 import os
+import datetime
 from create_db import app, db, Song, Artist, Album, create_songs, create_artists, create_albums
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
@@ -123,7 +124,7 @@ def albums():
 
 @app.route('/artists/')
 def artists():
-
+    
     return render_template('artists.html',artists=artist_list)
 
 @app.route('/songs/')
@@ -166,9 +167,38 @@ def song(_song):
     #_song = id(_song)
     return render_template('song.html', song=find(_song,song_list,'song'))
 
+def format_strings(string):
+    new_string = ""
+    for char in string:
+        if (char == "{" or char == "}" or char == '"'):
+            new_string += ""
+            
+        elif (char == ","):
+            new_string += ", "
+        else:
+            new_string += char
+    new_string = new_string.title()
+    return new_string
+
+def format_lists():
+    for artist in artist_list:
+        artist.artist_genre = format_strings(artist.artist_genre)
+    for album in album_list:
+        album.album_genre = format_strings(album.album_genre)
+        print(album.album_genre)
+    for song in song_list:
+        seconds = str(int((int(song.duration)//1000.0)%60))
+        song.duration = str(int((int(song.duration)//1000.0)//60)) + ":"
+        if(len(seconds) == 1):
+            song.duration += "0" + seconds
+        else:
+            song.duration += seconds
+        
 
 if __name__ == "__main__":
+    format_lists()
+    
     #app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()
-    #print(song_list[14].song_name)
+    
    
