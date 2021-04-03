@@ -29,7 +29,9 @@ def create_songs():
         album_name = oneSong["album"]
         duration = oneSong["duration"]
         song_id = oneSong["song_id"]
-        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist, album_name=album_name, album_name_lower = album_name.lower(), duration=duration, song_id=song_id)
+        image_url = oneSong["image_url"]
+        newSong = Song(song_name=song_name, rank=rank, release_date=release_date, artist=artist, album_name=album_name,
+        album_name_lower = album_name.lower(), duration=duration, song_id=song_id, image_url=image_url)
         db.session.add(newSong)
         db.session.commit()
 
@@ -43,9 +45,11 @@ def create_artists():
         artist_genre = oneArtist["artist_genre"]
         followers = oneArtist["followers"]
         popularity = oneArtist["popularity"]
-    	
-        newArtist = Artist(artist_name=artist_name, artist_rank=artist_rank, artist_genre=artist_genre, followers=followers, popularity=popularity, artist_id=artist_id)
-        
+        image_url = oneArtist["image_url"]
+
+        newArtist = Artist(artist_name=artist_name, artist_rank=artist_rank, artist_genre=artist_genre,
+        followers=followers, popularity=popularity, artist_id=artist_id, image_url=image_url)
+
         db.session.add(newArtist)
         db.session.commit()
 
@@ -68,7 +72,7 @@ def create_albums():
         album_genre = oneAlbum["genre"]
         album_id = oneAlbum["album_id"]
         newAlbum = Album(album_name=album_name, album_rank=album_rank, album_release_date=album_release_date, artist=artist, album_genre=album_genre, album_id = album_id)
-        
+
         db.session.add(newAlbum)
         db.session.commit()
 

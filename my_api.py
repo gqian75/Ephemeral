@@ -28,7 +28,7 @@ def id(string):
     string = string.replace("'","")
     string = string.replace("/","")
     return string
-    
+
 
 def songAPI():
     url = "https://billboard2.p.rapidapi.com/hot_100"
@@ -48,7 +48,7 @@ def songAPI():
             temp = song["title"].split("&#039;")
             song["title"] = temp[0] + "'" + temp[1]
         name = song["credited_artists"][0]["artist_name"]
-        
+
         if "&#039;" in name:
             temp = name.split("&#039;")
             name = temp[0] + "'" + temp[1]
@@ -60,9 +60,11 @@ def songAPI():
                 album = 'single'
             else:
                 album=r["tracks"]["items"][0]["album"]["name"]
+
+            image = r['tracks']['items'][0]['album']['images'][0]['url']
             duration = r['tracks']['items'][0]['duration_ms']
             songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": song["history"]["debut_date"],
-            "artist": name, "album":album, "duration":duration, "song_id": id(song["title"])})
+            "artist": name, "album":album, "duration":duration, "song_id": id(song["title"]), "image_url":image})
 
         except:
 
@@ -88,10 +90,11 @@ def artistAPI():
         if "&#039;" in name:
             temp = name.split("&#039;")
             name = temp[0] + "'" + temp[1]
-        
+
         try:
             get_artist = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': name, 'type': "artist", 'market': 'US'})
             get_artist = get_artist.json()
+            image = get_artist['artists']['items'][0]['images'][0]['url']
             artID = get_artist["artists"]["items"][0]["id"]
             get_spotify = requests.get(ART_URL, headers=headers_spotify, params={'ids': artID})
             get_spotify = get_spotify.json()
@@ -102,10 +105,11 @@ def artistAPI():
                 genre = genre[0]
             except:
                 genre ="N/A"
-            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity), "artist_id":id(artist["artist"])})
-            
+            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers),
+            "popularity": int(popularity), "artist_id":id(artist["artist"]),"image_url":image})
+
         except:
-            
+
             print(name)
             print(get_artist)
 
@@ -150,26 +154,6 @@ def albumAPI():
     with open('albums.json', 'w') as fp:
         json.dump(albumJSON, fp, indent=4)
 
-def imagesAPI():
-    with open('songs.json') as f:
-        j = json.load(f)
-
-    imagesA = [] # artists
-    imagesB = [] # songs
-    for i in j["Songs"]:
-        artist = i["artist"]
-        r = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': artist, 'type': 'artist','limit':'1'})
-        r = r.json()
-        r = r['artists']['items'][0]['images']
-        imagesA.append({'artist_name': artist, "image": r})
-
-        track = i['song_name']
-        r = requests.get(SEARCH_URL, headers=headers_spotify, params={'q': track, 'type': 'track','limit':'1'})
-        r = r.json()
-        r = r['tracks']['items'][0]['album']['images']
-        imagesB.append({'track_name': track, 'image': r})
-
-
 
     image1JSON = {'Images': imagesA}
     with open('images.json', 'w') as fp: # images of artists
@@ -183,4 +167,3 @@ if __name__ == "__main__":
     songAPI()
     artistAPI()
     albumAPI()
-    imagesAPI()

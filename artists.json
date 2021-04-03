@@ -6,7 +6,8 @@
             "artist_genre": "canadian pop",
             "followers": 44109696,
             "popularity": 100,
-            "artist_id": "justin-bieber"
+            "artist_id": "justin-bieber",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebcf6303acdd2f3e34e6fef5ad"
         },
         {
             "artist_name": "Lana Del Rey",
@@ -14,7 +15,8 @@
             "artist_genre": "art pop",
             "followers": 12640128,
             "popularity": 90,
-            "artist_id": "lana-del-rey"
+            "artist_id": "lana-del-rey",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb9f0fc81fc7401b597b9f44b0"
         },
         {
             "artist_name": "The Weeknd",
@@ -22,7 +24,8 @@
             "artist_genre": "canadian contemporary r&b",
             "followers": 30723455,
             "popularity": 97,
-            "artist_id": "the-weeknd"
+            "artist_id": "the-weeknd",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb11ee735e42e5bcb862acea70"
         },
         {
             "artist_name": "BTS",
@@ -30,7 +33,8 @@
             "artist_genre": "k-pop",
             "followers": 30993420,
             "popularity": 96,
-            "artist_id": "bts"
+            "artist_id": "bts",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb5a99d4f2d7e07243a6fdc32d"
         },
         {
             "artist_name": "Drake",
@@ -38,7 +42,8 @@
             "artist_genre": "canadian hip hop",
             "followers": 53999798,
             "popularity": 99,
-            "artist_id": "drake"
+            "artist_id": "drake",
+            "image_url": "https://i.scdn.co/image/60cfab40c6bb160a1906be45276829d430058005"
         },
         {
             "artist_name": "Billie Eilish",
@@ -46,7 +51,8 @@
             "artist_genre": "electropop",
             "followers": 41276342,
             "popularity": 93,
-            "artist_id": "billie-eilish"
+            "artist_id": "billie-eilish",
+            "image_url": "https://i.scdn.co/image/3c002f88611ecde6eeae0802de018b5f1b0390b5"
         },
         {
             "artist_name": "Dua Lipa",
@@ -54,7 +60,8 @@
             "artist_genre": "dance pop",
             "followers": 23797403,
             "popularity": 95,
-            "artist_id": "dua-lipa"
+            "artist_id": "dua-lipa",
+            "image_url": "https://i.scdn.co/image/552c454001ba87ea580c1f084482991502562996"
         },
         {
             "artist_name": "Morgan Wallen",
@@ -62,7 +69,8 @@
             "artist_genre": "contemporary country",
             "followers": 1624276,
             "popularity": 89,
-            "artist_id": "morgan-wallen"
+            "artist_id": "morgan-wallen",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eba4761915e0dd6abd3e34887f"
         },
         {
             "artist_name": "Luke Combs",
@@ -70,7 +78,8 @@
             "artist_genre": "contemporary country",
             "followers": 4676156,
             "popularity": 85,
-            "artist_id": "luke-combs"
+            "artist_id": "luke-combs",
+            "image_url": "https://i.scdn.co/image/acce941dc4539e589d2ee931e8cfe036993935ce"
         },
         {
             "artist_name": "Lil Baby",
@@ -78,7 +87,8 @@
             "artist_genre": "atl hip hop",
             "followers": 6668123,
             "popularity": 93,
-            "artist_id": "lil-baby"
+            "artist_id": "lil-baby",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb7d60b6cb97e53e0b4ca9dea8"
         },
         {
             "artist_name": "Pop Smoke",
@@ -86,7 +96,8 @@
             "artist_genre": "brooklyn drill",
             "followers": 4874491,
             "popularity": 93,
-            "artist_id": "pop-smoke"
+            "artist_id": "pop-smoke",
+            "image_url": "https://i.scdn.co/image/dec62931945371fd22f29c436ca61dea03415556"
         },
         {
             "artist_name": "Taylor Swift",
@@ -94,7 +105,8 @@
             "artist_genre": "pop",
             "followers": 38290990,
             "popularity": 97,
-            "artist_id": "taylor-swift"
+            "artist_id": "taylor-swift",
+            "image_url": "https://i.scdn.co/image/8389f45cac7a58e3ab67a3bdeb5b4a0f9d8f7919"
         },
         {
             "artist_name": "Ariana Grande",
@@ -102,7 +114,8 @@
             "artist_genre": "dance pop",
             "followers": 60491862,
             "popularity": 96,
-            "artist_id": "ariana-grande"
+            "artist_id": "ariana-grande",
+            "image_url": "https://i.scdn.co/image/f8c793519d837ca2f920c561535fe62ef32e8e5b"
         },
         {
             "artist_name": "Harry Styles",
@@ -110,7 +123,8 @@
             "artist_genre": "pop",
             "followers": 13779603,
             "popularity": 91,
-            "artist_id": "harry-styles"
+            "artist_id": "harry-styles",
+            "image_url": "https://i.scdn.co/image/b2163e7456f3d618a0e2a4e32bc892d6b11ce673"
         },
         {
             "artist_name": "Post Malone",
@@ -118,7 +132,8 @@
             "artist_genre": "dfw rap",
             "followers": 31961728,
             "popularity": 94,
-            "artist_id": "post-malone"
+            "artist_id": "post-malone",
+            "image_url": "https://i.scdn.co/image/93fec27f9aac86526b9010e882037afbda4e3d5f"
         },
         {
             "artist_name": "Cardi B",
@@ -126,7 +141,8 @@
             "artist_genre": "dance pop",
             "followers": 15511659,
             "popularity": 90,
-            "artist_id": "cardi-b"
+            "artist_id": "cardi-b",
+            "image_url": "https://i.scdn.co/image/e9c7d7e446f19d445898eb362417542b134863af"
         },
         {
             "artist_name": "DaBaby",
@@ -134,7 +150,8 @@
             "artist_genre": "north carolina hip hop",
             "followers": 6340934,
             "popularity": 94,
-            "artist_id": "dababy"
+            "artist_id": "dababy",
+            "image_url": "https://i.scdn.co/image/610e4b5d2728ceebc10bd03e0eb836aa98ab9149"
         },
         {
             "artist_name": "Bruno Mars",
@@ -142,7 +159,8 @@
             "artist_genre": "pop",
             "followers": 29591365,
             "popularity": 93,
-            "artist_id": "bruno-mars"
+            "artist_id": "bruno-mars",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb1a818d4fcfd01894a782c6be"
         },
         {
             "artist_name": "Juice WRLD",
@@ -150,7 +168,8 @@
             "artist_genre": "chicago rap",
             "followers": 16700401,
             "popularity": 97,
-            "artist_id": "juice-wrld"
+            "artist_id": "juice-wrld",
+            "image_url": "https://i.scdn.co/image/d8e62447a338a882b490460da20e90aac6d60ae7"
         },
         {
             "artist_name": "Chris Stapleton",
@@ -158,7 +177,8 @@
             "artist_genre": "contemporary country",
             "followers": 3097027,
             "popularity": 81,
-            "artist_id": "chris-stapleton"
+            "artist_id": "chris-stapleton",
+            "image_url": "https://i.scdn.co/image/5c264be01090b974a0083c965e2389df4e35b68a"
         },
         {
             "artist_name": "Megan Thee Stallion",
@@ -166,7 +186,8 @@
             "artist_genre": "houston rap",
             "followers": 3822833,
             "popularity": 89,
-            "artist_id": "megan-thee-stallion"
+            "artist_id": "megan-thee-stallion",
+            "image_url": "https://i.scdn.co/image/7bca4cddd5903957a727ae5b49936cd57d801d05"
         },
         {
             "artist_name": "Fleet Foxes",
@@ -174,7 +195,8 @@
             "artist_genre": "chamber pop",
             "followers": 1096216,
             "popularity": 70,
-            "artist_id": "fleet-foxes"
+            "artist_id": "fleet-foxes",
+            "image_url": "https://i.scdn.co/image/ebf515962abdb0a61c6bfeb26ceea6c629b9e756"
         },
         {
             "artist_name": "Gabby Barrett",
@@ -182,7 +204,8 @@
             "artist_genre": "contemporary country",
             "followers": 141258,
             "popularity": 72,
-            "artist_id": "gabby-barrett"
+            "artist_id": "gabby-barrett",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebebe414ad165b9b3f7a58c259"
         },
         {
             "artist_name": "Olivia Rodrigo",
@@ -190,7 +213,8 @@
             "artist_genre": "alt z",
             "followers": 1268738,
             "popularity": 87,
-            "artist_id": "olivia-rodrigo"
+            "artist_id": "olivia-rodrigo",
+            "image_url": "https://i.scdn.co/image/5fb1f691c5d3cdbc54e1934c1b76e0ce00bcee9b"
         },
         {
             "artist_name": "Giveon",
@@ -198,7 +222,8 @@
             "artist_genre": "pop",
             "followers": 870184,
             "popularity": 90,
-            "artist_id": "giveon"
+            "artist_id": "giveon",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebcd7e698d8a5aeaeae8c0390c"
         },
         {
             "artist_name": "Maroon 5",
@@ -206,7 +231,8 @@
             "artist_genre": "pop",
             "followers": 30091146,
             "popularity": 91,
-            "artist_id": "maroon-5"
+            "artist_id": "maroon-5",
+            "image_url": "https://i.scdn.co/image/305c7c493ca5c108ade08dea6a169694db911644"
         },
         {
             "artist_name": "Lil Durk",
@@ -214,7 +240,8 @@
             "artist_genre": "chicago drill",
             "followers": 2386772,
             "popularity": 88,
-            "artist_id": "lil-durk"
+            "artist_id": "lil-durk",
+            "image_url": "https://i.scdn.co/image/f8dc61918b7f8c133a9834338740381c8d2f1bea"
         },
         {
             "artist_name": "Doja Cat",
@@ -222,7 +249,8 @@
             "artist_genre": "dance pop",
             "followers": 5989166,
             "popularity": 91,
-            "artist_id": "doja-cat"
+            "artist_id": "doja-cat",
+            "image_url": "https://i.scdn.co/image/c0492ddbdf41c4595ee1334d3f896ea786005fe9"
         },
         {
             "artist_name": "Queen",
@@ -230,7 +258,8 @@
             "artist_genre": "classic rock",
             "followers": 33153669,
             "popularity": 90,
-            "artist_id": "queen"
+            "artist_id": "queen",
+            "image_url": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982"
         },
         {
             "artist_name": "Ava Max",
@@ -238,7 +267,8 @@
             "artist_genre": "dance pop",
             "followers": 3204372,
             "popularity": 87,
-            "artist_id": "ava-max"
+            "artist_id": "ava-max",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb6734e94572042786dd008bf4"
         },
         {
             "artist_name": "Khalid",
@@ -246,7 +276,8 @@
             "artist_genre": "alternative r&b",
             "followers": 13661656,
             "popularity": 92,
-            "artist_id": "khalid"
+            "artist_id": "khalid",
+            "image_url": "https://i.scdn.co/image/480468924609319ff2c0ed518082be473793552a"
         },
         {
             "artist_name": "Rod Wave",
@@ -254,7 +285,8 @@
             "artist_genre": "florida rap",
             "followers": 1814690,
             "popularity": 84,
-            "artist_id": "rod-wave"
+            "artist_id": "rod-wave",
+            "image_url": "https://i.scdn.co/image/39b5ecc3e82bdd1225577bc87c2904cbc11a1a45"
         },
         {
             "artist_name": "AC/DC",
@@ -262,7 +294,8 @@
             "artist_genre": "australian rock",
             "followers": 18494624,
             "popularity": 86,
-            "artist_id": "acdc"
+            "artist_id": "acdc",
+            "image_url": "https://i.scdn.co/image/52f9c4f83d8642ed80a0bad0317ab940e034de08"
         },
         {
             "artist_name": "Travis Scott",
@@ -270,7 +303,8 @@
             "artist_genre": "rap",
             "followers": 15914501,
             "popularity": 95,
-            "artist_id": "travis-scott"
+            "artist_id": "travis-scott",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb74d19c1dda1e88b35136ab4b"
         },
         {
             "artist_name": "Fleetwood Mac",
@@ -278,7 +312,8 @@
             "artist_genre": "album rock",
             "followers": 6268099,
             "popularity": 85,
-            "artist_id": "fleetwood-mac"
+            "artist_id": "fleetwood-mac",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebb0c71a11dd5eee8304d3793f"
         },
         {
             "artist_name": "Ed Sheeran",
@@ -286,7 +321,8 @@
             "artist_genre": "pop",
             "followers": 78309274,
             "popularity": 93,
-            "artist_id": "ed-sheeran"
+            "artist_id": "ed-sheeran",
+            "image_url": "https://i.scdn.co/image/c9e693f336bc004af00c51bbf0a157e8b5af75f2"
         },
         {
             "artist_name": "SZA",
@@ -294,7 +330,8 @@
             "artist_genre": "pop",
             "followers": 4970957,
             "popularity": 87,
-            "artist_id": "sza"
+            "artist_id": "sza",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb4f65a8a93d7df4403405a01f"
         },
         {
             "artist_name": "The Beatles",
@@ -302,7 +339,8 @@
             "artist_genre": "beatlesque",
             "followers": 19084830,
             "popularity": 89,
-            "artist_id": "the-beatles"
+            "artist_id": "the-beatles",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb9e4dcab5690e28275872906e"
         },
         {
             "artist_name": "The Kid LAROI",
@@ -310,7 +348,8 @@
             "artist_genre": "australian hip hop",
             "followers": 1564369,
             "popularity": 91,
-            "artist_id": "the-kid-laroi"
+            "artist_id": "the-kid-laroi",
+            "image_url": "https://i.scdn.co/image/844174ebb00367f7a1b32700d9b64aae167e8089"
         },
         {
             "artist_name": "Florida Georgia Line",
@@ -318,7 +357,8 @@
             "artist_genre": "contemporary country",
             "followers": 4253322,
             "popularity": 83,
-            "artist_id": "florida-georgia-line"
+            "artist_id": "florida-georgia-line",
+            "image_url": "https://i.scdn.co/image/7cc4f4afdc50efce211b4ed8edf5c15ee4a0478e"
         },
         {
             "artist_name": "Imagine Dragons",
@@ -326,7 +366,8 @@
             "artist_genre": "modern rock",
             "followers": 33433365,
             "popularity": 90,
-            "artist_id": "imagine-dragons"
+            "artist_id": "imagine-dragons",
+            "image_url": "https://i.scdn.co/image/949d57988ca389b49133ebd6f8f99ef96fb52ab8"
         },
         {
             "artist_name": "Lewis Capaldi",
@@ -334,7 +375,8 @@
             "artist_genre": "pop",
             "followers": 7417735,
             "popularity": 87,
-            "artist_id": "lewis-capaldi"
+            "artist_id": "lewis-capaldi",
+            "image_url": "https://i.scdn.co/image/5ed13d249e562fea4e296aaeb745ce06d27ec88f"
         },
         {
             "artist_name": "Bad Bunny",
@@ -342,7 +384,8 @@
             "artist_genre": "latin",
             "followers": 31694500,
             "popularity": 98,
-            "artist_id": "bad-bunny"
+            "artist_id": "bad-bunny",
+            "image_url": "https://i.scdn.co/image/1c66d291db8ab21ac32d045ef28199fb195b97cf"
         },
         {
             "artist_name": "Lil Tjay",
@@ -350,7 +393,8 @@
             "artist_genre": "brooklyn drill",
             "followers": 2786946,
             "popularity": 90,
-            "artist_id": "lil-tjay"
+            "artist_id": "lil-tjay",
+            "image_url": "https://i.scdn.co/image/aa42101db2868d39fe51c411c9e9e70c6233a49c"
         },
         {
             "artist_name": "Masked Wolf",
@@ -358,7 +402,8 @@
             "artist_genre": "australian hip hop",
             "followers": 147858,
             "popularity": 84,
-            "artist_id": "masked-wolf"
+            "artist_id": "masked-wolf",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb22892458d7930bcc3e735e79"
         },
         {
             "artist_name": "Dan + Shay",
@@ -366,7 +411,8 @@
             "artist_genre": "contemporary country",
             "followers": 2168937,
             "popularity": 81,
-            "artist_id": "dan-+-shay"
+            "artist_id": "dan-+-shay",
+            "image_url": "https://i.scdn.co/image/e0b8ddc138df064a9d712b8cd97b2750fb62abe4"
         },
         {
             "artist_name": "Machine Gun Kelly",
@@ -374,7 +420,8 @@
             "artist_genre": "ohio hip hop",
             "followers": 3314576,
             "popularity": 89,
-            "artist_id": "machine-gun-kelly"
+            "artist_id": "machine-gun-kelly",
+            "image_url": "https://i.scdn.co/image/121e6d42e65360c843a116cb80c672e812101448"
         },
         {
             "artist_name": "Pooh Shiesty",
@@ -382,7 +429,8 @@
             "artist_genre": "memphis hip hop",
             "followers": 222881,
             "popularity": 81,
-            "artist_id": "pooh-shiesty"
+            "artist_id": "pooh-shiesty",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebc3ada5a8828d61bb1d524ef8"
         },
         {
             "artist_name": "Lee Brice",
@@ -390,7 +438,8 @@
             "artist_genre": "contemporary country",
             "followers": 1483631,
             "popularity": 76,
-            "artist_id": "lee-brice"
+            "artist_id": "lee-brice",
+            "image_url": "https://i.scdn.co/image/825ab69889237f8f8d6cce8eb8a1a57e381edba7"
         },
         {
             "artist_name": "Moneybagg Yo",
@@ -398,7 +447,8 @@
             "artist_genre": "rap",
             "followers": 1958357,
             "popularity": 80,
-            "artist_id": "moneybagg-yo"
+            "artist_id": "moneybagg-yo",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb1420a83d23e28d2932bef758"
         },
         {
             "artist_name": "Thomas Rhett",
@@ -406,7 +456,8 @@
             "artist_genre": "contemporary country",
             "followers": 3767187,
             "popularity": 80,
-            "artist_id": "thomas-rhett"
+            "artist_id": "thomas-rhett",
+            "image_url": "https://i.scdn.co/image/e1619b7517876f75c3b0b6e529f3c4243424f38d"
         },
         {
             "artist_name": "Eminem",
@@ -414,7 +465,8 @@
             "artist_genre": "detroit hip hop",
             "followers": 43131797,
             "popularity": 94,
-            "artist_id": "eminem"
+            "artist_id": "eminem",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb3860fe3d46ee8a4d70620007"
         },
         {
             "artist_name": "Chris Cornell",
@@ -422,7 +474,8 @@
             "artist_genre": "alternative metal",
             "followers": 1509024,
             "popularity": 67,
-            "artist_id": "chris-cornell"
+            "artist_id": "chris-cornell",
+            "image_url": "https://i.scdn.co/image/85eb1c9e95d3b74bd7304e8b89d7c48601f07845"
         },
         {
             "artist_name": "Metallica",
@@ -430,7 +483,8 @@
             "artist_genre": "hard rock",
             "followers": 17310402,
             "popularity": 85,
-            "artist_id": "metallica"
+            "artist_id": "metallica",
+            "image_url": "https://i.scdn.co/image/5a06711d7fc48d5e0e3f9a3274ffed3f0af1bd91"
         },
         {
             "artist_name": "Kendrick Lamar",
@@ -438,7 +492,8 @@
             "artist_genre": "conscious hip hop",
             "followers": 16940602,
             "popularity": 89,
-            "artist_id": "kendrick-lamar"
+            "artist_id": "kendrick-lamar",
+            "image_url": "https://i.scdn.co/image/3a836196bfb341f736c7fe2704fb75de53f8dfbb"
         },
         {
             "artist_name": "Polo G",
@@ -446,7 +501,8 @@
             "artist_genre": "chicago rap",
             "followers": 3506704,
             "popularity": 90,
-            "artist_id": "polo-g"
+            "artist_id": "polo-g",
+            "image_url": "https://i.scdn.co/image/86dc350509ace5cc41b7658979a87c8be757e71d"
         },
         {
             "artist_name": "Tate McRae",
@@ -454,7 +510,8 @@
             "artist_genre": "alt z",
             "followers": 1340997,
             "popularity": 84,
-            "artist_id": "tate-mcrae"
+            "artist_id": "tate-mcrae",
+            "image_url": "https://i.scdn.co/image/a65f75753aff4eb900dcc1515a771cf5dec69124"
         },
         {
             "artist_name": "H.E.R.",
@@ -462,7 +519,8 @@
             "artist_genre": "alternative r&b",
             "followers": 3638908,
             "popularity": 82,
-            "artist_id": "h.e.r."
+            "artist_id": "h.e.r.",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb004e891401b7617727a51b1c"
         },
         {
             "artist_name": "Kane Brown",
@@ -470,7 +528,8 @@
             "artist_genre": "contemporary country",
             "followers": 3250705,
             "popularity": 80,
-            "artist_id": "kane-brown"
+            "artist_id": "kane-brown",
+            "image_url": "https://i.scdn.co/image/c1c4dca1973a866b372b642f10486ca952b7e211"
         },
         {
             "artist_name": "Loretta Lynn",
@@ -478,7 +537,8 @@
             "artist_genre": "country",
             "followers": 471445,
             "popularity": 59,
-            "artist_id": "loretta-lynn"
+            "artist_id": "loretta-lynn",
+            "image_url": "https://i.scdn.co/image/c7cd1f5f235743cc7df249b9d789460d0000dfbb"
         },
         {
             "artist_name": "Anderson .Paak",
@@ -486,7 +546,8 @@
             "artist_genre": "escape room",
             "followers": 1799057,
             "popularity": 86,
-            "artist_id": "anderson-.paak"
+            "artist_id": "anderson-.paak",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eba39daa0404fa8d108e706fb9"
         },
         {
             "artist_name": "Blake Shelton",
@@ -494,7 +555,8 @@
             "artist_genre": "contemporary country",
             "followers": 5693019,
             "popularity": 77,
-            "artist_id": "blake-shelton"
+            "artist_id": "blake-shelton",
+            "image_url": "https://i.scdn.co/image/c18fe310855c2311eee99a7ebb796a2a81eaf6e7"
         },
         {
             "artist_name": "Jon Batiste",
@@ -502,7 +564,8 @@
             "artist_genre": "new orleans jazz",
             "followers": 107147,
             "popularity": 64,
-            "artist_id": "jon-batiste"
+            "artist_id": "jon-batiste",
+            "image_url": "https://i.scdn.co/image/2fab9596e737f34f14128b6237c7ddeceb55a0bf"
         },
         {
             "artist_name": "Luke Bryan",
@@ -510,7 +573,8 @@
             "artist_genre": "contemporary country",
             "followers": 6289366,
             "popularity": 80,
-            "artist_id": "luke-bryan"
+            "artist_id": "luke-bryan",
+            "image_url": "https://i.scdn.co/image/7d0807400f9076bd4c16d05ccec24c4ae1675e16"
         },
         {
             "artist_name": "J. Cole",
@@ -518,7 +582,8 @@
             "artist_genre": "conscious hip hop",
             "followers": 12973243,
             "popularity": 88,
-            "artist_id": "j.-cole"
+            "artist_id": "j.-cole",
+            "image_url": "https://i.scdn.co/image/c58beb81196bbdda378b6746c51a10aace2f63a6"
         },
         {
             "artist_name": "Roddy Ricch",
@@ -526,7 +591,8 @@
             "artist_genre": "melodic rap",
             "followers": 5884142,
             "popularity": 88,
-            "artist_id": "roddy-ricch"
+            "artist_id": "roddy-ricch",
+            "image_url": "https://i.scdn.co/image/020e997fb003cf666859a90b57ca0519df769d30"
         },
         {
             "artist_name": "Brett Young",
@@ -534,7 +600,8 @@
             "artist_genre": "contemporary country",
             "followers": 699478,
             "popularity": 74,
-            "artist_id": "brett-young"
+            "artist_id": "brett-young",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb302a2604be62e5fe2eb4a48e"
         },
         {
             "artist_name": "Chris Brown",
@@ -542,7 +609,8 @@
             "artist_genre": "dance pop",
             "followers": 13415719,
             "popularity": 91,
-            "artist_id": "chris-brown"
+            "artist_id": "chris-brown",
+            "image_url": "https://i.scdn.co/image/e153d6448b17ce97b2a79da70d64b89230c67053"
         },
         {
             "artist_name": "Michael Jackson",
@@ -550,7 +618,8 @@
             "artist_genre": "pop",
             "followers": 17971563,
             "popularity": 86,
-            "artist_id": "michael-jackson"
+            "artist_id": "michael-jackson",
+            "image_url": "https://i.scdn.co/image/51dad9aaabe5643818840207a9a8957c2ad91bf2"
         },
         {
             "artist_name": "Sam Hunt",
@@ -558,7 +627,8 @@
             "artist_genre": "contemporary country",
             "followers": 2063338,
             "popularity": 75,
-            "artist_id": "sam-hunt"
+            "artist_id": "sam-hunt",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb4ae2622b107fd083761135ad"
         },
         {
             "artist_name": "blackbear",
@@ -566,7 +636,8 @@
             "artist_genre": "electropop",
             "followers": 4058700,
             "popularity": 87,
-            "artist_id": "blackbear"
+            "artist_id": "blackbear",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebc4ba782fea591a6f4811ce5a"
         },
         {
             "artist_name": "24kGoldn",
@@ -574,7 +645,8 @@
             "artist_genre": "cali rap",
             "followers": 924006,
             "popularity": 87,
-            "artist_id": "24kgoldn"
+            "artist_id": "24kgoldn",
+            "image_url": "https://i.scdn.co/image/f3f6ce3ff1651091cf10242150edca3cf2506a9a"
         },
         {
             "artist_name": "Saweetie",
@@ -582,7 +654,8 @@
             "artist_genre": "cali rap",
             "followers": 1059401,
             "popularity": 82,
-            "artist_id": "saweetie"
+            "artist_id": "saweetie",
+            "image_url": "https://i.scdn.co/image/1931fe3856a71a79e0dffb843f0004289feffc28"
         },
         {
             "artist_name": "Young Thug",
@@ -590,7 +663,8 @@
             "artist_genre": "atl hip hop",
             "followers": 6054853,
             "popularity": 91,
-            "artist_id": "young-thug"
+            "artist_id": "young-thug",
+            "image_url": "https://i.scdn.co/image/69ef089edd03d6d5455ed61e96d27c7f5b995434"
         },
         {
             "artist_name": "Nirvana",
@@ -598,7 +672,8 @@
             "artist_genre": "alternative rock",
             "followers": 12409110,
             "popularity": 84,
-            "artist_id": "nirvana"
+            "artist_id": "nirvana",
+            "image_url": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b"
         },
         {
             "artist_name": "Eagles",
@@ -606,7 +681,8 @@
             "artist_genre": "album rock",
             "followers": 6302958,
             "popularity": 80,
-            "artist_id": "eagles"
+            "artist_id": "eagles",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebcec259f1236873391af9d348"
         },
         {
             "artist_name": "Lady Gaga",
@@ -614,7 +690,8 @@
             "artist_genre": "dance pop",
             "followers": 16855661,
             "popularity": 90,
-            "artist_id": "lady-gaga"
+            "artist_id": "lady-gaga",
+            "image_url": "https://i.scdn.co/image/1f4c23aa943d8eafc17e9f02e0cb1ffc3ac49d37"
         },
         {
             "artist_name": "Green Day",
@@ -622,7 +699,8 @@
             "artist_genre": "permanent wave",
             "followers": 11938643,
             "popularity": 84,
-            "artist_id": "green-day"
+            "artist_id": "green-day",
+            "image_url": "https://i.scdn.co/image/5c39df32d59ae1bd45867bb50e4322d14c3d1563"
         },
         {
             "artist_name": "Ritt Momney",
@@ -630,7 +708,8 @@
             "artist_genre": "bedroom pop",
             "followers": 90577,
             "popularity": 74,
-            "artist_id": "ritt-momney"
+            "artist_id": "ritt-momney",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb26132f8f0fb9319c9a7997c5"
         },
         {
             "artist_name": "Miranda Lambert",
@@ -638,7 +717,8 @@
             "artist_genre": "contemporary country",
             "followers": 2679071,
             "popularity": 75,
-            "artist_id": "miranda-lambert"
+            "artist_id": "miranda-lambert",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb3451ec9022a5fdf99eed6c35"
         },
         {
             "artist_name": "Eric Church",
@@ -646,7 +726,8 @@
             "artist_genre": "contemporary country",
             "followers": 2936405,
             "popularity": 78,
-            "artist_id": "eric-church"
+            "artist_id": "eric-church",
+            "image_url": "https://i.scdn.co/image/2802cd42a46bc34a25480014e732bd654207d8a9"
         },
         {
             "artist_name": "AJR",
@@ -654,7 +735,8 @@
             "artist_genre": "modern rock",
             "followers": 1726472,
             "popularity": 82,
-            "artist_id": "ajr"
+            "artist_id": "ajr",
+            "image_url": "https://i.scdn.co/image/22219e6beaa9a4933b90cca1d32e48db233d984c"
         },
         {
             "artist_name": "Paul Stanley",
@@ -662,7 +744,8 @@
             "artist_genre": "album rock",
             "followers": 102359,
             "popularity": 43,
-            "artist_id": "paul-stanley"
+            "artist_id": "paul-stanley",
+            "image_url": "https://i.scdn.co/image/88fcaf0d2cf5345f93520378cece589897faab22"
         },
         {
             "artist_name": "Jason Aldean",
@@ -670,7 +753,8 @@
             "artist_genre": "contemporary country",
             "followers": 4467069,
             "popularity": 79,
-            "artist_id": "jason-aldean"
+            "artist_id": "jason-aldean",
+            "image_url": "https://i.scdn.co/image/444faa613370092987253ac10d35433c96223295"
         },
         {
             "artist_name": "Creedence Clearwater Revival",
@@ -678,7 +762,8 @@
             "artist_genre": "classic rock",
             "followers": 4170831,
             "popularity": 81,
-            "artist_id": "creedence-clearwater-revival"
+            "artist_id": "creedence-clearwater-revival",
+            "image_url": "https://i.scdn.co/image/a02c89d6abef58ad10832020c06f6a8a38dd9a32"
         },
         {
             "artist_name": "Guns N&#039; Roses",
@@ -686,7 +771,8 @@
             "artist_genre": "glam metal",
             "followers": 20053106,
             "popularity": 83,
-            "artist_id": "guns-n&#039;-roses"
+            "artist_id": "guns-n&#039;-roses",
+            "image_url": "https://i.scdn.co/image/80920b4fc80b6d970e2934eb8abe27014fc60632"
         },
         {
             "artist_name": "CJ",
@@ -694,7 +780,8 @@
             "artist_genre": "trap",
             "followers": 125404,
             "popularity": 81,
-            "artist_id": "cj"
+            "artist_id": "cj",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb47a7a763f18ab69652a4bb53"
         },
         {
             "artist_name": "Glass Animals",
@@ -702,7 +789,8 @@
             "artist_genre": "gauze pop",
             "followers": 1618305,
             "popularity": 83,
-            "artist_id": "glass-animals"
+            "artist_id": "glass-animals",
+            "image_url": "https://i.scdn.co/image/f282504561b0c2b2ec74925793bbf132982e9098"
         },
         {
             "artist_name": "Dustin Lynch",
@@ -710,7 +798,8 @@
             "artist_genre": "contemporary country",
             "followers": 1572048,
             "popularity": 71,
-            "artist_id": "dustin-lynch"
+            "artist_id": "dustin-lynch",
+            "image_url": "https://i.scdn.co/image/d7fb13fcd4248b66ea94758d32fef68b8f06f973"
         },
         {
             "artist_name": "Kali Uchis",
@@ -718,7 +807,8 @@
             "artist_genre": "colombian pop",
             "followers": 1642969,
             "popularity": 88,
-            "artist_id": "kali-uchis"
+            "artist_id": "kali-uchis",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb70809bdc315eff0f58be0b4d"
         },
         {
             "artist_name": "Niko Moon",
@@ -726,7 +816,8 @@
             "artist_genre": "contemporary country",
             "followers": 33654,
             "popularity": 65,
-            "artist_id": "niko-moon"
+            "artist_id": "niko-moon",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb1530a874d4fca915ffecfbaf"
         },
         {
             "artist_name": "Ringo Starr",
@@ -734,7 +825,8 @@
             "artist_genre": "album rock",
             "followers": 631919,
             "popularity": 56,
-            "artist_id": "ringo-starr"
+            "artist_id": "ringo-starr",
+            "image_url": "https://i.scdn.co/image/ada80ca0baba4c9dad0f88d8e8109ac3260372b9"
         },
         {
             "artist_name": "Jack Harlow",
@@ -742,7 +834,8 @@
             "artist_genre": "deep underground hip hop",
             "followers": 805596,
             "popularity": 84,
-            "artist_id": "jack-harlow"
+            "artist_id": "jack-harlow",
+            "image_url": "https://i.scdn.co/image/98e354db8bafef4b3be444bad6f0535ad72bf5f6"
         },
         {
             "artist_name": "Yung Bleu",
@@ -750,7 +843,8 @@
             "artist_genre": "alabama rap",
             "followers": 739259,
             "popularity": 73,
-            "artist_id": "yung-bleu"
+            "artist_id": "yung-bleu",
+            "image_url": "https://i.scdn.co/image/24ed718b61468236cf6be503a80fe064c33af8eb"
         },
         {
             "artist_name": "Mac Miller",
@@ -758,7 +852,8 @@
             "artist_genre": "hip hop",
             "followers": 5687078,
             "popularity": 87,
-            "artist_id": "mac-miller"
+            "artist_id": "mac-miller",
+            "image_url": "https://i.scdn.co/image/ed63d93ec5348edc9cdf85c97179bbc78cd57292"
         },
         {
             "artist_name": "Halsey",
@@ -766,7 +861,8 @@
             "artist_genre": "dance pop",
             "followers": 14470124,
             "popularity": 89,
-            "artist_id": "halsey"
+            "artist_id": "halsey",
+            "image_url": "https://i.scdn.co/image/1ccc88afcd13131dc35a1bd028922dbc748a55fb"
         },
         {
             "artist_name": "Rob Zombie",
@@ -774,7 +870,8 @@
             "artist_genre": "alternative metal",
             "followers": 1799009,
             "popularity": 71,
-            "artist_id": "rob-zombie"
+            "artist_id": "rob-zombie",
+            "image_url": "https://i.scdn.co/image/dc03ceec63c5c69276e577faec1a7a135d33b18a"
         },
         {
             "artist_name": "Mooski",
@@ -782,7 +879,8 @@
             "artist_genre": "N/A",
             "followers": 13225,
             "popularity": 67,
-            "artist_id": "mooski"
+            "artist_id": "mooski",
+            "image_url": "https://i.scdn.co/image/51024c1910cb79e0816b415efa866707d560c87b"
         },
         {
             "artist_name": "SpotemGottem",
@@ -790,7 +888,8 @@
             "artist_genre": "florida rap",
             "followers": 58065,
             "popularity": 73,
-            "artist_id": "spotemgottem"
+            "artist_id": "spotemgottem",
+            "image_url": "https://i.scdn.co/image/0bfb078a9dd4c6d0a6395b671d5333014d10b167"
         },
         {
             "artist_name": "The Notorious B.I.G.",
@@ -798,7 +897,8 @@
             "artist_genre": "east coast hip hop",
             "followers": 6174167,
             "popularity": 83,
-            "artist_id": "the-notorious-b.i.g."
+            "artist_id": "the-notorious-b.i.g.",
+            "image_url": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f"
         }
     ]
 }

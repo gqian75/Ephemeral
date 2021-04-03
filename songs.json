@@ -7,7 +7,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 198081,
-            "song_id": "peaches"
+            "song_id": "peaches",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Up",
@@ -16,7 +17,8 @@
             "artist": "Cardi B",
             "album": "single",
             "duration": 156944,
-            "song_id": "up"
+            "song_id": "up",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d619b8baab0619516bb53804"
         },
         {
             "song_name": "Leave The Door Open",
@@ -25,7 +27,8 @@
             "artist": "Bruno Mars",
             "album": "single",
             "duration": 242096,
-            "song_id": "leave-the-door-open"
+            "song_id": "leave-the-door-open",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736f9e6abbd6fa43ac3cdbeee0"
         },
         {
             "song_name": "Drivers License",
@@ -34,7 +37,8 @@
             "artist": "Olivia Rodrigo",
             "album": "single",
             "duration": 242013,
-            "song_id": "drivers-license"
+            "song_id": "drivers-license",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27359779689e1d9c15ca2f76b84"
         },
         {
             "song_name": "Save Your Tears",
@@ -43,7 +47,8 @@
             "artist": "The Weeknd",
             "album": "After Hours",
             "duration": 215626,
-            "song_id": "save-your-tears"
+            "song_id": "save-your-tears",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
         },
         {
             "song_name": "Blinding Lights",
@@ -52,7 +57,8 @@
             "artist": "The Weeknd",
             "album": "After Hours",
             "duration": 200040,
-            "song_id": "blinding-lights"
+            "song_id": "blinding-lights",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
         },
         {
             "song_name": "Levitating",
@@ -61,7 +67,8 @@
             "artist": "Dua Lipa",
             "album": "single",
             "duration": 203064,
-            "song_id": "levitating"
+            "song_id": "levitating",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27349caa4fc6f962057ba65576a"
         },
         {
             "song_name": "What's Next",
@@ -70,7 +77,8 @@
             "artist": "Drake",
             "album": "single",
             "duration": 178153,
-            "song_id": "whats-next"
+            "song_id": "whats-next",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273aeb93e49c14980e947fdda58"
         },
         {
             "song_name": "What You Know Bout Love",
@@ -79,7 +87,8 @@
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon",
             "duration": 160000,
-            "song_id": "what-you-know-bout-love"
+            "song_id": "what-you-know-bout-love",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27377ada0863603903f57b34369"
         },
         {
             "song_name": "Mood",
@@ -88,7 +97,8 @@
             "artist": "24kGoldn",
             "album": "single",
             "duration": 140525,
-            "song_id": "mood"
+            "song_id": "mood",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ff8c985ecb3b7c5f847be357"
         },
         {
             "song_name": "34+35",
@@ -97,7 +107,8 @@
             "artist": "Ariana Grande",
             "album": "Positions",
             "duration": 173710,
-            "song_id": "34+35"
+            "song_id": "34+35",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605"
         },
         {
             "song_name": "Go Crazy",
@@ -106,7 +117,8 @@
             "artist": "Chris Brown",
             "album": "Slime & B",
             "duration": 176960,
-            "song_id": "go-crazy"
+            "song_id": "go-crazy",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27363e0ddbb488d0eeec0e738fc"
         },
         {
             "song_name": "Back In Blood",
@@ -115,7 +127,8 @@
             "artist": "Pooh Shiesty",
             "album": "single",
             "duration": 184489,
-            "song_id": "back-in-blood"
+            "song_id": "back-in-blood",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27332c5d1e207364562fe2160b7"
         },
         {
             "song_name": "Calling My Phone",
@@ -124,7 +137,8 @@
             "artist": "Lil Tjay",
             "album": "single",
             "duration": 205458,
-            "song_id": "calling-my-phone"
+            "song_id": "calling-my-phone",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731b36f91abf80aedb7c88f460"
         },
         {
             "song_name": "Therefore I Am",
@@ -133,7 +147,8 @@
             "artist": "Billie Eilish",
             "album": "single",
             "duration": 174321,
-            "song_id": "therefore-i-am"
+            "song_id": "therefore-i-am",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273fec5ef9f3133aff71c525acc"
         },
         {
             "song_name": "Anyone",
@@ -142,7 +157,8 @@
             "artist": "Justin Bieber",
             "album": "single",
             "duration": 190779,
-            "song_id": "anyone"
+            "song_id": "anyone",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2734b02db5cefb177ff97346cf2"
         },
         {
             "song_name": "Astronaut In The Ocean",
@@ -151,7 +167,8 @@
             "artist": "Masked Wolf",
             "album": "single",
             "duration": 132780,
-            "song_id": "astronaut-in-the-ocean"
+            "song_id": "astronaut-in-the-ocean",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27384350b406522fc53c1b2a621"
         },
         {
             "song_name": "You're Mines Still",
@@ -160,7 +177,8 @@
             "artist": "Yung Bleu",
             "album": "Love Scars: The 5 Stages Of Emotions (Deluxe)",
             "duration": 226220,
-            "song_id": "youre-mines-still"
+            "song_id": "youre-mines-still",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c83bdd9c1b40fa252e18fad0"
         },
         {
             "song_name": "Wants And Needs",
@@ -169,7 +187,8 @@
             "artist": "Drake",
             "album": "single",
             "duration": 192956,
-            "song_id": "wants-and-needs"
+            "song_id": "wants-and-needs",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738b20e4631fa15d3953528bbc"
         },
         {
             "song_name": "Hold On",
@@ -178,7 +197,8 @@
             "artist": "Justin Bieber",
             "album": "single",
             "duration": 170813,
-            "song_id": "hold-on"
+            "song_id": "hold-on",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273bc2dd68b840bb48db3177046"
         },
         {
             "song_name": "Positions",
@@ -187,7 +207,8 @@
             "artist": "Ariana Grande",
             "album": "Positions",
             "duration": 172324,
-            "song_id": "positions"
+            "song_id": "positions",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605"
         },
         {
             "song_name": "You Broke Me First.",
@@ -196,7 +217,8 @@
             "artist": "Tate McRae",
             "album": "single",
             "duration": 169265,
-            "song_id": "you-broke-me-first."
+            "song_id": "you-broke-me-first.",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2730c2c97099fd6a637ed0aa4a4"
         },
         {
             "song_name": "Beat Box",
@@ -205,7 +227,8 @@
             "artist": "SpotemGottem",
             "album": "single",
             "duration": 200424,
-            "song_id": "beat-box"
+            "song_id": "beat-box",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273637d8f4420da84bb0b50e757"
         },
         {
             "song_name": "Best Friend",
@@ -214,7 +237,8 @@
             "artist": "Saweetie",
             "album": "single",
             "duration": 155883,
-            "song_id": "best-friend"
+            "song_id": "best-friend",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2739aeed9bbffaac4c99cc4c4d9"
         },
         {
             "song_name": "On Me",
@@ -223,7 +247,8 @@
             "artist": "Lil Baby",
             "album": "single",
             "duration": 135959,
-            "song_id": "on-me"
+            "song_id": "on-me",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738de3ce24866dcc8ffddbebac"
         },
         {
             "song_name": "Dynamite",
@@ -232,7 +257,8 @@
             "artist": "BTS",
             "album": "BE",
             "duration": 199053,
-            "song_id": "dynamite"
+            "song_id": "dynamite",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2733deb4b0115410a85afe31c29"
         },
         {
             "song_name": "Streets",
@@ -241,7 +267,8 @@
             "artist": "Doja Cat",
             "album": "Hot Pink",
             "duration": 226986,
-            "song_id": "streets"
+            "song_id": "streets",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27382b243023b937fd579a35533"
         },
         {
             "song_name": "Dakiti",
@@ -250,7 +277,8 @@
             "artist": "Bad Bunny",
             "album": "single",
             "duration": 205090,
-            "song_id": "dakiti"
+            "song_id": "dakiti",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27334c8199b0b3b3fb42b8a98a8"
         },
         {
             "song_name": "Heartbreak Anniversary",
@@ -259,7 +287,8 @@
             "artist": "Giveon",
             "album": "TAKE TIME",
             "duration": 198370,
-            "song_id": "heartbreak-anniversary"
+            "song_id": "heartbreak-anniversary",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27318ff322fcdd47c9400872da6"
         },
         {
             "song_name": "No More Parties",
@@ -268,7 +297,8 @@
             "artist": "Coi Leray",
             "album": "single",
             "duration": 140920,
-            "song_id": "no-more-parties"
+            "song_id": "no-more-parties",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27320a2ae654bb13afd7dbc4bbe"
         },
         {
             "song_name": "My Ex's Best Friend",
@@ -277,7 +307,8 @@
             "artist": "Machine Gun Kelly",
             "album": "Tickets To My Downfall",
             "duration": 139460,
-            "song_id": "my-exs-best-friend"
+            "song_id": "my-exs-best-friend",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d4d4929a3a86fe2f9fadbd42"
         },
         {
             "song_name": "Street Runner",
@@ -286,7 +317,8 @@
             "artist": "Rod Wave",
             "album": "single",
             "duration": 252021,
-            "song_id": "street-runner"
+            "song_id": "street-runner",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27347a7d4429560d993f1d87347"
         },
         {
             "song_name": "For The Night",
@@ -295,7 +327,8 @@
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon",
             "duration": 190476,
-            "song_id": "for-the-night"
+            "song_id": "for-the-night",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27377ada0863603903f57b34369"
         },
         {
             "song_name": "Good Days",
@@ -304,7 +337,8 @@
             "artist": "SZA",
             "album": "single",
             "duration": 279204,
-            "song_id": "good-days"
+            "song_id": "good-days",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2733097b1375ab17ae5bf302a0a"
         },
         {
             "song_name": "What's Your Country Song",
@@ -313,7 +347,8 @@
             "artist": "Thomas Rhett",
             "album": "single",
             "duration": 171333,
-            "song_id": "whats-your-country-song"
+            "song_id": "whats-your-country-song",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d1c4318677a4ec26efabe901"
         },
         {
             "song_name": "Without You",
@@ -322,7 +357,8 @@
             "artist": "The Kid LAROI",
             "album": "F*CK LOVE (SAVAGE)",
             "duration": 161384,
-            "song_id": "without-you"
+            "song_id": "without-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273df16d539f508603bfb1efe02"
         },
         {
             "song_name": "The Good Ones",
@@ -331,7 +367,8 @@
             "artist": "Gabby Barrett",
             "album": "Goldmine",
             "duration": 215140,
-            "song_id": "the-good-ones"
+            "song_id": "the-good-ones",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736c4c8d7e8742204879bff7b3"
         },
         {
             "song_name": "Whoopty",
@@ -340,7 +377,8 @@
             "artist": "CJ",
             "album": "single",
             "duration": 123262,
-            "song_id": "whoopty"
+            "song_id": "whoopty",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735038c2513329a3123b62923d"
         },
         {
             "song_name": "Put Your Records On",
@@ -349,7 +387,8 @@
             "artist": "Ritt Momney",
             "album": "single",
             "duration": 210463,
-            "song_id": "put-your-records-on"
+            "song_id": "put-your-records-on",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d52d8eb3be188231e120dbbd"
         },
         {
             "song_name": "Beautiful Mistakes",
@@ -358,7 +397,8 @@
             "artist": "Maroon 5",
             "album": "single",
             "duration": 227395,
-            "song_id": "beautiful-mistakes"
+            "song_id": "beautiful-mistakes",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273a6c1dea2b83a2309d9e0adc3"
         },
         {
             "song_name": "Starting Over",
@@ -367,7 +407,8 @@
             "artist": "Chris Stapleton",
             "album": "single",
             "duration": 240413,
-            "song_id": "starting-over"
+            "song_id": "starting-over",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d7d74af20c3a7ac6a0b7a60b"
         },
         {
             "song_name": "Headshot",
@@ -376,7 +417,8 @@
             "artist": "Lil Tjay",
             "album": "single",
             "duration": 144349,
-            "song_id": "headshot"
+            "song_id": "headshot",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c3c0cf41da2bb35e19acc875"
         },
         {
             "song_name": "As I Am",
@@ -385,7 +427,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 174406,
-            "song_id": "as-i-am"
+            "song_id": "as-i-am",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Telepatia",
@@ -394,7 +437,8 @@
             "artist": "Kali Uchis",
             "album": "Sin Miedo (del Amor y Otros Demonios) \u221e",
             "duration": 160191,
-            "song_id": "telepatia"
+            "song_id": "telepatia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273044a5466dac00f7b3c570b99"
         },
         {
             "song_name": "Cry Baby",
@@ -403,7 +447,8 @@
             "artist": "Megan Thee Stallion",
             "album": "Good News",
             "duration": 137983,
-            "song_id": "cry-baby"
+            "song_id": "cry-baby",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273da256972582b455d46985ba9"
         },
         {
             "song_name": "Just The Way",
@@ -412,7 +457,8 @@
             "artist": "Parmalee",
             "album": "single",
             "duration": 193880,
-            "song_id": "just-the-way"
+            "song_id": "just-the-way",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735ca852c43872268b189003df"
         },
         {
             "song_name": "Better Together",
@@ -421,7 +467,8 @@
             "artist": "Luke Combs",
             "album": "What You See Is What You Get",
             "duration": 219573,
-            "song_id": "better-together"
+            "song_id": "better-together",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273429d8ec28f865acf2a927c2d"
         },
         {
             "song_name": "My Head And My Heart",
@@ -430,7 +477,8 @@
             "artist": "Ava Max",
             "album": "Dreaming In Black And White",
             "duration": 175609,
-            "song_id": "my-head-and-my-heart"
+            "song_id": "my-head-and-my-heart",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3dc4a418805c185aa8f59b4"
         },
         {
             "song_name": "Good Time",
@@ -439,7 +487,8 @@
             "artist": "Niko Moon",
             "album": "single",
             "duration": 214706,
-            "song_id": "good-time"
+            "song_id": "good-time",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2732175d6e26193b21040f314fe"
         },
         {
             "song_name": "Willow",
@@ -448,7 +497,8 @@
             "artist": "Taylor Swift",
             "album": "evermore",
             "duration": 214706,
-            "song_id": "willow"
+            "song_id": "willow",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27333b8541201f1ef38941024be"
         },
         {
             "song_name": "We're Good",
@@ -457,7 +507,8 @@
             "artist": "Dua Lipa",
             "album": "Future Nostalgia (The Moonlight Edition)",
             "duration": 165506,
-            "song_id": "were-good"
+            "song_id": "were-good",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f4b8a43495c6172243cf16f4"
         },
         {
             "song_name": "Lady",
@@ -466,7 +517,8 @@
             "artist": "Brett Young",
             "album": "single",
             "duration": 193416,
-            "song_id": "lady"
+            "song_id": "lady",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273501bb9c996bb12d609bf1fba"
         },
         {
             "song_name": "Track Star",
@@ -475,7 +527,8 @@
             "artist": "Mooski",
             "album": "single",
             "duration": 199706,
-            "song_id": "track-star"
+            "song_id": "track-star",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e4ba2e0371d692d957568407"
         },
         {
             "song_name": "Long Live",
@@ -484,7 +537,8 @@
             "artist": "Florida Georgia Line",
             "album": "Life Rolls On",
             "duration": 153253,
-            "song_id": "long-live"
+            "song_id": "long-live",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27396886c18aa65dbbdba9cb598"
         },
         {
             "song_name": "Time Today",
@@ -493,7 +547,8 @@
             "artist": "Moneybagg Yo",
             "album": "single",
             "duration": 136939,
-            "song_id": "time-today"
+            "song_id": "time-today",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731c8bef7c365a852c21acf002"
         },
         {
             "song_name": "Lemon Pepper Freestyle",
@@ -502,7 +557,8 @@
             "artist": "Drake",
             "album": "single",
             "duration": 383036,
-            "song_id": "lemon-pepper-freestyle"
+            "song_id": "lemon-pepper-freestyle",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738b20e4631fa15d3953528bbc"
         },
         {
             "song_name": "Heat Waves",
@@ -511,7 +567,8 @@
             "artist": "Glass Animals",
             "album": "Dreamland",
             "duration": 238805,
-            "song_id": "heat-waves"
+            "song_id": "heat-waves",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273712701c5e263efc8726b1464"
         },
         {
             "song_name": "Damage",
@@ -520,7 +577,8 @@
             "artist": "H.E.R.",
             "album": "single",
             "duration": 223414,
-            "song_id": "damage"
+            "song_id": "damage",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2739276b0040c00070f5811019e"
         },
         {
             "song_name": "Goosebumps",
@@ -529,7 +587,8 @@
             "artist": "Travis Scott",
             "album": "Birds In The Trap Sing McKnight",
             "duration": 243836,
-            "song_id": "goosebumps"
+            "song_id": "goosebumps",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce"
         },
         {
             "song_name": "Down To One",
@@ -538,7 +597,8 @@
             "artist": "Luke Bryan",
             "album": "Born Here Live Here Die Here",
             "duration": 221633,
-            "song_id": "down-to-one"
+            "song_id": "down-to-one",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2734768480cf7c817b1f2d12113"
         },
         {
             "song_name": "Forever After All",
@@ -547,7 +607,8 @@
             "artist": "Luke Combs",
             "album": "What You See Ain't Always What You Get (Deluxe Edition)",
             "duration": 232533,
-            "song_id": "forever-after-all"
+            "song_id": "forever-after-all",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273433fa8ed8901569b606a715e"
         },
         {
             "song_name": "Unstable",
@@ -556,7 +617,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 158324,
-            "song_id": "unstable"
+            "song_id": "unstable",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Momma's House",
@@ -565,7 +627,8 @@
             "artist": "Dustin Lynch",
             "album": "Tullahoma",
             "duration": 220160,
-            "song_id": "mommas-house"
+            "song_id": "mommas-house",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27364d794492dd0ac2e023787a7"
         },
         {
             "song_name": "Off My Face",
@@ -574,7 +637,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 156467,
-            "song_id": "off-my-face"
+            "song_id": "off-my-face",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Hell Of A View",
@@ -583,7 +647,8 @@
             "artist": "Eric Church",
             "album": "single",
             "duration": 175280,
-            "song_id": "hell-of-a-view"
+            "song_id": "hell-of-a-view",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2732e41b5285bc71779e57ff3ab"
         },
         {
             "song_name": "Ghost",
@@ -592,7 +657,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 153190,
-            "song_id": "ghost"
+            "song_id": "ghost",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Somebody Like That",
@@ -601,7 +667,8 @@
             "artist": "Tenille Arts",
             "album": "Love, Heartbreak, & Everything in Between",
             "duration": 198208,
-            "song_id": "somebody-like-that"
+            "song_id": "somebody-like-that",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273249836c7686883269beabf16"
         },
         {
             "song_name": "2 Much",
@@ -610,7 +677,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 152796,
-            "song_id": "2-much"
+            "song_id": "2-much",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Real As It Gets",
@@ -619,7 +687,8 @@
             "artist": "Lil Baby",
             "album": "single",
             "duration": 192804,
-            "song_id": "real-as-it-gets"
+            "song_id": "real-as-it-gets",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f0f6f6144929a1ff72001f5e"
         },
         {
             "song_name": "Monsters",
@@ -628,7 +697,8 @@
             "artist": "All Time Low",
             "album": "Wake Up, Sunshine",
             "duration": 174067,
-            "song_id": "monsters"
+            "song_id": "monsters",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27328c24b54e9149cab239ac1cd"
         },
         {
             "song_name": "Body",
@@ -637,7 +707,8 @@
             "artist": "Megan Thee Stallion",
             "album": "Good News",
             "duration": 171067,
-            "song_id": "body"
+            "song_id": "body",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273da256972582b455d46985ba9"
         },
         {
             "song_name": "Buss It",
@@ -646,7 +717,8 @@
             "artist": "Erica Banks",
             "album": "Erica Banks",
             "duration": 187000,
-            "song_id": "buss-it"
+            "song_id": "buss-it",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273278801b5a5f0baee61a4ac29"
         },
         {
             "song_name": "La Noche de Anoche",
@@ -655,7 +727,8 @@
             "artist": "Bad Bunny",
             "album": "EL \u00daLTIMO TOUR DEL MUNDO",
             "duration": 203200,
-            "song_id": "la-noche-de-anoche"
+            "song_id": "la-noche-de-anoche",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273005ee342f4eef2cc6e8436ab"
         },
         {
             "song_name": "Masterpiece",
@@ -664,7 +737,8 @@
             "artist": "DaBaby",
             "album": "single",
             "duration": 181714,
-            "song_id": "masterpiece"
+            "song_id": "masterpiece",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737b41da110df7023757e8f8fa"
         },
         {
             "song_name": "The Business",
@@ -673,7 +747,8 @@
             "artist": "Tiesto",
             "album": "single",
             "duration": 164000,
-            "song_id": "the-business"
+            "song_id": "the-business",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f461bbc21a9bcec43a926973"
         },
         {
             "song_name": "Deserve You",
@@ -682,7 +757,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 187238,
-            "song_id": "deserve-you"
+            "song_id": "deserve-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Wasted On You",
@@ -691,7 +767,8 @@
             "artist": "Morgan Wallen",
             "album": "Dangerous: The Double Album",
             "duration": 178520,
-            "song_id": "wasted-on-you"
+            "song_id": "wasted-on-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca"
         },
         {
             "song_name": "Made For You",
@@ -700,7 +777,18 @@
             "artist": "Jake Owen",
             "album": "Greetings From...Jake",
             "duration": 238400,
-            "song_id": "made-for-you"
+            "song_id": "made-for-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27341d60c90951cdecd05abfbe6"
+        },
+        {
+            "song_name": "Breaking Up Was Easy In The 90's",
+            "rank": 79,
+            "release_date": "2021-03-13",
+            "artist": "Sam Hunt",
+            "album": "SOUTHSIDE",
+            "duration": 215933,
+            "song_id": "breaking-up-was-easy-in-the-90s",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273b5529363386deb522a4f586c"
         },
         {
             "song_name": "Quicksand",
@@ -709,7 +797,8 @@
             "artist": "Morray",
             "album": "single",
             "duration": 223944,
-            "song_id": "quicksand"
+            "song_id": "quicksand",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737c1997779551dd3624e48bf7"
         },
         {
             "song_name": "Die For You",
@@ -718,7 +807,8 @@
             "artist": "Justin Bieber",
             "album": "Starboy",
             "duration": 260253,
-            "song_id": "die-for-you"
+            "song_id": "die-for-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452"
         },
         {
             "song_name": "Tombstone",
@@ -727,7 +817,8 @@
             "artist": "Rod Wave",
             "album": "single",
             "duration": 160078,
-            "song_id": "tombstone"
+            "song_id": "tombstone",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273bf5bf2458d877dfe49ab1497"
         },
         {
             "song_name": "Pick Up Your Feelings",
@@ -736,7 +827,8 @@
             "artist": "Jazmine Sullivan",
             "album": "single",
             "duration": 232096,
-            "song_id": "pick-up-your-feelings"
+            "song_id": "pick-up-your-feelings",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2738c6dad8d9f29861db8ea1c75"
         },
         {
             "song_name": "Love You Different",
@@ -745,7 +837,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 186695,
-            "song_id": "love-you-different"
+            "song_id": "love-you-different",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "Glad You Exist",
@@ -754,7 +847,8 @@
             "artist": "Dan + Shay",
             "album": "single",
             "duration": 144533,
-            "song_id": "glad-you-exist"
+            "song_id": "glad-you-exist",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273d8768ba9447fccfbd06b6fa0"
         },
         {
             "song_name": "Almost Maybes",
@@ -763,7 +857,8 @@
             "artist": "Jordan Davis",
             "album": "single",
             "duration": 179152,
-            "song_id": "almost-maybes"
+            "song_id": "almost-maybes",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735a9e9f725356e6cf6cd6947f"
         },
         {
             "song_name": "Loved By You",
@@ -772,7 +867,8 @@
             "artist": "Justin Bieber",
             "album": "Justice",
             "duration": 159250,
-            "song_id": "loved-by-you"
+            "song_id": "loved-by-you",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431"
         },
         {
             "song_name": "You Got It",
@@ -781,7 +877,8 @@
             "artist": "VEDO",
             "album": "For You",
             "duration": 203144,
-            "song_id": "you-got-it"
+            "song_id": "you-got-it",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2739b7e6a1ee15c55a550166e15"
         },
         {
             "song_name": "Girl Like Me",
@@ -790,7 +887,8 @@
             "artist": "The Black Eyed Peas",
             "album": "TRANSLATION",
             "duration": 222522,
-            "song_id": "girl-like-me"
+            "song_id": "girl-like-me",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735a7f21dad5c796d719650972"
         },
         {
             "song_name": "One Too Many",
@@ -799,7 +897,8 @@
             "artist": "Keith Urban",
             "album": "single",
             "duration": 203893,
-            "song_id": "one-too-many"
+            "song_id": "one-too-many",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f2a428f109f825ec22c64656"
         },
         {
             "song_name": "Somebody",
@@ -808,7 +907,8 @@
             "artist": "Justin Bieber",
             "album": "Justice (Triple Chucks Deluxe)",
             "duration": 179414,
-            "song_id": "somebody"
+            "song_id": "somebody",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273a01fed49fe3a84a9919cef29"
         },
         {
             "song_name": "Hello",
@@ -817,7 +917,8 @@
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon (Deluxe)",
             "duration": 190534,
-            "song_id": "hello"
+            "song_id": "hello",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27346e1307c35579c3483ea7b03"
         },
         {
             "song_name": "Nobody",
@@ -826,7 +927,8 @@
             "artist": "Dylan Scott",
             "album": "Be the Cowboy",
             "duration": 193429,
-            "song_id": "nobody"
+            "song_id": "nobody",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273257f81958be25db29f328159"
         },
         {
             "song_name": "Famous Friends",
@@ -835,7 +937,8 @@
             "artist": "Chris Young",
             "album": "single",
             "duration": 165569,
-            "song_id": "famous-friends"
+            "song_id": "famous-friends",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2734394ca9fbd7a2ab0e28f560d"
         },
         {
             "song_name": "Settling Down",
@@ -844,7 +947,8 @@
             "artist": "Miranda Lambert",
             "album": "Wildcard",
             "duration": 197453,
-            "song_id": "settling-down"
+            "song_id": "settling-down",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273753e552f06e10a4987ea455b"
         },
         {
             "song_name": "Sand In My Boots",
@@ -853,7 +957,8 @@
             "artist": "Morgan Wallen",
             "album": "Dangerous: The Double Album",
             "duration": 202133,
-            "song_id": "sand-in-my-boots"
+            "song_id": "sand-in-my-boots",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca"
         },
         {
             "song_name": "Neighbors",
@@ -862,7 +967,8 @@
             "artist": "Pooh Shiesty",
             "album": "Shiesty Season",
             "duration": 171780,
-            "song_id": "neighbors"
+            "song_id": "neighbors",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737521ad5f8cd60ead348560ab"
         },
         {
             "song_name": "Bandido",
@@ -871,7 +977,8 @@
             "artist": "Myke Towers",
             "album": "single",
             "duration": 232853,
-            "song_id": "bandido"
+            "song_id": "bandido",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273069e5634bc475b5c0436a3ce"
         },
         {
             "song_name": "Drankin N Smokin",
@@ -880,7 +987,8 @@
             "artist": "Future",
             "album": "Pluto x Baby Pluto",
             "duration": 213520,
-            "song_id": "drankin-n-smokin"
+            "song_id": "drankin-n-smokin",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27357928e0363878a71692e6a1f"
         },
         {
             "song_name": "Beers And Sunshine",
@@ -889,7 +997,8 @@
             "artist": "Darius Rucker",
             "album": "single",
             "duration": 178278,
-            "song_id": "beers-and-sunshine"
+            "song_id": "beers-and-sunshine",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273233f6ce837052ef45849896c"
         }
     ]
 }

@@ -22,13 +22,13 @@ link = db.Table('link',
 
 class Song(db.Model):
     """
-    Song class has 6 attrbiutes 
-    song_name, rank, release_date, duration, artist, album
+    Song class has 7 attrbiutes
+    song_name, rank, release_date, duration, artist, album, image_url
     """
     __tablename__ = 'song'
 
     rank = db.Column(db.Integer, primary_key=True)
-	
+
     song_name = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
     release_date = db.Column(db.String(80), nullable=False)
@@ -36,15 +36,17 @@ class Song(db.Model):
     album_name_lower = db.Column(db.String(80), nullable=False)
     duration = db.Column(db.String(80),nullable=True)
     song_id = db.Column(db.String([]),nullable=False)
+
     #durationms = db.Column(db.Integer,nullable=True)
 
     album_rank = db.Column(db.Integer, db.ForeignKey('album.album_rank'))
     # artists = db.relationship('Artist', backref = 'song', uselist = False)
+    image_url = db.Column(db.String(80),nullable=True)
 
 class Artist(db.Model):
     """
-    Artist class has 4 attrbiutes 
-    artist_name, artist_rank, artist_genre, followers
+    Artist class has 5 attrbiutes
+    artist_name, artist_rank, artist_genre, followers, image_url
     """
     __tablename__ = 'artist'
 
@@ -57,11 +59,12 @@ class Artist(db.Model):
     artist_id = db.Column(db.String([]),nullable=False)
     songs = db.relationship('Song',secondary = 'link', backref = 'compose')
     albums = db.relationship('Album', backref = 'release')
-    # song_rank = db.Column(db.Integer, db.ForeignKey('song.rank'))   
+    # song_rank = db.Column(db.Integer, db.ForeignKey('song.rank'))
+    image_url = db.Column(db.String(80), nullable=False)
 
 class Album(db.Model):
     """
-    Album class has 4 attrbiutes 
+    Album class has 4 attrbiutes
     album_name, album_rank, album_release_date, artist
     """
     __tablename__ = 'album'
@@ -76,7 +79,7 @@ class Album(db.Model):
     songs = db.relationship('Song', backref = 'album')
 
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
-    
+
 
 db.drop_all()
 db.create_all()
