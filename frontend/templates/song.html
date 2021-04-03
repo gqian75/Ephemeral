@@ -35,23 +35,23 @@
     <div class="row">
         <div class="col-12 center-text">
             
-            <h2>{{song['name']}}</h2><br>
+            <h2>{{song.song_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
                     <td class="static_item">Artist: </td>
-                    <td class="static_item point" onclick="window.location.href='/artists/{{ song['artist']['link'] }}';">{{song['artist']['name']}}</td>
+                    <td class="static_item point" onclick="window.location.href='/artists/{{ song.artist }}';">{{song.artist}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Album: </td>
-                    <td class="static_item point" onclick="window.location.href='/albums/{{ song['album']['link'] }}'">{{song['album']['name']}}</td>
+                    <td class="static_item point" onclick="window.location.href='/albums/{{ song.album_name }}'">{{song.album_name}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Release Date: </td>
-                    <td class="static_item">{{song['release']}}</td>
+                    <td class="static_item">{{song.release_date}}</td>
                 </tr>
                 <tr>
-                    <td class="static_item">Song Length: </td>
-                    <td class="static_item">{{song['length']}}</td>
+                    <td class="static_item">Song Length (ms): </td>
+                    <td class="static_item">{{song.duration}}</td>
                 </tr>
             </table>
         </div>

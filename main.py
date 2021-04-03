@@ -111,6 +111,8 @@ def test():
 # def index():
 #     return render_template('index.html')
 
+
+
 @app.route('/about/')
 def about():
     return render_template('about.html')
@@ -121,6 +123,7 @@ def albums():
 
 @app.route('/artists/')
 def artists():
+
     return render_template('artists.html',artists=artist_list)
 
 @app.route('/songs/')
@@ -155,17 +158,17 @@ def album(_album):
 
 @app.route('/artists/<string:_artist>')
 def artist(_artist):
-    _artist = id(_artist)
-    return render_template('artist.html', artist=artist_list.get(_artist,None))
+    #_artist = id(_artist)
+    return render_template('artist.html', artist=find(_artist,artist_list,'artist'))
 
 @app.route('/songs/<string:_song>')
 def song(_song):
-    _song = id(_song)
-    return render_template('song.html', song=song_list.get(_song,None))
+    #_song = id(_song)
+    return render_template('song.html', song=find(_song,song_list,'song'))
 
 
 if __name__ == "__main__":
     #app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()
-    #print(album_list[14].album_name)
+    #print(song_list[14].song_name)
    

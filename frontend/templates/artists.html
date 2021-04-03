@@ -39,19 +39,27 @@
         <tr>
           <th class = "th-sm">Artist Name</th>
           <th class = "th-sm">Genre</th>
-          <th class = "th-sm">Age</th>
-          <th class = "th-sm">Label</th>
+          <th class = "th-sm">Rank</th>
+          <th class = "th-sm">Followers</th>
           <th class = "th-sm">Top Song</th>
         </tr>
       </thead>
       <tbody>
         {%for artist in artists%}
         <tr>
-          <td class="point" onclick="window.location.href='/artists/{{ artist }}'">{{artists[artist]['name']}}  </td>
-          <td>{{artists[artist]['genre']}}</td>
-          <td>{{artists[artist]['age']}}</td>
-          <td>{{artists[artist]['label']}}</td>
-          <td class="point" onclick="window.location.href='/songs/{{ artists[artist]['song']['link'] }}'">{{ artists[artist]['song']['name'] }}</td>
+          <td class="point" onclick="window.location.href='/artists/{{ artist.artist_name }}'">{{artist.artist_name}}  </td>
+          
+          <td>{{ artist.artist_genre|join("") }}</td>
+
+          <td>{{artist.artist_rank}}</td>
+          <td>{{artist.followers}}</td>
+          {% if artist.songs|length == 0 %}
+            <td>N/A</td>
+          
+          {% else %}
+            <td class="point" onclick="window.location.href='/songs/{{ artist.songs[0].song_name }}'">{{ artist.songs[0].song_name }}</td>
+          {% endif %}
+          
         </tr>
         {% endfor %}
         

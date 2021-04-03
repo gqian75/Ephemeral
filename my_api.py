@@ -91,10 +91,14 @@ def artistAPI():
             followers = get_spotify["artists"][0]["followers"]["total"]
             popularity = get_spotify["artists"][0]["popularity"]
             genre = get_spotify["artists"][0]["genres"]
+            try:
+                genre = genre[0]
+            except:
+                genre ="N/A"
             artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity)})
-            if(genre==[]):
-                genre=["N/A"]
+            
         except:
+            
             print(name)
             print(get_artist)
 

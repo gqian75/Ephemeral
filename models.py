@@ -48,7 +48,7 @@ class Artist(db.Model):
     artist_rank = db.Column(db.Integer, primary_key=True)
 
     artist_name = db.Column(db.String(80), nullable=False)
-    artist_genre = db.Column(db.String(120), nullable=False)
+    artist_genre = db.Column(db.String([]), nullable=False)
     followers = db.Column(db.Integer,nullable=False)
     popularity = db.Column(db.Integer)
     

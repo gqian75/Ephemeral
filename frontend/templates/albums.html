@@ -41,7 +41,7 @@
           <th class = "th-sm">Album Name</th>
           <th class = "th-sm">Album Release Date</th>
           <th class = "th-sm">Album Artist</th>
-          <th class = "th-sm">Type</th>
+          <th class = "th-sm">Album Rank</th>
           <th class = "th-sm">Genre</th>
         </tr>
       </thead>
@@ -50,7 +50,10 @@
         <tr>
           <td class="point" onclick="window.location.href='/albums/{{ album.album_name }}'">{{album.album_name}}  </td>     
           
-          <td>{{album.album_name}}</td>
+          <td>{{album.album_release_date}}</td>
+          <td class="point" onclick="window.location.href='/artists/{{ album.artist }}'">{{album.artist}}  </td>     
+          <td>{{album.album_rank}}</td>
+          <td>{{album.genre}}</td>
 
         </tr>
         {% endfor %}
