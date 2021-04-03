@@ -47,7 +47,7 @@
       <tbody>
         {%for artist in artists%}
         <tr>
-          <td class="point" onclick="window.location.href='/artists/{{ artist.artist_name }}'">{{artist.artist_name}}  </td>
+          <td class="point" onclick="window.location.href='/artists/{{ id(artist.artist_name) }}'">{{artist.artist_name}}  </td>
           
           <td>{{ artist.artist_genre|join("") }}</td>
 
@@ -57,7 +57,7 @@
             <td>N/A</td>
           
           {% else %}
-            <td class="point" onclick="window.location.href='/songs/{{ artist.songs[0].song_name }}'">{{ artist.songs[0].song_name }}</td>
+            <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
           {% endif %}
           
         </tr>

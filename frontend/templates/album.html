@@ -38,7 +38,7 @@
             <table class="center-table greyed">
                 <tr>
                     <td class="static_item">Artist: </td>
-                    <td class="point">{{album.artist}}</td>         
+                    <td class="point" onclick="window.location.href='/artists/{{ id(album.artist) }}'">{{album.artist}}</td>         
                 </tr>
                 <tr>
                     <td class="static_item">Release Date: </td>
@@ -57,7 +57,7 @@
                     {% if album.songs|length == 0 %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="point" onclick="window.location.href='/songs/{{ album.songs[0].song_name }}'">{{ album.songs[0].song_name }}</td>
+                    <td class="point" onclick="window.location.href='/songs/{{ id(album.songs[0].song_name) }}'">{{ album.songs[0].song_name }}</td>
                     {% endif %}
                 </tr>
             </table>

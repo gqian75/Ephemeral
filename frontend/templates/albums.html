@@ -48,10 +48,10 @@
       <tbody>
         {%for album in albums%}
         <tr>
-          <td class="point" onclick="window.location.href='/albums/{{ album.album_name }}'">{{album.album_name}}  </td>     
+          <td class="point" onclick="window.location.href='/albums/{{ id(album.album_name) }}'">{{album.album_name}}  </td>     
           
           <td>{{album.album_release_date}}</td>
-          <td class="point" onclick="window.location.href='/artists/{{ album.artist }}'">{{album.artist}}  </td>     
+          <td class="point" onclick="window.location.href='/artists/{{ id(album.artist) }}'">{{album.artist}}  </td>     
           <td>{{album.album_rank}}</td>
           <td>{{album.album_genre}}</td>
 

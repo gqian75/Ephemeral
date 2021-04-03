@@ -23,6 +23,13 @@ auth_response_data = auth_response.json()
 access_token = auth_response_data['access_token']
 headers_spotify = {'Authorization': 'Bearer {token}'.format(token=access_token)}
 
+def id(string):
+    string = string.replace(" ","-").lower().strip()
+    string = string.replace("'","")
+    string = string.replace("/","")
+    return string
+    
+
 def songAPI():
     url = "https://billboard2.p.rapidapi.com/hot_100"
     url_audioDB = "https://theaudiodb.p.rapidapi.com/searchtrack.php"
@@ -55,7 +62,7 @@ def songAPI():
                 album=r["tracks"]["items"][0]["album"]["name"]
             duration = r['tracks']['items'][0]['duration_ms']
             songs.append({"song_name": song["title"], "rank": song["rank"], "release_date": song["history"]["debut_date"],
-            "artist": name, "album":album, "duration":duration})
+            "artist": name, "album":album, "duration":duration, "song_id": id(song["title"])})
 
         except:
 
@@ -95,7 +102,7 @@ def artistAPI():
                 genre = genre[0]
             except:
                 genre ="N/A"
-            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity)})
+            artists.append({"artist_name": artist["artist"], "artist_rank": int(artist["rank"]), "artist_genre": genre, "followers": int(followers), "popularity": int(popularity), "artist_id":id(artist["artist"])})
             
         except:
             
@@ -137,7 +144,7 @@ def albumAPI():
             genre = ['N/A']
 
 
-        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "genre": genre})
+        albums.append({"album_name": name, "album_rank": int(rank), "album_release_date": release, "artist": artist, "genre": genre,"album_id":id(name)})
 
     albumJSON = {'Albums': albums}
     with open('albums.json', 'w') as fp:

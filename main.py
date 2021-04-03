@@ -133,21 +133,22 @@ def songs():
 
 #Dynamic instances of different types
 def id(string):
-    string = string.replace(" ","-").lower()
+    string = string.replace(" ","-").lower().strip()
     string = string.replace("'","")
+    string = string.replace("/","")
     return string
 
 def find(name, data, list_type):
     
     for list_item in data:
         if(list_type == "album"):
-            if(list_item.album_name == name):
+            if(list_item.album_id == name):
                 return list_item
         elif(list_type == "artist"):
-            if(list_item.artist_name == name):
+            if(list_item.artist_id == name):
                 return list_item
         elif(list_type == "song"):
-            if(list_item.song_name == name):
+            if(list_item.song_id == name):
                 return list_item
     return None
 
@@ -197,7 +198,7 @@ def format_lists():
 
 if __name__ == "__main__":
     format_lists()
-    
+    app.jinja_env.globals.update(id=id) 
     #app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()
     

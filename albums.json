@@ -9,7 +9,8 @@
                 "canadian pop",
                 "pop",
                 "post-teen pop"
-            ]
+            ],
+            "album_id": "justice"
         },
         {
             "album_name": "Chemtrails Over The Country Club",
@@ -19,7 +20,8 @@
             "genre": [
                 "art pop",
                 "pop"
-            ]
+            ],
+            "album_id": "chemtrails-over-the-country-club"
         },
         {
             "album_name": "Dangerous: The Double Album",
@@ -29,7 +31,8 @@
             "genre": [
                 "contemporary country",
                 "deep talent show"
-            ]
+            ],
+            "album_id": "dangerous:-the-double-album"
         },
         {
             "album_name": "Shoot For The Stars Aim For The Moon",
@@ -38,7 +41,8 @@
             "artist": "Pop Smoke",
             "genre": [
                 "brooklyn drill"
-            ]
+            ],
+            "album_id": "shoot-for-the-stars-aim-for-the-moon"
         },
         {
             "album_name": "Future Nostalgia",
@@ -49,7 +53,8 @@
                 "dance pop",
                 "pop",
                 "uk pop"
-            ]
+            ],
+            "album_id": "future-nostalgia"
         },
         {
             "album_name": "Shiesty Season",
@@ -62,7 +67,8 @@
                 "southern hip hop",
                 "tennessee hip hop",
                 "trap"
-            ]
+            ],
+            "album_id": "shiesty-season"
         },
         {
             "album_name": "After Hours",
@@ -73,7 +79,8 @@
                 "canadian contemporary r&b",
                 "canadian pop",
                 "pop"
-            ]
+            ],
+            "album_id": "after-hours"
         },
         {
             "album_name": "My Turn",
@@ -85,7 +92,8 @@
                 "atl trap",
                 "rap",
                 "trap"
-            ]
+            ],
+            "album_id": "my-turn"
         },
         {
             "album_name": "The Voice",
@@ -100,7 +108,8 @@
                 "rap",
                 "southern hip hop",
                 "trap"
-            ]
+            ],
+            "album_id": "the-voice"
         },
         {
             "album_name": "What You See Is What You Get",
@@ -109,7 +118,8 @@
             "artist": "Luke Combs",
             "genre": [
                 "contemporary country"
-            ]
+            ],
+            "album_id": "what-you-see-is-what-you-get"
         },
         {
             "album_name": "When It's All Said And Done... Take Time",
@@ -118,7 +128,8 @@
             "artist": "Giveon",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "when-its-all-said-and-done...-take-time"
         },
         {
             "album_name": "Legends Never Die",
@@ -128,7 +139,8 @@
             "genre": [
                 "chicago rap",
                 "melodic rap"
-            ]
+            ],
+            "album_id": "legends-never-die"
         },
         {
             "album_name": "Hollywood's Bleeding",
@@ -139,7 +151,8 @@
                 "dfw rap",
                 "melodic rap",
                 "rap"
-            ]
+            ],
+            "album_id": "hollywoods-bleeding"
         },
         {
             "album_name": "Folklore",
@@ -148,7 +161,8 @@
             "artist": "Taylor Swift",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "folklore"
         },
         {
             "album_name": "The Highlights",
@@ -159,7 +173,8 @@
                 "canadian contemporary r&b",
                 "canadian pop",
                 "pop"
-            ]
+            ],
+            "album_id": "the-highlights"
         },
         {
             "album_name": "Positions",
@@ -170,7 +185,8 @@
                 "dance pop",
                 "pop",
                 "post-teen pop"
-            ]
+            ],
+            "album_id": "positions"
         },
         {
             "album_name": "Good News",
@@ -182,7 +198,8 @@
                 "pop",
                 "pop rap",
                 "trap queen"
-            ]
+            ],
+            "album_id": "good-news"
         },
         {
             "album_name": "Fine Line",
@@ -192,7 +209,8 @@
             "genre": [
                 "pop",
                 "post-teen pop"
-            ]
+            ],
+            "album_id": "fine-line"
         },
         {
             "album_name": "When We All Fall Asleep, Where Do We Go?",
@@ -202,7 +220,8 @@
             "genre": [
                 "electropop",
                 "pop"
-            ]
+            ],
+            "album_id": "when-we-all-fall-asleep,-where-do-we-go?"
         },
         {
             "album_name": "Evermore",
@@ -211,7 +230,8 @@
             "artist": "Taylor Swift",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "evermore"
         },
         {
             "album_name": "Hot Pink",
@@ -221,7 +241,8 @@
             "genre": [
                 "dance pop",
                 "pop"
-            ]
+            ],
+            "album_id": "hot-pink"
         },
         {
             "album_name": "El Ultimo Tour del Mundo",
@@ -232,7 +253,8 @@
                 "latin",
                 "reggaeton",
                 "trap latino"
-            ]
+            ],
+            "album_id": "el-ultimo-tour-del-mundo"
         },
         {
             "album_name": "F*ck Love",
@@ -241,7 +263,8 @@
             "artist": "The Kid LAROI",
             "genre": [
                 "australian hip hop"
-            ]
+            ],
+            "album_id": "f*ck-love"
         },
         {
             "album_name": "Tickets To My Downfall",
@@ -251,7 +274,8 @@
             "genre": [
                 "ohio hip hop",
                 "pop rap"
-            ]
+            ],
+            "album_id": "tickets-to-my-downfall"
         },
         {
             "album_name": "Greatest Hits",
@@ -262,7 +286,8 @@
                 "classic rock",
                 "glam rock",
                 "rock"
-            ]
+            ],
+            "album_id": "greatest-hits"
         },
         {
             "album_name": "The GOAT",
@@ -271,7 +296,8 @@
             "artist": "Polo G",
             "genre": [
                 "chicago rap"
-            ]
+            ],
+            "album_id": "the-goat"
         },
         {
             "album_name": "Goodbye & Good Riddance",
@@ -281,7 +307,8 @@
             "genre": [
                 "chicago rap",
                 "melodic rap"
-            ]
+            ],
+            "album_id": "goodbye-&-good-riddance"
         },
         {
             "album_name": "Shore",
@@ -295,7 +322,8 @@
                 "indie rock",
                 "seattle indie",
                 "stomp and holler"
-            ]
+            ],
+            "album_id": "shore"
         },
         {
             "album_name": "Pray 4 Love",
@@ -304,7 +332,8 @@
             "artist": "Rod Wave",
             "genre": [
                 "florida rap"
-            ]
+            ],
+            "album_id": "pray-4-love"
         },
         {
             "album_name": "This One's For You",
@@ -313,7 +342,8 @@
             "artist": "Luke Combs",
             "genre": [
                 "contemporary country"
-            ]
+            ],
+            "album_id": "this-ones-for-you"
         },
         {
             "album_name": "Hamilton: An American Musical",
@@ -323,7 +353,8 @@
             "genre": [
                 "broadway",
                 "hollywood"
-            ]
+            ],
+            "album_id": "hamilton:-an-american-musical"
         },
         {
             "album_name": "YHLQMDLG",
@@ -334,7 +365,8 @@
                 "latin",
                 "reggaeton",
                 "trap latino"
-            ]
+            ],
+            "album_id": "yhlqmdlg"
         },
         {
             "album_name": "The Plugs I Met 2",
@@ -343,7 +375,8 @@
             "artist": "Benny The Butcher & Harry Fraud",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "the-plugs-i-met-2"
         },
         {
             "album_name": "Rumours",
@@ -357,7 +390,8 @@
                 "rock",
                 "soft rock",
                 "yacht rock"
-            ]
+            ],
+            "album_id": "rumours"
         },
         {
             "album_name": "Thats What They All Say",
@@ -369,7 +403,8 @@
                 "kentucky hip hop",
                 "pop rap",
                 "rap"
-            ]
+            ],
+            "album_id": "thats-what-they-all-say"
         },
         {
             "album_name": "BE",
@@ -379,7 +414,8 @@
             "genre": [
                 "k-pop",
                 "k-pop boy group"
-            ]
+            ],
+            "album_id": "be"
         },
         {
             "album_name": "Death Race For Love",
@@ -389,7 +425,8 @@
             "genre": [
                 "chicago rap",
                 "melodic rap"
-            ]
+            ],
+            "album_id": "death-race-for-love"
         },
         {
             "album_name": "BLAME IT ON BABY",
@@ -399,7 +436,8 @@
             "genre": [
                 "north carolina hip hop",
                 "rap"
-            ]
+            ],
+            "album_id": "blame-it-on-baby"
         },
         {
             "album_name": "If I Know Me",
@@ -409,7 +447,8 @@
             "genre": [
                 "contemporary country",
                 "deep talent show"
-            ]
+            ],
+            "album_id": "if-i-know-me"
         },
         {
             "album_name": "Curtain Call: The Hits=",
@@ -420,7 +459,8 @@
                 "detroit hip hop",
                 "hip hop",
                 "rap"
-            ]
+            ],
+            "album_id": "curtain-call:-the-hits="
         },
         {
             "album_name": "ASTROWORLD",
@@ -430,7 +470,8 @@
             "genre": [
                 "rap",
                 "slap house"
-            ]
+            ],
+            "album_id": "astroworld"
         },
         {
             "album_name": "beerbongs & bentleys",
@@ -441,7 +482,8 @@
                 "dfw rap",
                 "melodic rap",
                 "rap"
-            ]
+            ],
+            "album_id": "beerbongs-&-bentleys"
         },
         {
             "album_name": "Eternal Atake",
@@ -453,7 +495,8 @@
                 "philly rap",
                 "rap",
                 "trap"
-            ]
+            ],
+            "album_id": "eternal-atake"
         },
         {
             "album_name": "Starting Over",
@@ -463,7 +506,8 @@
             "genre": [
                 "contemporary country",
                 "outlaw country"
-            ]
+            ],
+            "album_id": "starting-over"
         },
         {
             "album_name": "Scorpion",
@@ -477,7 +521,8 @@
                 "pop rap",
                 "rap",
                 "toronto rap"
-            ]
+            ],
+            "album_id": "scorpion"
         },
         {
             "album_name": "Chronicle The 20 Greatest Hits",
@@ -491,7 +536,8 @@
                 "roots rock",
                 "southern rock",
                 "swamp rock"
-            ]
+            ],
+            "album_id": "chronicle-the-20-greatest-hits"
         },
         {
             "album_name": "Diamonds",
@@ -503,7 +549,8 @@
                 "mellow gold",
                 "piano rock",
                 "soft rock"
-            ]
+            ],
+            "album_id": "diamonds"
         },
         {
             "album_name": "Dont Smile At Me",
@@ -513,7 +560,8 @@
             "genre": [
                 "electropop",
                 "pop"
-            ]
+            ],
+            "album_id": "dont-smile-at-me"
         },
         {
             "album_name": "good kid, m.A.A.d city",
@@ -525,7 +573,8 @@
                 "hip hop",
                 "rap",
                 "west coast rap"
-            ]
+            ],
+            "album_id": "good-kid,-m.a.a.d-city"
         },
         {
             "album_name": "Ctrl",
@@ -535,7 +584,8 @@
             "genre": [
                 "pop",
                 "pop rap"
-            ]
+            ],
+            "album_id": "ctrl"
         },
         {
             "album_name": "Music To Be Murdered By",
@@ -546,7 +596,8 @@
                 "detroit hip hop",
                 "hip hop",
                 "rap"
-            ]
+            ],
+            "album_id": "music-to-be-murdered-by"
         },
         {
             "album_name": "Legend: The Best Of...",
@@ -556,7 +607,8 @@
             "genre": [
                 "reggae",
                 "roots reggae"
-            ]
+            ],
+            "album_id": "legend:-the-best-of..."
         },
         {
             "album_name": "Traveller",
@@ -566,7 +618,8 @@
             "genre": [
                 "contemporary country",
                 "outlaw country"
-            ]
+            ],
+            "album_id": "traveller"
         },
         {
             "album_name": "Stoney",
@@ -577,7 +630,8 @@
                 "dfw rap",
                 "melodic rap",
                 "rap"
-            ]
+            ],
+            "album_id": "stoney"
         },
         {
             "album_name": "Only The Family Presents: Loyal Bros Compilation",
@@ -586,7 +640,8 @@
             "artist": "Various Artists",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "only-the-family-presents:-loyal-bros-compilation"
         },
         {
             "album_name": "Divinely Uninspired To A Hellish Extent",
@@ -596,7 +651,8 @@
             "genre": [
                 "pop",
                 "uk pop"
-            ]
+            ],
+            "album_id": "divinely-uninspired-to-a-hellish-extent"
         },
         {
             "album_name": "Please Excuse Me For Being Antisocial",
@@ -607,7 +663,8 @@
                 "melodic rap",
                 "rap",
                 "trap"
-            ]
+            ],
+            "album_id": "please-excuse-me-for-being-antisocial"
         },
         {
             "album_name": "Over It",
@@ -617,7 +674,8 @@
             "genre": [
                 "pop",
                 "r&b"
-            ]
+            ],
+            "album_id": "over-it"
         },
         {
             "album_name": "Top",
@@ -627,7 +685,8 @@
             "genre": [
                 "baton rouge rap",
                 "trap"
-            ]
+            ],
+            "album_id": "top"
         },
         {
             "album_name": "Lover",
@@ -636,7 +695,8 @@
             "artist": "Taylor Swift",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "lover"
         },
         {
             "album_name": "Die 4 Respect",
@@ -645,7 +705,8 @@
             "artist": "DDG X OG Parker",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "die-4-respect"
         },
         {
             "album_name": "Sin Miedo (Del Amor y Otros Demonios)",
@@ -655,7 +716,8 @@
             "genre": [
                 "colombian pop",
                 "pop"
-            ]
+            ],
+            "album_id": "sin-miedo-(del-amor-y-otros-demonios)"
         },
         {
             "album_name": "2014 Forest Hills Drive",
@@ -667,7 +729,8 @@
                 "hip hop",
                 "north carolina hip hop",
                 "rap"
-            ]
+            ],
+            "album_id": "2014-forest-hills-drive"
         },
         {
             "album_name": "Pluto x Baby Pluto",
@@ -676,7 +739,8 @@
             "artist": "Future & Lil Uzi Vert",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "pluto-x-baby-pluto"
         },
         {
             "album_name": "Journey's Greatest Hits",
@@ -690,7 +754,8 @@
                 "mellow gold",
                 "rock",
                 "soft rock"
-            ]
+            ],
+            "album_id": "journeys-greatest-hits"
         },
         {
             "album_name": "Greatest Hits",
@@ -703,7 +768,8 @@
                 "hip hop",
                 "rap",
                 "west coast rap"
-            ]
+            ],
+            "album_id": "greatest-hits"
         },
         {
             "album_name": "Life Rolls On",
@@ -716,7 +782,8 @@
                 "country pop",
                 "country road",
                 "modern country rock"
-            ]
+            ],
+            "album_id": "life-rolls-on"
         },
         {
             "album_name": "Just Cause Y'all Waited 2",
@@ -731,7 +798,8 @@
                 "rap",
                 "southern hip hop",
                 "trap"
-            ]
+            ],
+            "album_id": "just-cause-yall-waited-2"
         },
         {
             "album_name": "Chilombo",
@@ -744,7 +812,8 @@
                 "pop",
                 "r&b",
                 "urban contemporary"
-            ]
+            ],
+            "album_id": "chilombo"
         },
         {
             "album_name": "Back In Black",
@@ -755,7 +824,8 @@
                 "australian rock",
                 "hard rock",
                 "rock"
-            ]
+            ],
+            "album_id": "back-in-black"
         },
         {
             "album_name": "\u00f7 (Divide)",
@@ -765,7 +835,8 @@
             "genre": [
                 "pop",
                 "uk pop"
-            ]
+            ],
+            "album_id": "\u00f7-(divide)"
         },
         {
             "album_name": "High Off Life",
@@ -778,7 +849,8 @@
                 "rap",
                 "southern hip hop",
                 "trap"
-            ]
+            ],
+            "album_id": "high-off-life"
         },
         {
             "album_name": "Take Care",
@@ -792,7 +864,8 @@
                 "pop rap",
                 "rap",
                 "toronto rap"
-            ]
+            ],
+            "album_id": "take-care"
         },
         {
             "album_name": "Greatest Hits",
@@ -805,7 +878,8 @@
                 "hardcore hip hop",
                 "hip hop",
                 "rap"
-            ]
+            ],
+            "album_id": "greatest-hits"
         },
         {
             "album_name": "Greatest Hits",
@@ -816,7 +890,8 @@
                 "glam metal",
                 "hard rock",
                 "rock"
-            ]
+            ],
+            "album_id": "greatest-hits"
         },
         {
             "album_name": "DAMN.",
@@ -828,7 +903,8 @@
                 "hip hop",
                 "rap",
                 "west coast rap"
-            ]
+            ],
+            "album_id": "damn."
         },
         {
             "album_name": "American Teen",
@@ -838,7 +914,8 @@
             "genre": [
                 "alternative r&b",
                 "pop"
-            ]
+            ],
+            "album_id": "american-teen"
         },
         {
             "album_name": "No One Sings Like You Anymore, Volume One",
@@ -849,7 +926,8 @@
                 "alternative metal",
                 "alternative rock",
                 "rock"
-            ]
+            ],
+            "album_id": "no-one-sings-like-you-anymore,-volume-one"
         },
         {
             "album_name": "Doo-Wops & Hooligans",
@@ -858,7 +936,8 @@
             "artist": "Bruno Mars",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "doo-wops-&-hooligans"
         },
         {
             "album_name": "Goldmine",
@@ -867,7 +946,8 @@
             "artist": "Gabby Barrett",
             "genre": [
                 "contemporary country"
-            ]
+            ],
+            "album_id": "goldmine"
         },
         {
             "album_name": "1",
@@ -881,7 +961,8 @@
                 "merseybeat",
                 "psychedelic rock",
                 "rock"
-            ]
+            ],
+            "album_id": "1"
         },
         {
             "album_name": "Savage Mode II",
@@ -890,7 +971,8 @@
             "artist": "21 Savage & Metro Boomin",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "savage-mode-ii"
         },
         {
             "album_name": "Still Woman Enough",
@@ -901,7 +983,8 @@
                 "country",
                 "country rock",
                 "nashville sound"
-            ]
+            ],
+            "album_id": "still-woman-enough"
         },
         {
             "album_name": "Greatest Hits",
@@ -920,7 +1003,8 @@
                 "rock",
                 "roots rock",
                 "soft rock"
-            ]
+            ],
+            "album_id": "greatest-hits"
         },
         {
             "album_name": "?",
@@ -930,7 +1014,8 @@
             "genre": [
                 "emo rap",
                 "miami hip hop"
-            ]
+            ],
+            "album_id": "?"
         },
         {
             "album_name": "We Are",
@@ -939,7 +1024,8 @@
             "artist": "Jon Batiste",
             "genre": [
                 "new orleans jazz"
-            ]
+            ],
+            "album_id": "we-are"
         },
         {
             "album_name": "Wunna",
@@ -951,7 +1037,8 @@
                 "melodic rap",
                 "rap",
                 "trap"
-            ]
+            ],
+            "album_id": "wunna"
         },
         {
             "album_name": "Luv Is Rage 2",
@@ -963,7 +1050,8 @@
                 "philly rap",
                 "rap",
                 "trap"
-            ]
+            ],
+            "album_id": "luv-is-rage-2"
         },
         {
             "album_name": "Final Destination",
@@ -973,7 +1061,8 @@
             "genre": [
                 "florida rap",
                 "viral rap"
-            ]
+            ],
+            "album_id": "final-destination"
         },
         {
             "album_name": "Dark Lane Demo Tapes",
@@ -987,7 +1076,8 @@
                 "pop rap",
                 "rap",
                 "toronto rap"
-            ]
+            ],
+            "album_id": "dark-lane-demo-tapes"
         },
         {
             "album_name": "Heaven & Hell",
@@ -997,7 +1087,8 @@
             "genre": [
                 "dance pop",
                 "pop"
-            ]
+            ],
+            "album_id": "heaven-&-hell"
         },
         {
             "album_name": "Moana",
@@ -1006,7 +1097,8 @@
             "artist": "Soundtrack",
             "genre": [
                 "N/A"
-            ]
+            ],
+            "album_id": "moana"
         },
         {
             "album_name": "Meet The Woo, V.2",
@@ -1015,7 +1107,8 @@
             "artist": "Pop Smoke",
             "genre": [
                 "brooklyn drill"
-            ]
+            ],
+            "album_id": "meet-the-woo,-v.2"
         },
         {
             "album_name": "Invasion Of Privacy",
@@ -1027,7 +1120,8 @@
                 "pop",
                 "pop rap",
                 "rap"
-            ]
+            ],
+            "album_id": "invasion-of-privacy"
         },
         {
             "album_name": "Manic",
@@ -1041,7 +1135,8 @@
                 "indie poptimism",
                 "pop",
                 "post-teen pop"
-            ]
+            ],
+            "album_id": "manic"
         },
         {
             "album_name": "1989",
@@ -1050,7 +1145,8 @@
             "artist": "Taylor Swift",
             "genre": [
                 "pop"
-            ]
+            ],
+            "album_id": "1989"
         },
         {
             "album_name": "50 Number Ones",
@@ -1062,7 +1158,8 @@
                 "country",
                 "country road",
                 "country rock"
-            ]
+            ],
+            "album_id": "50-number-ones"
         },
         {
             "album_name": "Thank U, Next",
@@ -1073,7 +1170,8 @@
                 "dance pop",
                 "pop",
                 "post-teen pop"
-            ]
+            ],
+            "album_id": "thank-u,-next"
         },
         {
             "album_name": "Ghetto Gospel",
@@ -1082,7 +1180,8 @@
             "artist": "Rod Wave",
             "genre": [
                 "florida rap"
-            ]
+            ],
+            "album_id": "ghetto-gospel"
         },
         {
             "album_name": "Time Served",
@@ -1094,7 +1193,8 @@
                 "southern hip hop",
                 "tennessee hip hop",
                 "trap"
-            ]
+            ],
+            "album_id": "time-served"
         }
     ]
 }

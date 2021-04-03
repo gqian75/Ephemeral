@@ -6,7 +6,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 198081
+            "duration": 198081,
+            "song_id": "peaches"
         },
         {
             "song_name": "Up",
@@ -14,7 +15,8 @@
             "release_date": "2021-02-20",
             "artist": "Cardi B",
             "album": "single",
-            "duration": 156944
+            "duration": 156944,
+            "song_id": "up"
         },
         {
             "song_name": "Leave The Door Open",
@@ -22,7 +24,8 @@
             "release_date": "2021-03-20",
             "artist": "Bruno Mars",
             "album": "single",
-            "duration": 242096
+            "duration": 242096,
+            "song_id": "leave-the-door-open"
         },
         {
             "song_name": "Drivers License",
@@ -30,7 +33,8 @@
             "release_date": "2021-01-23",
             "artist": "Olivia Rodrigo",
             "album": "single",
-            "duration": 242013
+            "duration": 242013,
+            "song_id": "drivers-license"
         },
         {
             "song_name": "Save Your Tears",
@@ -38,7 +42,8 @@
             "release_date": "2020-04-04",
             "artist": "The Weeknd",
             "album": "After Hours",
-            "duration": 215626
+            "duration": 215626,
+            "song_id": "save-your-tears"
         },
         {
             "song_name": "Blinding Lights",
@@ -46,7 +51,8 @@
             "release_date": "2019-12-14",
             "artist": "The Weeknd",
             "album": "After Hours",
-            "duration": 200040
+            "duration": 200040,
+            "song_id": "blinding-lights"
         },
         {
             "song_name": "Levitating",
@@ -54,7 +60,8 @@
             "release_date": "2020-10-17",
             "artist": "Dua Lipa",
             "album": "single",
-            "duration": 203064
+            "duration": 203064,
+            "song_id": "levitating"
         },
         {
             "song_name": "What's Next",
@@ -62,7 +69,8 @@
             "release_date": "2021-03-20",
             "artist": "Drake",
             "album": "single",
-            "duration": 178153
+            "duration": 178153,
+            "song_id": "whats-next"
         },
         {
             "song_name": "What You Know Bout Love",
@@ -70,7 +78,8 @@
             "release_date": "2020-07-18",
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon",
-            "duration": 160000
+            "duration": 160000,
+            "song_id": "what-you-know-bout-love"
         },
         {
             "song_name": "Mood",
@@ -78,7 +87,8 @@
             "release_date": "2020-08-22",
             "artist": "24kGoldn",
             "album": "single",
-            "duration": 140525
+            "duration": 140525,
+            "song_id": "mood"
         },
         {
             "song_name": "34+35",
@@ -86,7 +96,8 @@
             "release_date": "2020-11-14",
             "artist": "Ariana Grande",
             "album": "Positions",
-            "duration": 173710
+            "duration": 173710,
+            "song_id": "34+35"
         },
         {
             "song_name": "Go Crazy",
@@ -94,7 +105,8 @@
             "release_date": "2020-05-23",
             "artist": "Chris Brown",
             "album": "Slime & B",
-            "duration": 176960
+            "duration": 176960,
+            "song_id": "go-crazy"
         },
         {
             "song_name": "Back In Blood",
@@ -102,7 +114,8 @@
             "release_date": "2021-01-16",
             "artist": "Pooh Shiesty",
             "album": "single",
-            "duration": 184489
+            "duration": 184489,
+            "song_id": "back-in-blood"
         },
         {
             "song_name": "Calling My Phone",
@@ -110,7 +123,8 @@
             "release_date": "2021-02-27",
             "artist": "Lil Tjay",
             "album": "single",
-            "duration": 205458
+            "duration": 205458,
+            "song_id": "calling-my-phone"
         },
         {
             "song_name": "Therefore I Am",
@@ -118,7 +132,8 @@
             "release_date": "2020-11-21",
             "artist": "Billie Eilish",
             "album": "single",
-            "duration": 174321
+            "duration": 174321,
+            "song_id": "therefore-i-am"
         },
         {
             "song_name": "Anyone",
@@ -126,7 +141,8 @@
             "release_date": "2021-01-16",
             "artist": "Justin Bieber",
             "album": "single",
-            "duration": 190779
+            "duration": 190779,
+            "song_id": "anyone"
         },
         {
             "song_name": "Astronaut In The Ocean",
@@ -134,7 +150,8 @@
             "release_date": "2021-02-27",
             "artist": "Masked Wolf",
             "album": "single",
-            "duration": 132780
+            "duration": 132780,
+            "song_id": "astronaut-in-the-ocean"
         },
         {
             "song_name": "You're Mines Still",
@@ -142,7 +159,8 @@
             "release_date": "2020-10-31",
             "artist": "Yung Bleu",
             "album": "Love Scars: The 5 Stages Of Emotions (Deluxe)",
-            "duration": 226220
+            "duration": 226220,
+            "song_id": "youre-mines-still"
         },
         {
             "song_name": "Wants And Needs",
@@ -150,7 +168,8 @@
             "release_date": "2021-03-20",
             "artist": "Drake",
             "album": "single",
-            "duration": 192956
+            "duration": 192956,
+            "song_id": "wants-and-needs"
         },
         {
             "song_name": "Hold On",
@@ -158,7 +177,8 @@
             "release_date": "2021-03-20",
             "artist": "Justin Bieber",
             "album": "single",
-            "duration": 170813
+            "duration": 170813,
+            "song_id": "hold-on"
         },
         {
             "song_name": "Positions",
@@ -166,7 +186,8 @@
             "release_date": "2020-11-07",
             "artist": "Ariana Grande",
             "album": "Positions",
-            "duration": 172324
+            "duration": 172324,
+            "song_id": "positions"
         },
         {
             "song_name": "You Broke Me First.",
@@ -174,7 +195,8 @@
             "release_date": "2020-09-05",
             "artist": "Tate McRae",
             "album": "single",
-            "duration": 169265
+            "duration": 169265,
+            "song_id": "you-broke-me-first."
         },
         {
             "song_name": "Beat Box",
@@ -182,7 +204,8 @@
             "release_date": "2021-01-30",
             "artist": "SpotemGottem",
             "album": "single",
-            "duration": 200424
+            "duration": 200424,
+            "song_id": "beat-box"
         },
         {
             "song_name": "Best Friend",
@@ -190,7 +213,8 @@
             "release_date": "2021-01-23",
             "artist": "Saweetie",
             "album": "single",
-            "duration": 155883
+            "duration": 155883,
+            "song_id": "best-friend"
         },
         {
             "song_name": "On Me",
@@ -198,7 +222,8 @@
             "release_date": "2020-12-19",
             "artist": "Lil Baby",
             "album": "single",
-            "duration": 135959
+            "duration": 135959,
+            "song_id": "on-me"
         },
         {
             "song_name": "Dynamite",
@@ -206,7 +231,8 @@
             "release_date": "2020-09-05",
             "artist": "BTS",
             "album": "BE",
-            "duration": 199053
+            "duration": 199053,
+            "song_id": "dynamite"
         },
         {
             "song_name": "Streets",
@@ -214,7 +240,8 @@
             "release_date": "2021-01-23",
             "artist": "Doja Cat",
             "album": "Hot Pink",
-            "duration": 226986
+            "duration": 226986,
+            "song_id": "streets"
         },
         {
             "song_name": "Dakiti",
@@ -222,7 +249,8 @@
             "release_date": "2020-11-14",
             "artist": "Bad Bunny",
             "album": "single",
-            "duration": 205090
+            "duration": 205090,
+            "song_id": "dakiti"
         },
         {
             "song_name": "Heartbreak Anniversary",
@@ -230,7 +258,8 @@
             "release_date": "2021-02-27",
             "artist": "Giveon",
             "album": "TAKE TIME",
-            "duration": 198370
+            "duration": 198370,
+            "song_id": "heartbreak-anniversary"
         },
         {
             "song_name": "No More Parties",
@@ -238,7 +267,8 @@
             "release_date": "2021-02-20",
             "artist": "Coi Leray",
             "album": "single",
-            "duration": 140920
+            "duration": 140920,
+            "song_id": "no-more-parties"
         },
         {
             "song_name": "My Ex's Best Friend",
@@ -246,7 +276,8 @@
             "release_date": "2020-08-22",
             "artist": "Machine Gun Kelly",
             "album": "Tickets To My Downfall",
-            "duration": 139460
+            "duration": 139460,
+            "song_id": "my-exs-best-friend"
         },
         {
             "song_name": "Street Runner",
@@ -254,7 +285,8 @@
             "release_date": "2021-03-27",
             "artist": "Rod Wave",
             "album": "single",
-            "duration": 252021
+            "duration": 252021,
+            "song_id": "street-runner"
         },
         {
             "song_name": "For The Night",
@@ -262,7 +294,8 @@
             "release_date": "2020-07-18",
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon",
-            "duration": 190476
+            "duration": 190476,
+            "song_id": "for-the-night"
         },
         {
             "song_name": "Good Days",
@@ -270,7 +303,8 @@
             "release_date": "2021-01-09",
             "artist": "SZA",
             "album": "single",
-            "duration": 279204
+            "duration": 279204,
+            "song_id": "good-days"
         },
         {
             "song_name": "What's Your Country Song",
@@ -278,7 +312,8 @@
             "release_date": "2020-11-28",
             "artist": "Thomas Rhett",
             "album": "single",
-            "duration": 171333
+            "duration": 171333,
+            "song_id": "whats-your-country-song"
         },
         {
             "song_name": "Without You",
@@ -286,7 +321,8 @@
             "release_date": "2020-12-19",
             "artist": "The Kid LAROI",
             "album": "F*CK LOVE (SAVAGE)",
-            "duration": 161384
+            "duration": 161384,
+            "song_id": "without-you"
         },
         {
             "song_name": "The Good Ones",
@@ -294,7 +330,8 @@
             "release_date": "2021-01-09",
             "artist": "Gabby Barrett",
             "album": "Goldmine",
-            "duration": 215140
+            "duration": 215140,
+            "song_id": "the-good-ones"
         },
         {
             "song_name": "Whoopty",
@@ -302,7 +339,8 @@
             "release_date": "2020-11-21",
             "artist": "CJ",
             "album": "single",
-            "duration": 123262
+            "duration": 123262,
+            "song_id": "whoopty"
         },
         {
             "song_name": "Put Your Records On",
@@ -310,7 +348,8 @@
             "release_date": "2020-10-10",
             "artist": "Ritt Momney",
             "album": "single",
-            "duration": 210463
+            "duration": 210463,
+            "song_id": "put-your-records-on"
         },
         {
             "song_name": "Beautiful Mistakes",
@@ -318,7 +357,8 @@
             "release_date": "2021-03-20",
             "artist": "Maroon 5",
             "album": "single",
-            "duration": 227395
+            "duration": 227395,
+            "song_id": "beautiful-mistakes"
         },
         {
             "song_name": "Starting Over",
@@ -326,7 +366,8 @@
             "release_date": "2020-09-12",
             "artist": "Chris Stapleton",
             "album": "single",
-            "duration": 240413
+            "duration": 240413,
+            "song_id": "starting-over"
         },
         {
             "song_name": "Headshot",
@@ -334,7 +375,8 @@
             "release_date": "2021-04-03",
             "artist": "Lil Tjay",
             "album": "single",
-            "duration": 144349
+            "duration": 144349,
+            "song_id": "headshot"
         },
         {
             "song_name": "As I Am",
@@ -342,7 +384,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 174406
+            "duration": 174406,
+            "song_id": "as-i-am"
         },
         {
             "song_name": "Telepatia",
@@ -350,7 +393,8 @@
             "release_date": "2021-03-06",
             "artist": "Kali Uchis",
             "album": "Sin Miedo (del Amor y Otros Demonios) \u221e",
-            "duration": 160191
+            "duration": 160191,
+            "song_id": "telepatia"
         },
         {
             "song_name": "Cry Baby",
@@ -358,7 +402,8 @@
             "release_date": "2020-12-05",
             "artist": "Megan Thee Stallion",
             "album": "Good News",
-            "duration": 137983
+            "duration": 137983,
+            "song_id": "cry-baby"
         },
         {
             "song_name": "Just The Way",
@@ -366,7 +411,8 @@
             "release_date": "2021-01-09",
             "artist": "Parmalee",
             "album": "single",
-            "duration": 193880
+            "duration": 193880,
+            "song_id": "just-the-way"
         },
         {
             "song_name": "Better Together",
@@ -374,7 +420,8 @@
             "release_date": "2019-11-23",
             "artist": "Luke Combs",
             "album": "What You See Is What You Get",
-            "duration": 219573
+            "duration": 219573,
+            "song_id": "better-together"
         },
         {
             "song_name": "My Head And My Heart",
@@ -382,7 +429,8 @@
             "release_date": "2021-02-20",
             "artist": "Ava Max",
             "album": "Dreaming In Black And White",
-            "duration": 175609
+            "duration": 175609,
+            "song_id": "my-head-and-my-heart"
         },
         {
             "song_name": "Good Time",
@@ -390,7 +438,8 @@
             "release_date": "2020-10-10",
             "artist": "Niko Moon",
             "album": "single",
-            "duration": 214706
+            "duration": 214706,
+            "song_id": "good-time"
         },
         {
             "song_name": "Willow",
@@ -398,7 +447,8 @@
             "release_date": "2020-12-26",
             "artist": "Taylor Swift",
             "album": "evermore",
-            "duration": 214706
+            "duration": 214706,
+            "song_id": "willow"
         },
         {
             "song_name": "We're Good",
@@ -406,7 +456,8 @@
             "release_date": "2021-02-27",
             "artist": "Dua Lipa",
             "album": "Future Nostalgia (The Moonlight Edition)",
-            "duration": 165506
+            "duration": 165506,
+            "song_id": "were-good"
         },
         {
             "song_name": "Lady",
@@ -414,7 +465,8 @@
             "release_date": "2021-01-16",
             "artist": "Brett Young",
             "album": "single",
-            "duration": 193416
+            "duration": 193416,
+            "song_id": "lady"
         },
         {
             "song_name": "Track Star",
@@ -422,7 +474,8 @@
             "release_date": "2021-03-06",
             "artist": "Mooski",
             "album": "single",
-            "duration": 199706
+            "duration": 199706,
+            "song_id": "track-star"
         },
         {
             "song_name": "Long Live",
@@ -430,7 +483,8 @@
             "release_date": "2021-01-16",
             "artist": "Florida Georgia Line",
             "album": "Life Rolls On",
-            "duration": 153253
+            "duration": 153253,
+            "song_id": "long-live"
         },
         {
             "song_name": "Time Today",
@@ -438,7 +492,8 @@
             "release_date": "2021-02-20",
             "artist": "Moneybagg Yo",
             "album": "single",
-            "duration": 136939
+            "duration": 136939,
+            "song_id": "time-today"
         },
         {
             "song_name": "Lemon Pepper Freestyle",
@@ -446,7 +501,8 @@
             "release_date": "2021-03-20",
             "artist": "Drake",
             "album": "single",
-            "duration": 383036
+            "duration": 383036,
+            "song_id": "lemon-pepper-freestyle"
         },
         {
             "song_name": "Heat Waves",
@@ -454,7 +510,8 @@
             "release_date": "2021-01-16",
             "artist": "Glass Animals",
             "album": "Dreamland",
-            "duration": 238805
+            "duration": 238805,
+            "song_id": "heat-waves"
         },
         {
             "song_name": "Damage",
@@ -462,7 +519,8 @@
             "release_date": "2020-11-07",
             "artist": "H.E.R.",
             "album": "single",
-            "duration": 223414
+            "duration": 223414,
+            "song_id": "damage"
         },
         {
             "song_name": "Goosebumps",
@@ -470,7 +528,8 @@
             "release_date": "2021-01-30",
             "artist": "Travis Scott",
             "album": "Birds In The Trap Sing McKnight",
-            "duration": 243836
+            "duration": 243836,
+            "song_id": "goosebumps"
         },
         {
             "song_name": "Down To One",
@@ -478,7 +537,8 @@
             "release_date": "2021-01-09",
             "artist": "Luke Bryan",
             "album": "Born Here Live Here Die Here",
-            "duration": 221633
+            "duration": 221633,
+            "song_id": "down-to-one"
         },
         {
             "song_name": "Forever After All",
@@ -486,7 +546,8 @@
             "release_date": "2020-11-07",
             "artist": "Luke Combs",
             "album": "What You See Ain't Always What You Get (Deluxe Edition)",
-            "duration": 232533
+            "duration": 232533,
+            "song_id": "forever-after-all"
         },
         {
             "song_name": "Unstable",
@@ -494,7 +555,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 158324
+            "duration": 158324,
+            "song_id": "unstable"
         },
         {
             "song_name": "Momma's House",
@@ -502,7 +564,8 @@
             "release_date": "2021-01-16",
             "artist": "Dustin Lynch",
             "album": "Tullahoma",
-            "duration": 220160
+            "duration": 220160,
+            "song_id": "mommas-house"
         },
         {
             "song_name": "Off My Face",
@@ -510,7 +573,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 156467
+            "duration": 156467,
+            "song_id": "off-my-face"
         },
         {
             "song_name": "Hell Of A View",
@@ -518,7 +582,8 @@
             "release_date": "2021-01-16",
             "artist": "Eric Church",
             "album": "single",
-            "duration": 175280
+            "duration": 175280,
+            "song_id": "hell-of-a-view"
         },
         {
             "song_name": "Ghost",
@@ -526,7 +591,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 153190
+            "duration": 153190,
+            "song_id": "ghost"
         },
         {
             "song_name": "Somebody Like That",
@@ -534,7 +600,8 @@
             "release_date": "2021-01-30",
             "artist": "Tenille Arts",
             "album": "Love, Heartbreak, & Everything in Between",
-            "duration": 198208
+            "duration": 198208,
+            "song_id": "somebody-like-that"
         },
         {
             "song_name": "2 Much",
@@ -542,7 +609,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 152796
+            "duration": 152796,
+            "song_id": "2-much"
         },
         {
             "song_name": "Real As It Gets",
@@ -550,7 +618,8 @@
             "release_date": "2021-03-20",
             "artist": "Lil Baby",
             "album": "single",
-            "duration": 192804
+            "duration": 192804,
+            "song_id": "real-as-it-gets"
         },
         {
             "song_name": "Monsters",
@@ -558,7 +627,8 @@
             "release_date": "2021-01-09",
             "artist": "All Time Low",
             "album": "Wake Up, Sunshine",
-            "duration": 174067
+            "duration": 174067,
+            "song_id": "monsters"
         },
         {
             "song_name": "Body",
@@ -566,7 +636,8 @@
             "release_date": "2020-12-05",
             "artist": "Megan Thee Stallion",
             "album": "Good News",
-            "duration": 171067
+            "duration": 171067,
+            "song_id": "body"
         },
         {
             "song_name": "Buss It",
@@ -574,7 +645,8 @@
             "release_date": "2021-01-23",
             "artist": "Erica Banks",
             "album": "Erica Banks",
-            "duration": 187000
+            "duration": 187000,
+            "song_id": "buss-it"
         },
         {
             "song_name": "La Noche de Anoche",
@@ -582,7 +654,8 @@
             "release_date": "2020-12-12",
             "artist": "Bad Bunny",
             "album": "EL \u00daLTIMO TOUR DEL MUNDO",
-            "duration": 203200
+            "duration": 203200,
+            "song_id": "la-noche-de-anoche"
         },
         {
             "song_name": "Masterpiece",
@@ -590,7 +663,8 @@
             "release_date": "2021-01-30",
             "artist": "DaBaby",
             "album": "single",
-            "duration": 181714
+            "duration": 181714,
+            "song_id": "masterpiece"
         },
         {
             "song_name": "The Business",
@@ -598,7 +672,8 @@
             "release_date": "2021-03-06",
             "artist": "Tiesto",
             "album": "single",
-            "duration": 164000
+            "duration": 164000,
+            "song_id": "the-business"
         },
         {
             "song_name": "Deserve You",
@@ -606,7 +681,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 187238
+            "duration": 187238,
+            "song_id": "deserve-you"
         },
         {
             "song_name": "Wasted On You",
@@ -614,7 +690,8 @@
             "release_date": "2021-01-23",
             "artist": "Morgan Wallen",
             "album": "Dangerous: The Double Album",
-            "duration": 178520
+            "duration": 178520,
+            "song_id": "wasted-on-you"
         },
         {
             "song_name": "Made For You",
@@ -622,15 +699,8 @@
             "release_date": "2021-03-06",
             "artist": "Jake Owen",
             "album": "Greetings From...Jake",
-            "duration": 238400
-        },
-        {
-            "song_name": "Breaking Up Was Easy In The 90's",
-            "rank": 79,
-            "release_date": "2021-03-13",
-            "artist": "Sam Hunt",
-            "album": "SOUTHSIDE",
-            "duration": 215933
+            "duration": 238400,
+            "song_id": "made-for-you"
         },
         {
             "song_name": "Quicksand",
@@ -638,15 +708,17 @@
             "release_date": "2021-02-20",
             "artist": "Morray",
             "album": "single",
-            "duration": 223944
+            "duration": 223944,
+            "song_id": "quicksand"
         },
         {
             "song_name": "Die For You",
             "rank": 81,
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
-            "album": "Justice",
-            "duration": 198425
+            "album": "Starboy",
+            "duration": 260253,
+            "song_id": "die-for-you"
         },
         {
             "song_name": "Tombstone",
@@ -654,7 +726,8 @@
             "release_date": "2021-04-03",
             "artist": "Rod Wave",
             "album": "single",
-            "duration": 160078
+            "duration": 160078,
+            "song_id": "tombstone"
         },
         {
             "song_name": "Pick Up Your Feelings",
@@ -662,7 +735,8 @@
             "release_date": "2021-01-23",
             "artist": "Jazmine Sullivan",
             "album": "single",
-            "duration": 232096
+            "duration": 232096,
+            "song_id": "pick-up-your-feelings"
         },
         {
             "song_name": "Love You Different",
@@ -670,7 +744,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 186695
+            "duration": 186695,
+            "song_id": "love-you-different"
         },
         {
             "song_name": "Glad You Exist",
@@ -678,7 +753,8 @@
             "release_date": "2021-02-20",
             "artist": "Dan + Shay",
             "album": "single",
-            "duration": 144533
+            "duration": 144533,
+            "song_id": "glad-you-exist"
         },
         {
             "song_name": "Almost Maybes",
@@ -686,7 +762,8 @@
             "release_date": "2021-01-16",
             "artist": "Jordan Davis",
             "album": "single",
-            "duration": 179152
+            "duration": 179152,
+            "song_id": "almost-maybes"
         },
         {
             "song_name": "Loved By You",
@@ -694,7 +771,8 @@
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
             "album": "Justice",
-            "duration": 159250
+            "duration": 159250,
+            "song_id": "loved-by-you"
         },
         {
             "song_name": "You Got It",
@@ -702,7 +780,8 @@
             "release_date": "2020-09-26",
             "artist": "VEDO",
             "album": "For You",
-            "duration": 203144
+            "duration": 203144,
+            "song_id": "you-got-it"
         },
         {
             "song_name": "Girl Like Me",
@@ -710,7 +789,8 @@
             "release_date": "2021-01-16",
             "artist": "The Black Eyed Peas",
             "album": "TRANSLATION",
-            "duration": 222522
+            "duration": 222522,
+            "song_id": "girl-like-me"
         },
         {
             "song_name": "One Too Many",
@@ -718,15 +798,17 @@
             "release_date": "2020-10-03",
             "artist": "Keith Urban",
             "album": "single",
-            "duration": 203893
+            "duration": 203893,
+            "song_id": "one-too-many"
         },
         {
             "song_name": "Somebody",
             "rank": 91,
             "release_date": "2021-04-03",
             "artist": "Justin Bieber",
-            "album": "Justice",
-            "duration": 179414
+            "album": "Justice (Triple Chucks Deluxe)",
+            "duration": 179414,
+            "song_id": "somebody"
         },
         {
             "song_name": "Hello",
@@ -734,7 +816,8 @@
             "release_date": "2021-03-06",
             "artist": "Pop Smoke",
             "album": "Shoot For The Stars Aim For The Moon (Deluxe)",
-            "duration": 190534
+            "duration": 190534,
+            "song_id": "hello"
         },
         {
             "song_name": "Nobody",
@@ -742,7 +825,8 @@
             "release_date": "2021-03-13",
             "artist": "Dylan Scott",
             "album": "Be the Cowboy",
-            "duration": 193429
+            "duration": 193429,
+            "song_id": "nobody"
         },
         {
             "song_name": "Famous Friends",
@@ -750,7 +834,8 @@
             "release_date": "2021-04-03",
             "artist": "Chris Young",
             "album": "single",
-            "duration": 165569
+            "duration": 165569,
+            "song_id": "famous-friends"
         },
         {
             "song_name": "Settling Down",
@@ -758,7 +843,8 @@
             "release_date": "2021-03-27",
             "artist": "Miranda Lambert",
             "album": "Wildcard",
-            "duration": 197453
+            "duration": 197453,
+            "song_id": "settling-down"
         },
         {
             "song_name": "Sand In My Boots",
@@ -766,7 +852,8 @@
             "release_date": "2021-01-23",
             "artist": "Morgan Wallen",
             "album": "Dangerous: The Double Album",
-            "duration": 202133
+            "duration": 202133,
+            "song_id": "sand-in-my-boots"
         },
         {
             "song_name": "Neighbors",
@@ -774,7 +861,8 @@
             "release_date": "2021-02-20",
             "artist": "Pooh Shiesty",
             "album": "Shiesty Season",
-            "duration": 171780
+            "duration": 171780,
+            "song_id": "neighbors"
         },
         {
             "song_name": "Bandido",
@@ -782,7 +870,8 @@
             "release_date": "2021-02-20",
             "artist": "Myke Towers",
             "album": "single",
-            "duration": 232853
+            "duration": 232853,
+            "song_id": "bandido"
         },
         {
             "song_name": "Drankin N Smokin",
@@ -790,7 +879,8 @@
             "release_date": "2020-11-28",
             "artist": "Future",
             "album": "Pluto x Baby Pluto",
-            "duration": 213520
+            "duration": 213520,
+            "song_id": "drankin-n-smokin"
         },
         {
             "song_name": "Beers And Sunshine",
@@ -798,7 +888,8 @@
             "release_date": "2020-11-21",
             "artist": "Darius Rucker",
             "album": "single",
-            "duration": 178278
+            "duration": 178278,
+            "song_id": "beers-and-sunshine"
         }
     ]
 }

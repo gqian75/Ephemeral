@@ -54,7 +54,7 @@
                     {% if artist.songs|length == 0 %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="point" onclick="window.location.href='/songs/{{ artist.songs[0].song_name }}'">{{ artist.songs[0].song_name }}</td>
+                    <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
                     {% endif %}
                     
                 </tr>
@@ -63,7 +63,7 @@
                     {% if artist.albums|length == 0 %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="static_item point" onclick="window.location.href='/albums/{{ artist.albums[0].album_name }}'">{{artist.albums[0].album_name}}</td>
+                    <td class="static_item point" onclick="window.location.href='/albums/{{ id(artist.albums[0].album_name) }}'">{{artist.albums[0].album_name}}</td>
                     {% endif %}
                 </tr>
             </table>

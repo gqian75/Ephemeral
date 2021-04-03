@@ -35,6 +35,7 @@ class Song(db.Model):
     album_name = db.Column(db.String(80), nullable=False)
     album_name_lower = db.Column(db.String(80), nullable=False)
     duration = db.Column(db.String(80),nullable=True)
+    song_id = db.Column(db.String([]),nullable=False)
     #durationms = db.Column(db.Integer,nullable=True)
 
     album_rank = db.Column(db.Integer, db.ForeignKey('album.album_rank'))
@@ -53,7 +54,7 @@ class Artist(db.Model):
     artist_genre = db.Column(db.String([]), nullable=False)
     followers = db.Column(db.Integer,nullable=False)
     popularity = db.Column(db.Integer)
-    
+    artist_id = db.Column(db.String([]),nullable=False)
     songs = db.relationship('Song',secondary = 'link', backref = 'compose')
     albums = db.relationship('Album', backref = 'release')
     # song_rank = db.Column(db.Integer, db.ForeignKey('song.rank'))   
@@ -71,7 +72,7 @@ class Album(db.Model):
     album_release_date = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
     album_genre = db.Column(db.String([]))
-
+    album_id = db.Column(db.String([]),nullable=False)
     songs = db.relationship('Song', backref = 'album')
 
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
