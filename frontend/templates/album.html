@@ -37,6 +37,15 @@
             <h2>{{album.album_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
+                    {% if album.songs|length == 0 %}
+                
+                    <td colspan="2" class="static_item" ><img src="../static/images/album.jpg" alt="default_album.png" class="center-table"></td>
+                    {% else %}
+                    <td colspan="2" class="static_item" ><img src="{{album.songs[0].image_url}}" alt="album.png" class="center-table"></td>
+                    {% endif %}
+                </tr>
+                
+                <tr>
                     <td class="static_item">Artist: </td>
                     <td class="point" onclick="window.location.href='/artists/{{ id(album.artist) }}'">{{album.artist}}</td>         
                 </tr>

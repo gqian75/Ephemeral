@@ -155,13 +155,13 @@ def albumAPI():
         json.dump(albumJSON, fp, indent=4)
 
 
-    image1JSON = {'Images': imagesA}
-    with open('images.json', 'w') as fp: # images of artists
-        json.dump(image1JSON, fp, indent=4)
+    # image1JSON = {'Images': imagesA}
+    # with open('images.json', 'w') as fp: # images of artists
+    #     json.dump(image1JSON, fp, indent=4)
 
-    image2JSON = {'Images': imagesB}
-    with open('images2.json', 'w') as fp: # images of songs
-        json.dump(image2JSON, fp, indent=4)
+    # image2JSON = {'Images': imagesB}
+    # with open('images2.json', 'w') as fp: # images of songs
+    #     json.dump(image2JSON, fp, indent=4)
 
 if __name__ == "__main__":
     songAPI()
