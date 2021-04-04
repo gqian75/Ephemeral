@@ -95,7 +95,7 @@ def create_albums():
         # except Exception:
             # continue
 
-#
-# create_songs()
-# create_albums()
-# create_artists()
+if __name__ == "__main__":
+    create_songs()
+    create_albums()
+    create_artists()

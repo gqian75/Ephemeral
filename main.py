@@ -1,6 +1,6 @@
 import os
 import datetime
-from models import app, db, Song, Artist, Album
+from create_db import app, db, Song, Artist, Album
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")

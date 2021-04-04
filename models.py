@@ -89,6 +89,6 @@ class Album(db.Model):
     # Links artist to album (one-to-many relation)
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
 
-
-# db.drop_all()
-# db.create_all()
+if __name__ == "__main__":
+    db.drop_all()
+    db.create_all()
