@@ -15,7 +15,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql:/
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
 db = SQLAlchemy(app)
 
-
 link = db.Table('link',
     db.Column('song_rank',db.Integer,db.ForeignKey('song.rank')),
     db.Column('artist_rank',db.Integer,db.ForeignKey('artist.artist_rank'))
@@ -23,13 +22,15 @@ link = db.Table('link',
 
 class Song(db.Model):
     """
-    Song class has 7 attrbiutes
-    song_name, rank, release_date, duration, artist, album, image_url
+    Song class has 8 attrbiutes
+    song_name, rank, release_date, duration, artist, album_name, image_url, song_id
     """
     __tablename__ = 'song'
 
+    # Primary key of pillar song
     rank = db.Column(db.Integer, primary_key=True)
 
+    # Other attributes of pillar song
     song_name = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
     release_date = db.Column(db.String(80), nullable=False)
@@ -38,40 +39,46 @@ class Song(db.Model):
     duration = db.Column(db.String(80),nullable=True)
     song_id = db.Column(db.String([]),nullable=False)
 
-    #durationms = db.Column(db.Integer,nullable=True)
-
+    # Links songs to albums (one-to-many relation)
     album_rank = db.Column(db.Integer, db.ForeignKey('album.album_rank'))
     # artists = db.relationship('Artist', backref = 'song', uselist = False)
     image_url = db.Column(db.String(80),nullable=True)
 
 class Artist(db.Model):
     """
-    Artist class has 5 attrbiutes
-    artist_name, artist_rank, artist_genre, followers, image_url
+    Artist class has 7 attrbiutes
+    artist_name, artist_rank, artist_genre, followers, artist_id, popularity, image_url
     """
     __tablename__ = 'artist'
 
+    # Primary key of pillar artist
     artist_rank = db.Column(db.Integer, primary_key=True)
 
+    # Other attributes of pillar artist
     artist_name = db.Column(db.String(80), nullable=False)
     artist_genre = db.Column(db.String([]), nullable=False)
     followers = db.Column(db.Integer,nullable=False)
     popularity = db.Column(db.Integer)
     artist_id = db.Column(db.String([]),nullable=False)
+
+    # Links artists to songs (many-to-many relation)
     songs = db.relationship('Song',secondary = 'link', backref = 'compose')
+    # Links artists to albums (one-to-many relation)
     albums = db.relationship('Album', backref = 'release')
     # song_rank = db.Column(db.Integer, db.ForeignKey('song.rank'))
     image_url = db.Column(db.String(80), nullable=False)
 
 class Album(db.Model):
     """
-    Album class has 4 attrbiutes
-    album_name, album_rank, album_release_date, artist
+    Album class has 6 attrbiutes
+    album_name, album_rank, album_release_date, artist, album_genre, album_id
     """
     __tablename__ = 'album'
 
+    # Primary key of pillar album
     album_rank = db.Column(db.Integer, primary_key=True)
 
+    # Other attributes of pillar album
     album_name = db.Column(db.String(80), nullable=False)
     album_release_date = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
@@ -79,6 +86,7 @@ class Album(db.Model):
     album_id = db.Column(db.String([]),nullable=False)
     songs = db.relationship('Song', backref = 'album')
 
+    # Links artist to album (one-to-many relation)
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
 
 

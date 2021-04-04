@@ -19,6 +19,10 @@ def load_json(filename):
     return jsn
 
 def create_songs():
+    """
+    creates an instance of the class Song for every row of data
+    obtained from the json file and adds to database 
+    """
     song = load_json('songs.json')
 
     for oneSong in song['Songs']:
@@ -36,6 +40,10 @@ def create_songs():
         db.session.commit()
 
 def create_artists():
+    """
+    creates an instance of the class Artist for every row of data
+    obtained from the json file and adds to database 
+    """
     artist = load_json('artists.json')
 
     for oneArtist in artist['Artists']:
@@ -62,6 +70,10 @@ def create_artists():
             newArtist.albums.append(someAlbum)
 
 def create_albums():
+    """
+    creates an instance of the class Album for every row of data
+    obtained from the json file and adds to database 
+    """
     album = load_json("albums.json")
 
     for oneAlbum in album["Albums"]:
