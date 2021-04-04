@@ -46,8 +46,8 @@
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt><a href="#Album">Album</a>(**kwargs)<br>
 &nbsp;<br>
-<a href="#Album">Album</a>&nbsp;class&nbsp;has&nbsp;4&nbsp;attrbiutes&nbsp;<br>
-album_name,&nbsp;album_rank,&nbsp;album_release_date,&nbsp;artist<br>&nbsp;</tt></td></tr>
+<a href="#Album">Album</a>&nbsp;class&nbsp;has&nbsp;6&nbsp;attrbiutes<br>
+album_name,&nbsp;album_rank,&nbsp;album_release_date,&nbsp;artist,&nbsp;album_genre,&nbsp;album_id<br>&nbsp;</tt></td></tr>
 <tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Album">Album</a></dd>
@@ -70,6 +70,8 @@ for&nbsp;example,&nbsp;any&nbsp;mapped&nbsp;columns&nbsp;or&nbsp;relationships.<
 Data descriptors defined here:<br>
 <dl><dt><strong>album_genre</strong></dt>
 </dl>
+<dl><dt><strong>album_id</strong></dt>
+</dl>
 <dl><dt><strong>album_name</strong></dt>
 </dl>
 <dl><dt><strong>album_rank</strong></dt>
@@ -84,7 +86,7 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x15441afcec8; Album&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x22b86615b08; Album&gt;</dl>
 
 <dl><dt><strong>__table__</strong> = Table('album', MetaData(bind=None), Column('albu...rtist.artist_rank'), table=&lt;album&gt;), schema=None)</dl>
 
@@ -110,9 +112,10 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
 <dl><dt><strong>__dict__</strong></dt>
 <dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
 </dl>
-<dl><dt><strong>__weakref__</strong></dt>
-<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
-</dl>
+<hr>
+Data and other attributes inherited from <a href="flask_sqlalchemy.model.html#Model">flask_sqlalchemy.model.Model</a>:<br>
+<dl><dt><strong>__weakref__</strong> = &lt;weakref at 0x0000022B86612D18; to 'DefaultMeta' at 0x0000022B85259068 (Album)&gt;</dl>
+
 </td></tr></table> <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ffc8d8">
@@ -122,8 +125,8 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt><a href="#Artist">Artist</a>(**kwargs)<br>
 &nbsp;<br>
-<a href="#Artist">Artist</a>&nbsp;class&nbsp;has&nbsp;4&nbsp;attrbiutes&nbsp;<br>
-artist_name,&nbsp;artist_rank,&nbsp;artist_genre,&nbsp;followers<br>&nbsp;</tt></td></tr>
+<a href="#Artist">Artist</a>&nbsp;class&nbsp;has&nbsp;7&nbsp;attrbiutes<br>
+artist_name,&nbsp;artist_rank,&nbsp;artist_genre,&nbsp;followers,&nbsp;artist_id,&nbsp;popularity,&nbsp;image_url<br>&nbsp;</tt></td></tr>
 <tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Artist">Artist</a></dd>
@@ -148,11 +151,15 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>artist_genre</strong></dt>
 </dl>
+<dl><dt><strong>artist_id</strong></dt>
+</dl>
 <dl><dt><strong>artist_name</strong></dt>
 </dl>
 <dl><dt><strong>artist_rank</strong></dt>
 </dl>
 <dl><dt><strong>followers</strong></dt>
+</dl>
+<dl><dt><strong>image_url</strong></dt>
 </dl>
 <dl><dt><strong>popularity</strong></dt>
 </dl>
@@ -160,9 +167,9 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x15441af3b08; Artist&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x22b8660c448; Artist&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('artist', MetaData(bind=None), Column('art...larity', Integer(), table=&lt;artist&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('artist', MetaData(bind=None), Column('art...0), table=&lt;artist&gt;, nullable=False), schema=None)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'artist'</dl>
 
@@ -186,9 +193,10 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
 <dl><dt><strong>__dict__</strong></dt>
 <dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
 </dl>
-<dl><dt><strong>__weakref__</strong></dt>
-<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
-</dl>
+<hr>
+Data and other attributes inherited from <a href="flask_sqlalchemy.model.html#Model">flask_sqlalchemy.model.Model</a>:<br>
+<dl><dt><strong>__weakref__</strong> = &lt;weakref at 0x0000022B8660D1D8; to 'DefaultMeta' at 0x0000022B8525B548 (Artist)&gt;</dl>
+
 </td></tr></table> <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ffc8d8">
@@ -198,8 +206,8 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt><a href="#Song">Song</a>(**kwargs)<br>
 &nbsp;<br>
-<a href="#Song">Song</a>&nbsp;class&nbsp;has&nbsp;6&nbsp;attrbiutes&nbsp;<br>
-song_name,&nbsp;rank,&nbsp;release_date,&nbsp;duration,&nbsp;artist,&nbsp;album<br>&nbsp;</tt></td></tr>
+<a href="#Song">Song</a>&nbsp;class&nbsp;has&nbsp;8&nbsp;attrbiutes<br>
+song_name,&nbsp;rank,&nbsp;release_date,&nbsp;duration,&nbsp;artist,&nbsp;album_name,&nbsp;image_url,&nbsp;song_id<br>&nbsp;</tt></td></tr>
 <tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Song">Song</a></dd>
@@ -234,17 +242,21 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>duration</strong></dt>
 </dl>
+<dl><dt><strong>image_url</strong></dt>
+</dl>
 <dl><dt><strong>rank</strong></dt>
 </dl>
 <dl><dt><strong>release_date</strong></dt>
+</dl>
+<dl><dt><strong>song_id</strong></dt>
 </dl>
 <dl><dt><strong>song_name</strong></dt>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x15441ad86c8; Song&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x22b865e2c48; Song&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('song', MetaData(bind=None), Column('rank'...('album.album_rank'), table=&lt;song&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('song', MetaData(bind=None), Column('rank'...', String(length=80), table=&lt;song&gt;), schema=None)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'song'</dl>
 
@@ -268,9 +280,10 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
 <dl><dt><strong>__dict__</strong></dt>
 <dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
 </dl>
-<dl><dt><strong>__weakref__</strong></dt>
-<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
-</dl>
+<hr>
+Data and other attributes inherited from <a href="flask_sqlalchemy.model.html#Model">flask_sqlalchemy.model.Model</a>:<br>
+<dl><dt><strong>__weakref__</strong> = &lt;weakref at 0x0000022B865E6958; to 'DefaultMeta' at 0x0000022B8525D2C8 (Song)&gt;</dl>
+
 </td></tr></table></td></tr></table><p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#55aa55">
@@ -279,6 +292,6 @@ Data descriptors inherited from <a href="flask_sqlalchemy.model.html#Model">flas
     
 <tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
 <td width="100%"><strong>app</strong> = &lt;Flask 'models'&gt;<br>
-<strong>db</strong> = &lt;SQLAlchemy engine=postgresql://postgres:***@localhost:5432/songdb&gt;<br>
+<strong>db</strong> = &lt;SQLAlchemy engine=postgresql://zuvviiky:***@queenie.db.elephantsql.com:5432/zuvviiky&gt;<br>
 <strong>link</strong> = Table('link', MetaData(bind=None), Column('song_...artist.artist_rank'), table=&lt;link&gt;), schema=None)</td></tr></table>
 </body></html>

@@ -1,3 +1,86 @@
+commit 17bfcaaabbcd007822c9aba8743c0912725630ef
+Merge: cb85bfd 185889c
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sun Apr 4 02:15:08 2021 +0000
+
+    Merge branch 'maxdev2' into 'master'
+    
+    Maxdev2
+    
+    See merge request jakegoins/cs331eproject!24
+
+commit 185889c81ab22852210537394f1170b639bf49f0
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 21:13:54 2021 -0500
+
+    Fixed album images
+
+commit fb03ad50f30d2a6c6d0dffbba44e12c314db989c
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 21:08:47 2021 -0500
+
+    Images for albums not working
+
+commit cb85bfd9fed8c317e461be0919c1c8766bab21c9
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Sat Apr 3 19:55:38 2021 -0500
+
+    added comments
+
+commit c5640f696bc4045c6bd54e0f78ea46ca23042824
+Merge: 8c3e271 cda64e4
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sat Apr 3 23:30:05 2021 +0000
+
+    Merge branch 'testing' into 'master'
+    
+    Testing branch merge
+    
+    See merge request jakegoins/cs331eproject!23
+
+commit cda64e4249d618393a551a9e999f0d5ce3c33a38
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 18:26:31 2021 -0500
+
+    Images to artists and songs, data sources fixed in about
+
+commit 1c95d76c9b52870077a112fac56284adc4ee5e16
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 17:53:41 2021 -0500
+
+    Update in preparation for GCP
+
+commit 2bdf01833d967cfcee5d5382458a6f5e9f0a0c78
+Author: gqian75 <>
+Date:   Sat Apr 3 17:17:49 2021 -0500
+
+    add images
+
+commit ed6a778c786a56739611733de803a147e0f1bd2b
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 16:40:34 2021 -0500
+
+    99.5% done with phase 2
+
+commit c0bb1a8701df708215dccac7f4d0f6ce6ea0b6fe
+Merge: bc07e4a 28d09e2
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 15:26:37 2021 -0500
+
+    Merge branch 'testing' of https://gitlab.com/jakegoins/cs331eproject into testing
+
+commit bc07e4ae9b66c6774301efb30cfcccd523a6706d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 15:25:55 2021 -0500
+
+    About update, extra files included
+
+commit 28d09e2607f7f1baa2e290d38a7c0b346ad096f7
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 15:24:28 2021 -0500
+
+    99% there, final few bugs
+
 commit 0b8c95b6c6b5134b9d2e6e735c5d31e08ed69a5e
 Author: MaxZ0030 <maxzhou0030@utexas.edu>
 Date:   Fri Apr 2 21:02:58 2021 -0500
