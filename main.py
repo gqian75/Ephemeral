@@ -1,6 +1,7 @@
 import os
 import datetime
-from models import app, db, Song, Artist, Album
+from create_db import app, db, Song, Artist, Album
+#from models import db
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
@@ -93,7 +94,7 @@ def format_lists():
         artist.artist_genre = format_strings(artist.artist_genre)
     for album in album_list:
         album.album_genre = format_strings(album.album_genre)
-        print(album.album_genre)
+        #print(album.album_genre)
     for song in song_list:
         seconds = str(int((int(song.duration)//1000.0)%60))
         song.duration = str(int((int(song.duration)//1000.0)//60)) + ":"
@@ -106,7 +107,7 @@ def format_lists():
 if __name__ == "__main__":
     format_lists()
     app.jinja_env.globals.update(id=id) 
-    #app.run(host='0.0.0.0', port=80, threaded=True)
-    app.run()
+    app.run(host='0.0.0.0', port=80, threaded=True)
+    #app.run()
     
    
