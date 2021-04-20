@@ -9,11 +9,11 @@ services:
     - postgres:latest
 
 variables:
-    POSTGRES_DB: bookdb
-    POSTGRES_USER: postgres
-    POSTGRES_PASSWORD: ""
+    POSTGRES_DB: zuvviiky
+    POSTGRES_USER: zuvviiky
+    POSTGRES_PASSWORD: "gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6"
     POSTGRES_HOST_AUTH_METHOD: trust
-    DB_STRING: "postgresql://$POSTGRES_USER@postgres:5432/$POSTGRES_DB"
+    DB_STRING: "postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky"
 
 before_script:
     - date
