@@ -1,10 +1,14 @@
 import os
 import datetime
-from create_db import app, db, Song, Artist, Album
+# from create_db import app, db, Song, Artist, Album
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
+db = SQLAlchemy(app)
 
 song_list = db.session.query(Song).all()
 artist_list = db.session.query(Artist).all()
