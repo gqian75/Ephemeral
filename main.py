@@ -3,17 +3,22 @@ import datetime
 # from create_db import app, db, Song, Artist, Album
 from flask import Flask, render_template, request, send_from_directory
 from flask_cors import CORS
+import flask_sqlalchemy import SQLAlchemy
+import json
+
 app = Flask(__name__, static_folder="./frontend/static", template_folder="./frontend/templates")
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
-db = SQLAlchemy(app)
+#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_STRING",'postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky')
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # to suppress a warning message
+#db = SQLAlchemy(app)
 
-song_list = db.session.query(Song).all()
-artist_list = db.session.query(Artist).all()
-album_list = db.session.query(Album).all()
-
+engine = create_engine("postgresql://zuvviiky:gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6@queenie.db.elephantsql.com:5432/zuvviiky")
+with engine.connect() as db:
+    song_list = db.execute(text("SELECT * FROM song"))
+    artist_list = db.execute(text("SELECT * FROM song"))
+    album_list = db.execute(text("SELECT * FROM song"))
+print(song_list)
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
