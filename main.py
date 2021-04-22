@@ -20,7 +20,7 @@ query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 query.execute('SELECT * FROM song;')
 song_list = query.fetchall()
 
-query.execute('SELECT * FROM artist;')
+query.execute('SELECT DISTINCT * FROM artist as a inner join song as s on a.artist_name = s.artist;')
 artist_list = query.fetchall()
 
 query.execute('SELECT * FROM album;')
@@ -72,13 +72,13 @@ def id(string):
 def find(name, data, list_type):
     for list_item in data:
         if (list_type == "album"):
-            if (list_item.album_id == name):
+            if (list_item['album_id'] == name):
                 return list_item
         elif (list_type == "artist"):
-            if (list_item.artist_id == name):
+            if (list_item['artist_id'] == name):
                 return list_item
         elif (list_type == "song"):
-            if (list_item.song_id == name):
+            if (list_item['song_id'] == name):
                 return list_item
     return None
 
@@ -118,21 +118,23 @@ def format_strings(string):
 
 def format_lists():
     for artist in artist_list:
-        artist.artist_genre = format_strings(artist.artist_genre)
+        artist['artist_genre'] = format_strings(artist['artist_genre'])
     for album in album_list:
-        album.album_genre = format_strings(album.album_genre)
-        print(album.album_genre)
+        album['album_genre'] = format_strings(album['album_genre'])
+        #print(album.album_genre)
     for song in song_list:
-        seconds = str(int((int(song.duration) // 1000.0) % 60))
-        song.duration = str(int((int(song.duration) // 1000.0) // 60)) + ":"
+        seconds = str(int((int(song['duration']) // 1000.0) % 60))
+        song['duration'] = str(int((int(song['duration']) // 1000.0) // 60)) + ":"
         if (len(seconds) == 1):
-            song.duration += "0" + seconds
+            song['duration'] += "0" + seconds
         else:
-            song.duration += seconds
+            song['duration'] += seconds
 
 
 if __name__ == "__main__":
-    # format_lists()
+    format_lists()
+    
+    
     app.jinja_env.globals.update(id=id)
     # app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()

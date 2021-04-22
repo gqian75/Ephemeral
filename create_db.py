@@ -58,16 +58,19 @@ def create_artists():
         newArtist = Artist(artist_name=artist_name, artist_rank=artist_rank, artist_genre=artist_genre,
         followers=followers, popularity=popularity, artist_id=artist_id, image_url=image_url)
 
-        db.session.add(newArtist)
-        db.session.commit()
+        
 
         someSong = Song.query.filter_by(artist=artist_name).first()
+        print(someSong)
         if someSong:
             newArtist.songs.append(someSong)
 
         someAlbum = Album.query.filter_by(artist=artist_name).first()
         if someAlbum:
             newArtist.albums.append(someAlbum)
+
+        db.session.add(newArtist)
+        db.session.commit()
 
 def create_albums():
     """
@@ -85,15 +88,17 @@ def create_albums():
         album_id = oneAlbum["album_id"]
         newAlbum = Album(album_name=album_name, album_rank=album_rank, album_release_date=album_release_date, artist=artist, album_genre=album_genre, album_id = album_id)
 
-        db.session.add(newAlbum)
-        db.session.commit()
+        
 
         # try:
         someSong = Song.query.filter_by(album_name_lower=album_name.lower()).first()
         if someSong:
             newAlbum.songs.append(someSong)
+            print()
         # except Exception:
             # continue
+        db.session.add(newAlbum)
+        db.session.commit()
 
 if __name__ == "__main__":
     create_songs()

@@ -53,11 +53,11 @@
 
           <td>{{artist.artist_rank}}</td>
           <td>{{artist.followers}}</td>
-          {% if artist.songs|length == 0 %}
-            <td>N/A</td>
+          {% if artist['song_name']|length == 0 %}
+            <td>N/a</td>
           
           {% else %}
-            <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
+            <td class="point" onclick="window.location.href='/songs/{{ id(artist['song_name']) }}'">{{ artist['song_name'] }}</td>
           {% endif %}
           
         </tr>
