@@ -1,0 +1,387 @@
+{
+	"info": {
+		"_postman_id": "4afcc3bb-f7a3-4573-acff-2cfe792b7350",
+		"name": "Ephemeral API Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Billboard Hot 100",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {",
+							"    console.log(response.json());",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Blinding Lights\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-key",
+						"value": "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-host",
+						"value": "billboard2.p.rapidapi.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{billboardURL}}/hot_100?date=2020-04-18",
+					"host": [
+						"{{billboardURL}}"
+					],
+					"path": [
+						"hot_100"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-04-18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AudioDB",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Parachutes\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Coldplay\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Yellow\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-key",
+						"value": "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-host",
+						"value": "theaudiodb.p.rapidapi.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{audioDB}}/searchtrack.php?s=coldplay&t=yellow",
+					"host": [
+						"{{audioDB}}"
+					],
+					"path": [
+						"searchtrack.php"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "coldplay"
+						},
+						{
+							"key": "t",
+							"value": "yellow"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Spotify Song Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Lil Nas X\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Call Me By Your Name\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQAJkmqlxXjKJqU6cWrTz3wE1FsCmFD0JOGxhYI1IBqQyUQlMTalzn176VhvDb_ML6e146DPDVsRRPi2MPc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/search?q=Montero&type=track&market=US",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Montero"
+						},
+						{
+							"key": "type",
+							"value": "track"
+						},
+						{
+							"key": "market",
+							"value": "US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Billboard Artist 100",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {",
+							"    console.log(response.json());",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"The Weeknd\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-key",
+						"value": "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-host",
+						"value": "billboard2.p.rapidapi.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://billboard2.p.rapidapi.com/artist_100?date=2020-04-18",
+					"protocol": "https",
+					"host": [
+						"billboard2",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"artist_100"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-04-18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Billboard Album 200",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Lil Nas X\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Fine Line\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-key",
+						"value": "cdec391e94msh59bba6e6cb20d6dp148a7bjsn7a9048b31414",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-host",
+						"value": "billboard2.p.rapidapi.com",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://billboard2.p.rapidapi.com/billboard_200?date=2020-04-18",
+					"protocol": "https",
+					"host": [
+						"billboard2",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"billboard_200"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-04-18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Spotify Artist Search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"The Weeknd\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"artist\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"pop\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQAJkmqlxXjKJqU6cWrTz3wE1FsCmFD0JOGxhYI1IBqQyUQlMTalzn176VhvDb_ML6e146DPDVsRRPi2MPc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/search?q=The Weeknd&type=artist&market=US",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "The Weeknd"
+						},
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "market",
+							"value": "US"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://petstore.swagger.io/v1"
+		},
+		{
+			"key": "billboardURL",
+			"value": "https://billboard2.p.rapidapi.com"
+		},
+		{
+			"key": "audioDB",
+			"value": "https://theaudiodb.p.rapidapi.com"
+		}
+	]
+}
