@@ -19,13 +19,13 @@ DB_PORT = "5432"
 db = psycopg2.connect(database=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port=DB_PORT)
 query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-query.execute('SELECT * FROM song order by song.rank;')
+query.execute('SELECT * FROM song;')
 song_list = query.fetchall()
 
 query.execute('select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;')
 artist_list = query.fetchall()
 
-query.execute("select * from album left join song on album.album_rank = song.album_rank order by album.album_rank;")
+query.execute("select * from album left join song on album.album_rank = song.album_rank;")
 album_list = query.fetchall()
 
 query.close()
