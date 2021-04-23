@@ -19,18 +19,29 @@ DB_PORT = "5432"
 db = psycopg2.connect(database=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port=DB_PORT)
 query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-query.execute('SELECT * FROM song;')
-song_list = query.fetchall()
+# query.execute('SELECT * FROM song;')
+# song_list = query.fetchall()
+#
+# query.execute('select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;')
+# artist_list = query.fetchall()
+#
+# query.execute("select * from album left join song on album.album_rank = song.album_rank;")
+# album_list = query.fetchall()
+#
+# query.close()
+# db.close()
 
-query.execute('select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;')
-artist_list = query.fetchall()
+def query_songs():
+    query.execute('SELECT * FROM song;')
+    return query.fetchall()
 
-query.execute("select * from album left join song on album.album_rank = song.album_rank;")
-album_list = query.fetchall()
+def query_artists():
+    query.execute("select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
+    return query.fetchall()
 
-query.close()
-db.close()
-
+def query_albums():
+    query.execute("select * from album left join song on album.album_rank = song.album_rank;")
+    return query.fetchall()
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
@@ -50,16 +61,30 @@ def about():
 
 @app.route('/albums/')
 def albums():
+    album_list = query_albums()
+    for album in album_list:
+        album['album_genre'] = format_strings(album['album_genre'])
     return render_template('albums.html', albums=album_list)
 
 
 @app.route('/artists/')
 def artists():
+    artist_list = query_artists()
+    for artist in artist_list:
+        artist['artist_genre'] = format_strings(artist['artist_genre'])
     return render_template('artists.html', artists=artist_list)
 
 
 @app.route('/songs/')
 def songs():
+    song_list = query_songs()
+    for song in song_list:
+        seconds = str(int((int(song['duration']) // 1000.0) % 60))
+        song['duration'] = str(int((int(song['duration']) // 1000.0) // 60)) + ":"
+        if (len(seconds) == 1):
+            song['duration'] += "0" + seconds
+        else:
+            song['duration'] += seconds
     return render_template('songs.html', songs=song_list)
 
 
@@ -118,25 +143,7 @@ def format_strings(string):
     return new_string
 
 
-def format_lists():
-    for artist in artist_list:
-        artist['artist_genre'] = format_strings(artist['artist_genre'])
-    for album in album_list:
-        album['album_genre'] = format_strings(album['album_genre'])
-        #print(album.album_genre)
-    for song in song_list:
-        seconds = str(int((int(song['duration']) // 1000.0) % 60))
-        song['duration'] = str(int((int(song['duration']) // 1000.0) // 60)) + ":"
-        if (len(seconds) == 1):
-            song['duration'] += "0" + seconds
-        else:
-            song['duration'] += seconds
-
-
 if __name__ == "__main__":
-    format_lists()
-    
-    
     app.jinja_env.globals.update(id=id)
-    # app.run(host='0.0.0.0', port=80, threaded=True)
-    app.run()
+    app.run(host='0.0.0.0', port=80, threaded=True)
+    # app.run()
