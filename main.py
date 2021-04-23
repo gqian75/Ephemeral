@@ -14,7 +14,9 @@ DB_HOST = "queenie.db.elephantsql.com"
 DB_NAME = "zuvviiky"
 DB_USER = "zuvviiky"
 DB_PASS = "gUj52EfnqxD2UeVkSPQ7kDeiAQOwMcu6"
-db = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
+DB_PORT = "5432"
+
+db = psycopg2.connect(database=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port=DB_PORT)
 query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
 query.execute('SELECT * FROM song order by song.rank;')
