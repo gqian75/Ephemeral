@@ -47,7 +47,7 @@
                 <tr>
                     <td class="static_item">Album: </td>
                     {% if song.album_name == "single" %}
-                        <td>single</td>
+                        <td>Single</td>
                     {% else %}
                         <td class="static_item point" onclick="window.location.href='/albums/{{ id(song.album_name) }}'">{{song.album_name}}</td>
                     {% endif %}

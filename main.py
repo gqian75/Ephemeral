@@ -20,7 +20,7 @@ query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 query.execute('SELECT * FROM song;')
 song_list = query.fetchall()
 
-query.execute('SELECT DISTINCT * FROM artist as a inner join song as s on a.artist_name = s.artist;')
+query.execute('SELECT * FROM artist;')
 artist_list = query.fetchall()
 
 query.execute('SELECT * FROM album;')
