@@ -60,7 +60,7 @@ def artists():
 
 @app.route('/songs/')
 def songs():
-    return render_template('songs.html', songs=song_list)
+    return render_template('songs.html',)
 
 
 # Dynamic instances of different types
@@ -139,4 +139,4 @@ if __name__ == "__main__":
     
     app.jinja_env.globals.update(id=id)
     # app.run(host='0.0.0.0', port=80, threaded=True)
-    app.run()
+    app.run(debug=True)
