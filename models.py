@@ -19,6 +19,10 @@ link = db.Table('link',
     db.Column('song_rank',db.Integer,db.ForeignKey('song.rank')),
     db.Column('artist_rank',db.Integer,db.ForeignKey('artist.artist_rank'))
     )
+link2 = db.Table('link2',
+    db.Column('song_rank',db.Integer,db.ForeignKey('song.rank')),
+    db.Column('album_rank',db.Integer,db.ForeignKey('album.album_rank'))
+    )
 
 class Song(db.Model):
     """
@@ -84,8 +88,8 @@ class Album(db.Model):
     artist = db.Column(db.String(80), nullable=False)
     album_genre = db.Column(db.String([]))
     album_id = db.Column(db.String([]),nullable=False)
-    songs = db.relationship('Song', backref = 'album')
 
+    songs = db.relationship('Song', secondary='link2', backref='contains')
     # Links artist to album (one-to-many relation)
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
 

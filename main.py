@@ -21,7 +21,7 @@ query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
 query.execute('SELECT * FROM song;')
 song_list = query.fetchall()
-print(song_list)
+
 query.execute('select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;')
 artist_list = query.fetchall()
 
@@ -60,7 +60,7 @@ def artists():
 
 @app.route('/songs/')
 def songs():
-    return render_template('songs.html',)
+    return render_template('songs.html', songs=song_list)
 
 
 # Dynamic instances of different types

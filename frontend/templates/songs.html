@@ -45,25 +45,25 @@
           <th class = "th-sm">Song Length</th>
         </tr>
       </thead>
-<!--      <tbody>-->
-<!--        {%for song in songs%}-->
-<!--          <tr>-->
-<!--            <td class="point" onclick="window.location.href='/songs/{{ song.rank }}'">{{song.rank}}  </td>-->
-<!--            <td class="point" onclick="window.location.href='/songs/{{ id(song.song_name) }}'">{{song.song_name}}  </td>-->
-<!--            <td class="point" onclick="window.location.href='/artists/{{ id(song.artist) }}'">{{ song.artist }}</td>-->
-<!--            {% if song.album_name == "single" %}-->
-<!--            <td>Single</td>-->
-<!--            {%else%}-->
-<!--            <td class="point" onclick="window.location.href='/albums/{{ id(song.album_name) }}'">{{ song.album_name }}</td>-->
-<!--            {%endif%}-->
-<!--            -->
-<!--            <td>{{song.release_date}}</td>-->
-<!--            <td>{{song.duration}}</td>-->
-<!--            -->
-<!--          </tr>-->
-<!--        {% endfor %}-->
-<!--       -->
-<!--      </tbody>-->
+      <tbody>
+        {%for song in songs%}
+          <tr>
+            <td class="point" onclick="window.location.href='/songs/{{ song.rank }}'">{{song.rank}}  </td>
+            <td class="point" onclick="window.location.href='/songs/{{ id(song.song_name) }}'">{{song.song_name}}  </td>
+            <td class="point" onclick="window.location.href='/artists/{{ id(song.artist) }}'">{{ song.artist }}</td>
+            {% if song.album_name == "single" %}
+            <td>Single</td>
+            {%else%}
+            <td class="point" onclick="window.location.href='/albums/{{ id(song.album_name) }}'">{{ song.album_name }}</td>
+            {%endif%}
+
+            <td>{{song.release_date}}</td>
+            <td>{{song.duration}}</td>
+
+          </tr>
+        {% endfor %}
+
+      </tbody>
     </table>
   </div>
 
