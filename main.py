@@ -37,8 +37,6 @@ def query_songs():
     return query.fetchall()
 
 
-song_list = query_songs()
-
 
 def query_artists():
     query.execute(
@@ -49,6 +47,11 @@ def query_artists():
 def query_albums():
     query.execute("select * from album left join song on album.album_rank = song.album_rank;")
     return query.fetchall()
+
+
+song_list = query_songs()
+album_list = query_albums()
+artist_list = query_artists()
 
 
 @app.route('/', defaults={'path': ''})
@@ -69,13 +72,12 @@ def about():
 
 @app.route('/albums/')
 def albums():
-    album_list = query_albums()
+
     return render_template('albums.html', albums=album_list)
 
 
 @app.route('/artists/')
 def artists():
-    artist_list = query_artists()
     return render_template('artists.html', artists=artist_list)
 
 
@@ -144,10 +146,10 @@ def format_strings(string):
 
 
 def format_lists():
-    # for artist in artist_list:
-    #     artist['artist_genre'] = format_strings(artist['artist_genre'])
-    # for album in album_list:
-    #     album['album_genre'] = format_strings(album['album_genre'])
+    for artist in artist_list:
+        artist['artist_genre'] = format_strings(artist['artist_genre'])
+    for album in album_list:
+        album['album_genre'] = format_strings(album['album_genre'])
     for song in song_list:
         seconds = str(int((int(song['duration']) // 1000.0) % 60))
         song['duration'] = str(int((int(song['duration']) // 1000.0) // 60)) + ":"
@@ -159,6 +161,6 @@ def format_lists():
 
 if __name__ == "__main__":
     format_lists()
-    # app.jinja_env.globals.update(id=id)
+    app.jinja_env.globals.update(id=id)
     # app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()
