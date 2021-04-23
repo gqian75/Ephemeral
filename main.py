@@ -145,5 +145,5 @@ def format_strings(string):
 
 if __name__ == "__main__":
     app.jinja_env.globals.update(id=id)
-    app.run(host='0.0.0.0', port=80, threaded=True)
-    # app.run()
+    # app.run(host='0.0.0.0', port=80, threaded=True)
+    app.run()
