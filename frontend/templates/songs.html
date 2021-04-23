@@ -37,6 +37,7 @@
     <table id="table" class="table table-striped table-bordered table-sm table-hover" cellspacing="0" width="100%">
       <thead>
         <tr>
+          <th class = "th-sm">Rank</th>
           <th class = "th-sm">Song Name</th>
           <th class = "th-sm">Artist</th>
           <th class = "th-sm">Album</th>
@@ -47,6 +48,7 @@
       <tbody>
         {%for song in songs%}
           <tr>
+            <td class="point" onclick="window.location.href='/songs/{{ song.rank }}'">{{song.rank}}  </td>
             <td class="point" onclick="window.location.href='/songs/{{ id(song.song_name) }}'">{{song.song_name}}  </td>
             <td class="point" onclick="window.location.href='/artists/{{ id(song.artist) }}'">{{ song.artist }}</td>
             {% if song.album_name == "single" %}

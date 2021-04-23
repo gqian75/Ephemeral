@@ -38,7 +38,7 @@
             <h2>{{song.song_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
-                    <td colspan="2" class="static_item"><img src="{{song.image_url}}" alt="song.png" class="center-table"></td>
+                    <td colspan="2" class="static_item"><img src="{{song.image_url}}" alt="song.png" class="center-table" style="width:50%;"></td>
                 </tr>
                 <tr>
                     <td class="static_item">Artist: </td>
@@ -60,6 +60,10 @@
                 <tr>
                     <td class="static_item">Song Length: </td>
                     <td class="static_item">{{song.duration}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Rank: </td>
+                    <td class="static_item">{{song.rank}}</td>
                 </tr>
             </table>
         </div>

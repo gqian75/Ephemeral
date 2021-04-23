@@ -37,11 +37,11 @@
             <h2>{{album.album_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
-                    {% if album.songs|length == 0 %}
+                    {% if album.song_name == None %}
                 
                     <td colspan="2" class="static_item" ><img src="../static/images/album.jpg" alt="default_album.png" class="center-table"></td>
                     {% else %}
-                    <td colspan="2" class="static_item" ><img src="{{album.songs[0].image_url}}" alt="album.png" class="center-table"></td>
+                    <td colspan="2" class="static_item" ><img src="{{album.song_name['image_url']}}" alt="album.png" class="center-table"></td>
                     {% endif %}
                 </tr>
                 
@@ -63,10 +63,10 @@
                 </tr>
                 <tr>
                     <td class="static_item">Top Song: </td>
-                    {% if album.songs|length == 0 %}
+                    {% if album.song_name == None %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="point" onclick="window.location.href='/songs/{{ id(album.songs[0].song_name) }}'">{{ album.songs[0].song_name }}</td>
+                    <td class="point" onclick="window.location.href='/songs/{{ id(album.song_name) }}'">{{ album.song_name }}</td>
                     {% endif %}
                 </tr>
             </table>
