@@ -33,7 +33,7 @@ query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
 def query_songs():
     query.execute('SELECT * FROM song;')
-    return query.fetchall()
+    return query.fetchone()
 
 def query_artists():
     query.execute("select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
