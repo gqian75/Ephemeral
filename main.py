@@ -33,7 +33,7 @@ query = db.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
 def query_songs():
     query.execute('SELECT * FROM song;')
-    return query.fetchone()
+    return query.fetchall()
 
 def query_artists():
     query.execute("select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
@@ -79,8 +79,8 @@ def artists():
 def songs():
     song_list = query_songs()
     for song in song_list:
-        seconds = str(int((int(song['duration']) // 1000.0) % 60))
-        song['duration'] = str(int((int(song['duration']) // 1000.0) // 60)) + ":"
+        seconds = str(int(song['duration']) // 1000.0 % 60)
+        song['duration'] = str(int(song['duration']) // 1000.0 // 60) + ":"
         if (len(seconds) == 1):
             song['duration'] += "0" + seconds
         else:
