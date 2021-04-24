@@ -39,7 +39,7 @@ def query_songs():
 
 
 def query_artists():
-    query.execute("select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
+    query.execute("select artist.artist_rank, artist.artist_name, artist.artist_genre, artist.followers, artist.artist_id, song.song_name, song.album_name, artist.image_url from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
     return query.fetchall()
 
 
