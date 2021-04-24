@@ -1,0 +1,882 @@
+commit 9261d7f19b88aa055e47b4b605764eb58831b5c5
+Merge: 43eca4e cbece80
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sat Apr 24 02:48:00 2021 +0000
+
+    Merge branch 'gcp-test' into 'master'
+    
+    Big merge
+    
+    See merge request jakegoins/cs331eproject!25
+
+commit cbece80a2ba3ce0cacfd5f9d7ccb9c75c7143c4c
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 21:46:11 2021 -0500
+
+    About page
+
+commit cf6e80ec02a4caf061ccb134e582c260cd8b8037
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 23 21:45:22 2021 -0500
+
+    Fixed song.html
+
+commit ad61423676ea902c86f566970a34207e4881837a
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 23 21:30:56 2021 -0500
+
+    Fixed issue with song lengths not showing up properly in GCP
+
+commit b667ac8304a44ed42956cd9caa0dc8a66f7bef31
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 20:42:36 2021 -0500
+
+    Query testing finished I think
+
+commit 1d6f864d0edf97d23a87824cc119ed2cac415c9f
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 20:36:25 2021 -0500
+
+    Query test6
+
+commit 7af1d232f7e12f7ceb563b23c70f8498b83d7710
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 18:23:45 2021 -0500
+
+    Query test5
+
+commit 120beb09ba8b4e1d86b882334ad60cfa683e8c9d
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 18:07:26 2021 -0500
+
+    Query test4
+
+commit 7f0beb99fe67dd8f28681dda3825c87bb5f2028a
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 17:22:02 2021 -0500
+
+    new update
+
+commit 47a17929878cb3b166d7aa76f133a36d7081183f
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 16:49:16 2021 -0500
+
+    Query test3
+
+commit 5a986efbeb754514e4e3c7e7df8165468ce6a655
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 16:41:30 2021 -0500
+
+    Query test2
+
+commit adc6aa14137ecab45d0f2af3c245b79a6a508587
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 16:26:01 2021 -0500
+
+    Query test
+
+commit 4f118632ff974d82006f9d04e1a5e6ec80f000f3
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 15:46:06 2021 -0500
+
+    changes
+
+commit 00720c9bb93a85fca1123480f4771b9b84d3c5a2
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 12:03:13 2021 -0500
+
+    Edits3
+
+commit 46acb109ac8608f705b88e11b4fff7d214ef7ba4
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 11:49:19 2021 -0500
+
+    Edits
+
+commit f1b3b8d76c3e999cada44e69605baec347d3937e
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 11:26:59 2021 -0500
+
+    commented out songs
+
+commit 15d40afb682b645a007ed4f16d11213f989a9419
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 11:17:45 2021 -0500
+
+    Edits
+
+commit fae2074fdb052295cebca43009821c1a934f1fbc
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 11:12:42 2021 -0500
+
+    Add port
+
+commit 7c86a3b517d732447076b95638fb809c6ba02be8
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 23 10:48:03 2021 -0500
+
+    Fix for frontend. Albums still needs work
+
+commit 147f73aadc14e6226df1caeea09b8534f415491f
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 19:55:42 2021 -0500
+
+    Fix for some files
+
+commit 955e7c409fb852815a73bd604b6fe07b7bee48c9
+Merge: 2315518 25477ec
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 18:01:33 2021 -0500
+
+    Merge branch 'app-yaml' of https://gitlab.com/jakegoins/cs331eproject into app-yaml
+
+commit 25477ec2d6fadf1e95f5f1ff7b26437d4686b2c8
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Thu Apr 22 18:00:56 2021 -0500
+
+    Database missing artist.songs
+
+commit 23155184f98772507452ec5393bf1b887b1b677a
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 14:08:06 2021 -0500
+
+    Add postman.json
+
+commit 133509bfd5fda2db8866e7bd67652f43735dec96
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 12:52:20 2021 -0500
+
+    Removed href from page title on pages. Fixed favicon. Added tools used
+
+commit 03caa5b3115259fffba574293c508baa268eaab3
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 12:35:26 2021 -0500
+
+    Adjust app.yaml
+
+commit db5aced38316346e49f7b2208705804a0c25b833
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 22 12:31:49 2021 -0500
+
+    Commented out format_lists
+
+commit 43eca4e62ce3b4ba7b0eeca4c7d4faec5edd392a
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 22 05:36:56 2021 -0500
+
+    api documentation json added
+
+commit a45bdda0e8707e4dd5b48c19b21aaf5e8f9fb6dc
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Apr 21 22:38:03 2021 -0500
+
+    Using psycopg2 and DictCursor
+
+commit 1956a0d0c9d31c83746e91ed9ea6ac14093e20d8
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Apr 21 19:17:50 2021 -0500
+
+    Using engine
+
+commit d123587b7fefc770f25926b2f27d0e75c6aa27bb
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Apr 21 18:34:35 2021 -0500
+
+    Update main.py to include our db, rather than import from create_db
+
+commit 3798f3b3fa8b00b4c6df45ebeb438b01d6fe5b33
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Apr 21 23:12:15 2021 +0000
+
+    Update .gitlab-ci.yml
+
+commit b4e2516519fdf8e4504331d5c88563e15f58047c
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:52:26 2021 -0500
+
+    Update gitlab ci to ignore pipelines again
+
+commit ca6b4d1b4a126bd2720c7b9a3a3f7e93cd3d52bd
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:51:14 2021 -0500
+
+    Update gitlab ci to ignore pipelines again
+
+commit 8128a8d22f614a4f26964dba0544967a863b038e
+Merge: 250a79c f971d30
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:42:12 2021 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 250a79c60af62fe461565cbec73e0138c4fa563d
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:41:58 2021 -0500
+
+    Update gitlab ci to ignore pipelines
+
+commit 95fddc8683cb55f502df19e0ae404bdfd6c1a572
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:34:51 2021 -0500
+
+    Update gitlab ci to get pipelines fixed
+
+commit f971d30dc594283e04cfdf5800eb42d7cdba9618
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Apr 20 14:34:51 2021 -0500
+
+    Update gitlab ci to get pipelines fixed
+
+commit 931eb7b1fd5a1053b332b9ad1abb42198ba52739
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sun Apr 4 02:29:18 2021 +0000
+
+    Update about.html for elephantsql
+
+commit c6871d0c5a240184a1d9781137752caee835fe96
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 21:19:36 2021 -0500
+
+    Final phase 2 commit
+
+commit 17bfcaaabbcd007822c9aba8743c0912725630ef
+Merge: cb85bfd 185889c
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sun Apr 4 02:15:08 2021 +0000
+
+    Merge branch 'maxdev2' into 'master'
+    
+    Maxdev2
+    
+    See merge request jakegoins/cs331eproject!24
+
+commit 185889c81ab22852210537394f1170b639bf49f0
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 21:13:54 2021 -0500
+
+    Fixed album images
+
+commit fb03ad50f30d2a6c6d0dffbba44e12c314db989c
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 21:08:47 2021 -0500
+
+    Images for albums not working
+
+commit cb85bfd9fed8c317e461be0919c1c8766bab21c9
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Sat Apr 3 19:55:38 2021 -0500
+
+    added comments
+
+commit c5640f696bc4045c6bd54e0f78ea46ca23042824
+Merge: 8c3e271 cda64e4
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sat Apr 3 23:30:05 2021 +0000
+
+    Merge branch 'testing' into 'master'
+    
+    Testing branch merge
+    
+    See merge request jakegoins/cs331eproject!23
+
+commit cda64e4249d618393a551a9e999f0d5ce3c33a38
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 18:26:31 2021 -0500
+
+    Images to artists and songs, data sources fixed in about
+
+commit 1c95d76c9b52870077a112fac56284adc4ee5e16
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 17:53:41 2021 -0500
+
+    Update in preparation for GCP
+
+commit 2bdf01833d967cfcee5d5382458a6f5e9f0a0c78
+Author: gqian75 <>
+Date:   Sat Apr 3 17:17:49 2021 -0500
+
+    add images
+
+commit ed6a778c786a56739611733de803a147e0f1bd2b
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 16:40:34 2021 -0500
+
+    99.5% done with phase 2
+
+commit c0bb1a8701df708215dccac7f4d0f6ce6ea0b6fe
+Merge: bc07e4a 28d09e2
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 15:26:37 2021 -0500
+
+    Merge branch 'testing' of https://gitlab.com/jakegoins/cs331eproject into testing
+
+commit bc07e4ae9b66c6774301efb30cfcccd523a6706d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Sat Apr 3 15:25:55 2021 -0500
+
+    About update, extra files included
+
+commit 28d09e2607f7f1baa2e290d38a7c0b346ad096f7
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Sat Apr 3 15:24:28 2021 -0500
+
+    99% there, final few bugs
+
+commit 0b8c95b6c6b5134b9d2e6e735c5d31e08ed69a5e
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 21:02:58 2021 -0500
+
+    98% of the way there
+
+commit 8b1c0a2b2cee574e999f1da3cb42e32796f89b94
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 18:43:03 2021 -0500
+
+    Halfway Checkpoint
+
+commit 321edc6b620ec597c0cffe7cd1767481989f4e4c
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Apr 2 17:28:06 2021 -0500
+
+    Changed things around
+
+commit cd0ad88669a9640d7ae44aec7bfdc49d2ef18626
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Apr 2 17:01:15 2021 -0500
+
+    testing pipeline
+
+commit ede658405e34c25f1e702627d047702106d0dcd5
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 2 20:56:47 2021 +0000
+
+    Update create_db.py, my_api.py, models.py, main.py, artists.json, test.py files
+    Deleted artists2.json
+
+commit c186860deedd94c5bfb8eb3add87f9f624c21b8c
+Merge: 209b75e 4bc41eb
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 15:35:04 2021 -0500
+
+    Ignore this one
+
+commit 209b75e8bc8fbfc62e0c894753c7690738b8cda2
+Merge: 7ebfedd 8c3e271
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 15:30:27 2021 -0500
+
+    Fix merge attempt
+
+commit 4bc41ebe569b4b37f25e0a07e9f54703c8f8e838
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Apr 2 15:26:15 2021 -0500
+
+    adjust main
+
+commit 7ebfedd2bc116ad834583a71ac103c6b47c75212
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Apr 2 15:21:07 2021 -0500
+
+    favicon
+
+commit a3875d5a5beac0670b6b09cecba57c0c699b44d5
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Apr 2 20:16:19 2021 +0000
+
+    Update frontend/templates/about.html, frontend/templates/base.html files
+
+commit 24517edc71767a52bad28e9bf1ddc1e0ab9e9c39
+Merge: d84bc25 4eb7df4
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 20:01:00 2021 +0000
+
+    Merge branch 'temp' into 'maxdev'
+    
+    Merge temp with maxdev
+    
+    See merge request jakegoins/cs331eproject!16
+
+commit 4eb7df49e94faeae28938f82990971e817c380ad
+Merge: 5fb4ff3 d84bc25
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Apr 2 19:57:16 2021 +0000
+
+    Merge branch 'maxdev' into 'temp'
+    
+    # Conflicts:
+    #   main.py
+
+commit 5fb4ff3f2083c8855a702c117ade180d1cf25d72
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Fri Apr 2 14:27:09 2021 -0500
+
+    more unittests and updated jsons
+
+commit 1d226f3fb81abc8ceca725ac81b0f55e5aa62c08
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Fri Apr 2 05:57:30 2021 -0500
+
+    test cases and db
+
+commit c22c42fff05cf12e28ecdb88656cf9655e9bc2fa
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Fri Apr 2 01:08:29 2021 -0500
+
+    many to many
+
+commit 86d3548d56dcd1c45ac63dc90a4c9f2c00d57174
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Fri Apr 2 00:25:30 2021 -0500
+
+    populating dbs
+
+commit 177cf1bdee5c75c5daa00f7b2b441d00f69b9e3f
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Thu Apr 1 23:31:14 2021 -0500
+
+    adding relational schema
+
+commit 6bf9689fe56e500144e40d22a9805723988624a5
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 22:20:24 2021 -0500
+
+    jsons done
+
+commit d84bc25178272f7088e96d9d9379659c0eac03de
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Thu Apr 1 22:13:24 2021 -0500
+
+    Finished dynamic pages
+
+commit 8d41027c501609b83095e37d1b31ac841dd34eee
+Author: gqian75 <>
+Date:   Thu Apr 1 20:32:12 2021 -0500
+
+    song album
+
+commit 60d5b6dc226cae2555e1f24fb41fa9b0ea84f310
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 13:49:51 2021 -0500
+
+    jsons
+
+commit 324701d976a8588eaece458805b362565e2956da
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 13:38:53 2021 -0500
+
+    all jsons
+
+commit 8c3e271096650e26af5f8fab6463a6708b7ad592
+Merge: f26e8ae a8b8dfb
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Apr 1 17:39:02 2021 +0000
+
+    Merge branch 'about_update' into 'master'
+    
+    About update
+    
+    See merge request jakegoins/cs331eproject!11
+
+commit a8b8dfb43c21e11f6e1de6d16a3c6fc5502294a6
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Apr 1 12:34:17 2021 -0500
+
+    Centered tests button
+
+commit 0bb5570209659d25b89c7c03f45a17a585c1ea59
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Apr 1 12:29:17 2021 -0500
+
+    Further progress on about page, ready to merge with master
+
+commit 022f51d2eec0772d6d5371e2b6e6093ca54de8f6
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 12:17:51 2021 -0500
+
+    main.py
+
+commit 3803d96406e615cb91831ddff6ae198383b2448a
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 12:04:40 2021 -0500
+
+    song and album jsons
+
+commit 65330fd655d18fff9c80d8e3cafe3fa9c7dcbed8
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 11:37:40 2021 -0500
+
+    updated models, create_db
+
+commit 0666942665466cdbf006d8fbc31c94b2c0caa3a1
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 04:04:05 2021 -0500
+
+    test
+
+commit f6d4f32001552c656f1b52983895d4dc42569be7
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Thu Apr 1 04:01:55 2021 -0500
+
+    test json
+
+commit aefc9d5c5b193d72393a850dc1e4e082647ac349
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Mar 31 16:09:42 2021 -0500
+
+    Updated about, not finished
+
+commit f26e8ae4830e488a40a94291ffb789fd01d027ba
+Author: Jake <jakegoins@utexas.edu>
+Date:   Mon Mar 29 11:56:03 2021 -0500
+
+    Modified pipelines to follow professor's example
+
+commit f94918071abd8f1977d6a70182330018ec7d7b87
+Merge: 7fc2c6f 0f7684b
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Mon Mar 29 16:42:22 2021 +0000
+
+    Merge branch 'api' into 'master'
+    
+    Spotify API
+    
+    See merge request jakegoins/cs331eproject!10
+
+commit 0f7684bda8269e6360a1f50b9419db6e59b28ae5
+Author: gqian75 <>
+Date:   Sat Mar 27 16:29:56 2021 -0500
+
+    Spotify API
+
+commit 7fc2c6f6a0c6d54b2dca2115aae80681a1bfd530
+Merge: 101817f ae5639b
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Mar 24 01:12:00 2021 +0000
+
+    Merge branch 'make' into 'master'
+    
+    Make
+    
+    See merge request jakegoins/cs331eproject!9
+
+commit 101817fee1329703cfbf44bbcd2a0491b6012968
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Mar 24 01:11:25 2021 +0000
+
+    Update requirements.txt
+
+commit ae5639bff5e3181be6e041dbbc99a1b724f0568f
+Merge: ae4ea17 a76e53a
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Wed Mar 24 01:08:19 2021 +0000
+
+    Merge branch 'master' into 'make'
+    
+    # Conflicts:
+    #   requirements.txt
+
+commit ae4ea17780a82ed593ff6eb594f7ad0d16f31643
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Mar 23 20:02:58 2021 -0500
+
+    gitignore updated, new folder for sample models.py and such
+
+commit d421d6563dab755ec4ba373636f14c8d03d2773e
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Mar 23 17:03:04 2021 -0500
+
+    makefile and requirements
+
+commit a76e53a2a0345d448ac9797e0d82edc0307fbb2a
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Mar 4 17:58:01 2021 +0000
+
+    Update requirements.txt
+
+commit d725fdeba96f1bc6623949a6b60ba68688c81f81
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Mar 4 11:42:52 2021 -0600
+
+    ignore node modules for react
+
+commit a914adc8b3f62917ed19091249698b96cd6b83bb
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Mar 4 17:36:54 2021 +0000
+
+    Update .gitlab-ci.yml file
+
+commit eca7374700496b988b559cf2414218be89d19177
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Fri Feb 26 18:32:53 2021 -0600
+
+    added type in base.html
+
+commit f4067ebcf3a45056ae37a208ac78d1ddf3fc173d
+Merge: 6ecf2c7 50ea5d3
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Sat Feb 27 00:01:12 2021 +0000
+
+    Merge branch 'staticpages' into 'master'
+    
+    Staticpages
+    
+    See merge request jakegoins/cs331eproject!7
+
+commit 50ea5d3a46ad2f8ae052730e9db3de4e77439f54
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 18:00:46 2021 -0600
+
+    All pages done and linked
+
+commit 168d7adf1034149d45950c13b3f73eceb1bb2255
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 17:58:24 2021 -0600
+
+    All pages done and linked
+
+commit 24bb7456fd2b2fc6ca96dc2314e1c31b3ebce846
+Merge: f8ce801 6ecf2c7
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Feb 26 23:10:57 2021 +0000
+
+    Merge branch 'master' into 'staticpages'
+    
+    static song/artist/album individual pages
+    
+    See merge request jakegoins/cs331eproject!6
+
+commit f8ce801789a7c9cd682df9243c64fe030862fb15
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 17:09:17 2021 -0600
+
+    song1 wip
+
+commit 6ecf2c7467581be73dd5eacf6f3fe939bb4773d7
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Fri Feb 26 17:07:31 2021 -0600
+
+    static song/artist/album individual pages
+
+commit b8008cb31e6384f0042a45270085f20d395d723a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 16:35:32 2021 -0600
+
+    First example of backend link for static pages
+
+commit f2fd5db88cacb71058b347ba37a1ed702f7b1e4a
+Merge: 5adf3d1 57d19ef
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Fri Feb 26 21:58:26 2021 +0000
+
+    Merge branch 'maxdev' into 'master'
+    
+    Added start of databases and home page
+    
+    See merge request jakegoins/cs331eproject!5
+
+commit 57d19effe1630d1423a85ae7449fa8dc988cbcd3
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Fri Feb 26 15:55:41 2021 -0600
+
+    Added start of databases and home page
+
+commit 5adf3d1dea48a69456488eb4088135d5791c2f9e
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:40:48 2021 -0600
+
+    Footer color matches nav bar
+
+commit 5a209418d32d9934f6969a4b5e24bb7d505bca31
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:21:22 2021 -0600
+
+    Grant in footer, about page alphabetized
+
+commit 424a44e658625e86a51d7c606f6415d9533a45bb
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:08:47 2021 -0600
+
+    Grant added
+
+commit 67e6e24c079d8024bcb66677bdf2aa615e1a4e2c
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 15:08:05 2021 -0600
+
+    Grant added
+
+commit 37dbfff8b98549124dfb580e9aae6c17cad1112d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 14:11:26 2021 -0600
+
+    Typo
+
+commit ed795fd8ed9bb06a20989004236208a1bdcc4b4a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 10:36:23 2021 -0600
+
+    All pages now in, still needs backend support
+
+commit da876ceb9d329c7b60c07d4e8b5d0a1fe2d5373a
+Author: Jake <jakegoins@utexas.edu>
+Date:   Fri Feb 26 10:09:31 2021 -0600
+
+    Minor about update
+
+commit 84ebbc35c96aa8de3439f31cd5682f1641082770
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 22:16:41 2021 -0600
+
+    PNG changed to png for background
+
+commit 0ccd5236a7a6da30901e132a69f59afa1bee683e
+Merge: a1cbd76 a18ae38
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 25 04:01:07 2021 +0000
+
+    Merge branch 'about' into 'master'
+    
+    About Page
+    
+    See merge request jakegoins/cs331eproject!4
+
+commit a18ae387b0005b442629d601680b92e3074721ed
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 21:59:10 2021 -0600
+
+    added frontend folder
+
+commit 2d5d19c388c3bbf6a7ccb0864076b20308234b4f
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 21:50:13 2021 -0600
+
+    About page final update, includes images and css additions, plus first git log.
+
+commit a1cbd764234d892cbae73c7db9aff7735aeb456b
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Wed Feb 24 21:32:54 2021 -0600
+
+    updated main.py
+
+commit 334ccfc3da74091a196b7877182d33f67ac23daf
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Wed Feb 24 20:58:23 2021 -0600
+
+    changed main.py to GCP specifications
+
+commit 0d02fd018a48347bc0cbfa6ccb84759f4ddd0fbe
+Merge: a3376fc 7f33427
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 25 00:48:31 2021 +0000
+
+    Merge branch 'jinja' into 'master'
+    
+    Jinja merge to master
+    
+    See merge request jakegoins/cs331eproject!3
+
+commit 7f33427ba5e49fe75839ed884ad9ecffc5a34742
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 18:46:03 2021 -0600
+
+    Update to about page, messed with css file for it.
+
+commit f9c85dab01bf387526ab8ec15ebd87a233ffc578
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 16:18:45 2021 -0600
+
+    Footer added
+
+commit a13eb8f40aac75d1bc00e5e150e47c706f3165b4
+Author: Jake <jakegoins@utexas.edu>
+Date:   Wed Feb 24 15:40:32 2021 -0600
+
+    Jinja incorporated on all existing pages
+
+commit 9eaed695cb0ff0fca90ec9e3ddd8f00150af8522
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Wed Feb 24 14:47:55 2021 -0600
+
+    Jinja experimentation
+
+commit a3376fc4f3420c4834e520b33f38958f85a74993
+Author: Kanishak Joshi <kanishakj24@utexas.edu>
+Date:   Tue Feb 23 21:21:17 2021 -0600
+
+    connected templates
+
+commit 6a1b90130e28a99b0ba1c952cfcdaef7d035950b
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Tue Feb 23 20:55:49 2021 -0600
+
+    flask
+
+commit 298b2390f5a1b819160bb6c35cea419c57948de3
+Merge: b9c7860 e7477a1
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Feb 23 22:06:28 2021 +0000
+
+    Merge branch 'table_bug' into 'master'
+    
+    Table bug
+    
+    See merge request jakegoins/cs331eproject!1
+
+commit e7477a1eb860d8c49be25975e98c9d5b925db946
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Tue Feb 23 22:05:32 2021 +0000
+
+    Add .gitlab-ci.yml
+
+commit aa20d16a2d06ac0af589a4862cd2a218bcffe590
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Tue Feb 23 15:55:01 2021 -0600
+
+    Completed sample tables
+
+commit 9e29a6d2357bca3101751abae5828ed8edf25db2
+Author: MaxZ0030 <maxzhou0030@utexas.edu>
+Date:   Tue Feb 23 15:24:05 2021 -0600
+
+    Table bug
+
+commit b9c78607c22f2c9702b22e8931f05256f1f45afb
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 23 14:50:02 2021 -0600
+
+    Added basic html format for all webpages needed, navbar in place
+
+commit 661d1ec4d13e775532ca33922d272d07b7c77f1d
+Author: Khue Tran <khuetran@utexas.edu>
+Date:   Tue Feb 16 21:10:27 2021 -0600
+
+    first commit
+
+commit 46c7b539c33b3ad8851b18b340c78338c0eb4779
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 9 12:14:21 2021 -0600
+
+    removed .idea
+
+commit 38feb566499ac4f139580ece57fc7e3e73251f8d
+Author: Jake <jakegoins@utexas.edu>
+Date:   Tue Feb 9 12:11:33 2021 -0600
+
+    gitignore
+
+commit 24796dd84ecbf3728a7e8b8376a82e2247795a43
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Feb 4 12:22:28 2021 -0600
+
+    basic flask app included
+
+commit 4585a261d822a9df5804f4da021c0384bdf9cef8
+Author: Jake <jakegoins@utexas.edu>
+Date:   Thu Feb 4 11:46:28 2021 -0600
+
+    barebones main.py, created empty directories for other things
+
+commit 27efe6b72f185dfea084b92737e65477eebc6953
+Author: Jake Goins <jakegoins@utexas.edu>
+Date:   Thu Feb 4 05:29:21 2021 +0000
+
+    Initial commit

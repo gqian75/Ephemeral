@@ -30,6 +30,9 @@ models.html: models.py
 IDB2.log:
 	git log > IDB2.log
 
+IDB3.log:
+	git log > IDB3.log
+
 test_results.txt: test.py
 	$(PIP) install -r requirements.txt
 	$(COVERAGE) run    test.py >  test_results.txt 2>&1
@@ -53,7 +56,7 @@ format:
 scrub:
 	make clean
 	rm -f  models.html
-	rm -f  IDB2.log
+	rm -f  IDB3.log
 	rm -f test_results.txt
 
 status:
@@ -85,4 +88,4 @@ versions:
 	which        $(PYTHON)
 	$(PYTHON)    --version
 
-test: scrub models.html IDB2.log test_results.txt
+test: scrub models.html IDB3.log test_results.txt
