@@ -34,14 +34,14 @@
     <br>
     <div class="row">
         <div class="col-12 center-text">
-            <h2>{{album.album_name}}</h2><br>
+            <h2>{{album.name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
                     {% if album.song_name == None %}
                 
                     <td colspan="2" class="static_item" ><img src="../static/images/album.jpg" alt="default_album.png" class="center-table"></td>
                     {% else %}
-                    <td colspan="2" class="static_item" ><img src="{{album.song_name['image_url']}}" alt="album.png" class="center-table"></td>
+                    <td colspan="2" class="static_item" ><img src="{{album.image_url}}" alt="album.png" class="center-table" style="width:50%;"></td>
                     {% endif %}
                 </tr>
                 

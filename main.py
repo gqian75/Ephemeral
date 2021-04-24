@@ -39,13 +39,12 @@ def query_songs():
 
 
 def query_artists():
-    query.execute(
-        "select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
+    query.execute("select * from artist left join link on artist.artist_rank = link.artist_rank left join song on song.rank = link.song_rank;")
     return query.fetchall()
 
 
 def query_albums():
-    query.execute("select * from album left join song on album.album_rank = song.album_rank;")
+    query.execute("select album.album_rank, album.name, song.song_name, album.artist, album.album_release_date, album.album_genre, album.album_id, song.image_url from album left join link2 on album.album_rank = link2.album_rank left join song on song.rank = link2.song_rank;")
     return query.fetchall()
 
 
@@ -90,6 +89,8 @@ def songs():
 @app.context_processor
 def utility_processor():
     def id(string):
+        if string is None:
+            return "N/A"
         string = string.replace(" ", "-").lower().strip()
         string = string.replace("'", "")
         string = string.replace("/", "")

@@ -48,9 +48,9 @@
       <tbody>
         {%for album in albums%}
         <tr>
-          <td>{{album.album_rank}}</td>
-          {% if album.album_name != None %}
-          <td class="point" onclick="window.location.href='/albums/{{ id(album.album_name) }}'">{{album.album_name}}  </td>     
+          <td>{{album[0]}}</td>
+          {% if album.name != None %}
+          <td class="point" onclick="window.location.href='/albums/{{ id(album.name) }}'">{{album.name}}  </td>
           {% else %}
           <td> N/A  </td>
           {% endif %}
