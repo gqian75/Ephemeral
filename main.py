@@ -95,8 +95,27 @@ def utility_processor():
         string = string.replace("'", "")
         string = string.replace("/", "")
         return string
+    def duration(i):
+        seconds = str(int((int(i) // 1000.0) % 60))
+        i = str(int((int(i) // 1000.0) // 60)) + ":"
+        if (len(seconds) == 1):
+            i += "0" + seconds
+        else:
+            i += seconds
+        return i
+    def format_strings(string):
+        new_string = ""
+        for char in string:
+            if (char == "{" or char == "}" or char == '"'):
+                new_string += ""
 
-    return dict(id=id)
+            elif (char == ","):
+                new_string += ", "
+            else:
+                new_string += char
+        new_string = new_string.title()
+        return new_string
+    return dict(id=id, duration=duration,format_strings=format_strings)
 
 
 def find(name, data, list_type):
@@ -147,6 +166,7 @@ def format_strings(string):
 
 
 def format_lists():
+    global artist_list, album_list, song_list
     for artist in artist_list:
         artist['artist_genre'] = format_strings(artist['artist_genre'])
     for album in album_list:
@@ -161,7 +181,7 @@ def format_lists():
 
 
 if __name__ == "__main__":
-    format_lists()
-    app.jinja_env.globals.update(id=id)
+    #format_lists()
+    #app.jinja_env.globals.update(id=id)
     # app.run(host='0.0.0.0', port=80, threaded=True)
     app.run()

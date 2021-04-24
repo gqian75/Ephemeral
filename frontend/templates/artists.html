@@ -51,7 +51,7 @@
 
           <td class="point" onclick="window.location.href='/artists/{{ id(artist.artist_name) }}'">{{artist.artist_name}}  </td>
           
-          <td>{{ artist.artist_genre|join("") }}</td>
+          <td>{{ format_strings(artist.artist_genre) }}</td>
 
           <td>{{artist.followers}}</td>
 
