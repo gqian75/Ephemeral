@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block nav_title %}
-<a class="navbar-brand" href="#">Top Songs</a>
+<a class="navbar-brand">Top Songs</a>
 {% endblock %}
 
 {% block nav_bar %}
@@ -38,7 +38,7 @@
             <h2>{{song.song_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
-                    <td colspan="2" class="static_item"><img src="{{song.image_url}}" alt="song.png" class="center-table"></td>
+                    <td colspan="2" class="static_item"><img src="{{song.image_url}}" alt="song.png" class="center-table" style="width:50%;"></td>
                 </tr>
                 <tr>
                     <td class="static_item">Artist: </td>
@@ -47,7 +47,7 @@
                 <tr>
                     <td class="static_item">Album: </td>
                     {% if song.album_name == "single" %}
-                        <td>single</td>
+                        <td>Single</td>
                     {% else %}
                         <td class="static_item point" onclick="window.location.href='/albums/{{ id(song.album_name) }}'">{{song.album_name}}</td>
                     {% endif %}
@@ -59,7 +59,11 @@
                 </tr>
                 <tr>
                     <td class="static_item">Song Length: </td>
-                    <td class="static_item">{{song.duration}}</td>
+                    <td class="static_item">{{duration(song.duration)}}</td>
+                </tr>
+                <tr>
+                    <td class="static_item">Rank: </td>
+                    <td class="static_item">{{song.rank}}</td>
                 </tr>
             </table>
         </div>

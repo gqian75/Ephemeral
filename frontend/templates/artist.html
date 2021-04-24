@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block nav_title %}
-<a class="navbar-brand" href="#">Popular Artists</a>
+<a class="navbar-brand">Popular Artists</a>
 {% endblock %}
 
 {% block nav_bar %}
@@ -38,11 +38,11 @@
             <h2>{{artist.artist_name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
-                    <td colspan="2" class="static_item" ><img src="{{artist.image_url}}" alt="song.png" class="center-table"></td>
+                    <td colspan="2" class="static_item" ><img src="{{artist.image_url}}" alt="song.png" class="center-table" style="width:50%;"></td>
                 </tr>
                 <tr>
                     <td class="static_item">Genre(s): </td>
-                    <td class="static_item">{{artist.artist_genre}}</td>
+                    <td class="static_item">{{format_strings(artist.artist_genre)}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Rank: </td>
@@ -54,19 +54,21 @@
                 </tr>
                 <tr>
                     <td class="static_item">Top Song: </td>
-                    {% if artist.songs|length == 0 %}
+                    {% if artist.song_name == None %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="point" onclick="window.location.href='/songs/{{ id(artist.songs[0].song_name) }}'">{{ artist.songs[0].song_name }}</td>
+                    <td class="point" onclick="window.location.href='/songs/{{ id(artist.song_name) }}'">{{ artist.song_name }}</td>
                     {% endif %}
                     
                 </tr>
                 <tr>
                     <td class="static_item">Album: </td>
-                    {% if artist.albums|length == 0 %}
+                    {% if artist.album_name == None %}
                     <td>N/A</td>
+                    {% elif artist.album_name == 'single' %}
+                    <td class="static_item">Single</td>
                     {% else %}
-                    <td class="static_item point" onclick="window.location.href='/albums/{{ id(artist.albums[0].album_name) }}'">{{artist.albums[0].album_name}}</td>
+                    <td class="static_item point" onclick="window.location.href='/albums/{{ id(artist.album_name) }}'">{{artist.album_name}}</td>
                     {% endif %}
                 </tr>
             </table>

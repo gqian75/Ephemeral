@@ -19,6 +19,10 @@ link = db.Table('link',
     db.Column('song_rank',db.Integer,db.ForeignKey('song.rank')),
     db.Column('artist_rank',db.Integer,db.ForeignKey('artist.artist_rank'))
     )
+link2 = db.Table('link2',
+    db.Column('song_rank',db.Integer,db.ForeignKey('song.rank')),
+    db.Column('album_rank',db.Integer,db.ForeignKey('album.album_rank'))
+    )
 
 class Song(db.Model):
     """
@@ -40,7 +44,6 @@ class Song(db.Model):
     song_id = db.Column(db.String([]),nullable=False)
 
     # Links songs to albums (one-to-many relation)
-    album_rank = db.Column(db.Integer, db.ForeignKey('album.album_rank'))
     # artists = db.relationship('Artist', backref = 'song', uselist = False)
     image_url = db.Column(db.String(80),nullable=True)
 
@@ -79,13 +82,13 @@ class Album(db.Model):
     album_rank = db.Column(db.Integer, primary_key=True)
 
     # Other attributes of pillar album
-    album_name = db.Column(db.String(80), nullable=False)
+    name = db.Column(db.String(80), nullable=False)
     album_release_date = db.Column(db.String(80), nullable=False)
     artist = db.Column(db.String(80), nullable=False)
     album_genre = db.Column(db.String([]))
     album_id = db.Column(db.String([]),nullable=False)
-    songs = db.relationship('Song', backref = 'album')
 
+    songs = db.relationship('Song', secondary='link2', backref='contains')
     # Links artist to album (one-to-many relation)
     artist_rank = db.Column(db.Integer, db.ForeignKey('artist.artist_rank'))
 

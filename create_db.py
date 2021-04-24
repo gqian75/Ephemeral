@@ -58,8 +58,7 @@ def create_artists():
         newArtist = Artist(artist_name=artist_name, artist_rank=artist_rank, artist_genre=artist_genre,
         followers=followers, popularity=popularity, artist_id=artist_id, image_url=image_url)
 
-        db.session.add(newArtist)
-        db.session.commit()
+        
 
         someSong = Song.query.filter_by(artist=artist_name).first()
         if someSong:
@@ -69,6 +68,9 @@ def create_artists():
         if someAlbum:
             newArtist.albums.append(someAlbum)
 
+        db.session.add(newArtist)
+        db.session.commit()
+
 def create_albums():
     """
     creates an instance of the class Album for every row of data
@@ -77,23 +79,24 @@ def create_albums():
     album = load_json("albums.json")
 
     for oneAlbum in album["Albums"]:
-        album_name = oneAlbum["album_name"]
+        name = oneAlbum["album_name"]
         album_release_date = oneAlbum["album_release_date"]
         album_rank = oneAlbum["album_rank"]
         artist = oneAlbum["artist"]
         album_genre = oneAlbum["genre"]
         album_id = oneAlbum["album_id"]
-        newAlbum = Album(album_name=album_name, album_rank=album_rank, album_release_date=album_release_date, artist=artist, album_genre=album_genre, album_id = album_id)
+        newAlbum = Album(name=name, album_rank=album_rank, album_release_date=album_release_date, artist=artist, album_genre=album_genre, album_id = album_id)
 
-        db.session.add(newAlbum)
-        db.session.commit()
+        
 
         # try:
-        someSong = Song.query.filter_by(album_name_lower=album_name.lower()).first()
+        someSong = Song.query.filter_by(album_name_lower=name.lower()).first()
         if someSong:
             newAlbum.songs.append(someSong)
         # except Exception:
             # continue
+        db.session.add(newAlbum)
+        db.session.commit()
 
 if __name__ == "__main__":
     create_songs()

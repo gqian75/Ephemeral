@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block nav_title %}
-<a class="navbar-brand" href="#">Top Albums</a>
+<a class="navbar-brand">Top Albums</a>
 {% endblock %}
 
 {% block nav_bar %}
@@ -34,14 +34,14 @@
     <br>
     <div class="row">
         <div class="col-12 center-text">
-            <h2>{{album.album_name}}</h2><br>
+            <h2>{{album.name}}</h2><br>
             <table class="center-table greyed">
                 <tr>
-                    {% if album.songs|length == 0 %}
+                    {% if album.song_name == None %}
                 
                     <td colspan="2" class="static_item" ><img src="../static/images/album.jpg" alt="default_album.png" class="center-table"></td>
                     {% else %}
-                    <td colspan="2" class="static_item" ><img src="{{album.songs[0].image_url}}" alt="album.png" class="center-table"></td>
+                    <td colspan="2" class="static_item" ><img src="{{album.image_url}}" alt="album.png" class="center-table" style="width:50%;"></td>
                     {% endif %}
                 </tr>
                 
@@ -59,14 +59,14 @@
                 </tr>
                 <tr>
                     <td class="static_item">Genre(s): </td>
-                    <td class="static_item">{{album.album_genre}}</td>
+                    <td class="static_item">{{format_strings(album.album_genre)}}</td>
                 </tr>
                 <tr>
                     <td class="static_item">Top Song: </td>
-                    {% if album.songs|length == 0 %}
+                    {% if album.song_name == None %}
                     <td>N/A</td>
                     {% else %}
-                    <td class="point" onclick="window.location.href='/songs/{{ id(album.songs[0].song_name) }}'">{{ album.songs[0].song_name }}</td>
+                    <td class="point" onclick="window.location.href='/songs/{{ id(album.song_name) }}'">{{ album.song_name }}</td>
                     {% endif %}
                 </tr>
             </table>
